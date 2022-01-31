@@ -82,6 +82,16 @@
             class:link={$visibleTab != 4}>Music</a
           >
         </li>
+        <li>
+          <a
+            class="link github-link flex items-center"
+            href="https://github.com/venkatesh-sivaraman"
+            target="_blank"
+          >
+            <img class="mr2" src="assets/github.png" width="20" height="20" />
+            GitHub</a
+          >
+        </li>
       </ul>
     </div>
   </aside>
@@ -214,6 +224,10 @@
 
   .link {
     color: #777777;
+  }
+
+  .github-link {
+    color: black !important;
   }
 
   .link:hover {
