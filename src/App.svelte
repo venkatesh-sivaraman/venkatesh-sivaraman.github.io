@@ -38,36 +38,44 @@
 
 <main class="sans-serif">
   <aside>
-    <ul class="list pl0">
-      <li>
-        <a
-          on:click={() => (newTab = 0)}
-          class:active-link={$visibleTab == 0}
-          class:link={$visibleTab != 0}>About</a
-        >
-      </li>
-      <li>
-        <a
-          on:click={() => (newTab = 1)}
-          class:active-link={$visibleTab == 1}
-          class:link={$visibleTab != 1}>Projects</a
-        >
-      </li>
-      <li>
-        <a
-          on:click={() => (newTab = 2)}
-          class:active-link={$visibleTab == 2}
-          class:link={$visibleTab != 2}>Publications</a
-        >
-      </li>
-      <li>
-        <a
-          on:click={() => (newTab = 3)}
-          class:active-link={$visibleTab == 3}
-          class:link={$visibleTab != 3}>Experience</a
-        >
-      </li>
-    </ul>
+    <div class="nav-container">
+      <img
+        class="profile-pic dim pointer"
+        src="assets/profile.png"
+        alt="Picture of Venkat in Cambridge, Massachusetts"
+        on:click={() => (newTab = 0)}
+      />
+      <ul class="list nav-list pl0">
+        <li>
+          <a
+            on:click={() => (newTab = 0)}
+            class:active-link={$visibleTab == 0}
+            class:link={$visibleTab != 0}>About</a
+          >
+        </li>
+        <li>
+          <a
+            on:click={() => (newTab = 1)}
+            class:active-link={$visibleTab == 1}
+            class:link={$visibleTab != 1}>Projects</a
+          >
+        </li>
+        <li>
+          <a
+            on:click={() => (newTab = 2)}
+            class:active-link={$visibleTab == 2}
+            class:link={$visibleTab != 2}>Publications</a
+          >
+        </li>
+        <li>
+          <a
+            on:click={() => (newTab = 3)}
+            class:active-link={$visibleTab == 3}
+            class:link={$visibleTab != 3}>Experience</a
+          >
+        </li>
+      </ul>
+    </div>
   </aside>
   {#if $visibleTab == 0}
     <div
@@ -114,7 +122,6 @@
 
 <style lang="scss">
   main {
-    display: flex;
     width: 100%;
     height: 100%;
     padding-top: 64px;
@@ -128,6 +135,15 @@
   @media (min-width: 600px) {
     aside {
       width: 200px;
+      position: fixed;
+    }
+
+    main {
+      display: flex;
+    }
+
+    .document {
+      margin-left: 232px !important;
     }
   }
 
@@ -139,6 +155,30 @@
     main {
       flex-wrap: wrap;
     }
+
+    .document {
+      margin-top: 64px !important;
+    }
+
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      margin-right: 32px;
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-list {
+      flex-grow: 1;
+    }
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
   }
 
   .document {
@@ -154,7 +194,15 @@
     color: #777777;
   }
 
+  .link:hover {
+    color: #bbbbbb;
+  }
+
   .active-link {
+    color: #357edd;
+  }
+
+  .active-link:hover {
     color: #357edd;
   }
 </style>
