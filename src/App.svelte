@@ -186,6 +186,10 @@
     margin: 0 32px 32px 32px;
   }
 
+  footer {
+    padding-bottom: 32px;
+  }
+
   ul.list li {
     padding-bottom: 16px;
   }
