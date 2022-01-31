@@ -12,6 +12,19 @@
 </p>
 <div class="cf shift-left equal-height">
   <Card
+    url="https://www.youtube.com/watch?v=AjKWi564EIY"
+    videoSrc="https://www.youtube.com/embed/AjKWi564EIY"
+  >
+    <h3 class="mb0 lh-title">
+      Solo Recital <span class="fw3 ml1">Fall 2020</span>
+    </h3>
+    <p class="gray mv0">November 2020</p>
+    <p class="lh-copy">
+      Venkat performs sonatas by Scriabin, Beethoven, and Rachmaninoff in this
+      virtual solo recital streamed from Carnegie Mellon's Kresge Recital Hall.
+    </p>
+  </Card>
+  <Card
     url="https://mta.mit.edu/video/mitso-fall-concert-live-webcast"
     imageSrc="assets/mitso.png"
     imageAlt="A picture of Venkat at the piano from a poster for his performance with the MIT Symphony"
@@ -24,19 +37,6 @@
       Venkat performs Ravel's Piano Concerto as a soloist with the MIT Symphony
       as co-winner of the MIT Concerto Competition from 2020. Click to watch the
       live-stream (performance starts at 20').
-    </p>
-  </Card>
-  <Card
-    url="https://www.youtube.com/watch?v=AjKWi564EIY"
-    videoSrc="https://www.youtube.com/embed/AjKWi564EIY"
-  >
-    <h3 class="mb0 lh-title">
-      Solo Recital <span class="fw3 ml1">Fall 2020</span>
-    </h3>
-    <p class="gray mv0">November 2020</p>
-    <p class="lh-copy">
-      Venkat performs sonatas by Scriabin, Beethoven, and Rachmaninoff in this
-      virtual solo recital streamed from Carnegie Mellon's Kresge Recital Hall.
     </p>
   </Card>
   <Card
