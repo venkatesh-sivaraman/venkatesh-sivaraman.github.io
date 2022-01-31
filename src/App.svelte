@@ -4,6 +4,7 @@
   import Experience from './Experience.svelte';
   import Projects from './Projects.svelte';
   import Publications from './Publications.svelte';
+  import Music from './Music.svelte';
   import statefulSwap from './swap';
 
   export let name;
@@ -74,6 +75,13 @@
             class:link={$visibleTab != 3}>Experience</a
           >
         </li>
+        <li>
+          <a
+            on:click={() => (newTab = 4)}
+            class:active-link={$visibleTab == 4}
+            class:link={$visibleTab != 4}>Music</a
+          >
+        </li>
       </ul>
     </div>
   </aside>
@@ -115,6 +123,16 @@
       on:outroend={visibleTab.onOutro}
     >
       <Experience />
+      <footer class="gray">Copyright 2022 Venkatesh Sivaraman.</footer>
+    </div>
+  {:else if $visibleTab == 4}
+    <div
+      class="document"
+      in:fadeAndSlide={{ above: 4 < oldTab }}
+      out:fadeAndSlide={{ above: newTab > 4 }}
+      on:outroend={visibleTab.onOutro}
+    >
+      <Music />
       <footer class="gray">Copyright 2022 Venkatesh Sivaraman.</footer>
     </div>
   {/if}

@@ -5,6 +5,10 @@
 <h1 class="mt2">
   Venkatesh Sivaraman <span class="fw2">Projects</span>
 </h1>
+<p class="lh-copy measure f5">
+  Here's a sampling of some of the projects and demos I've created in the past.
+  Contact me if you'd like to chat about some of the work I'm doing right now!
+</p>
 <div class="cf shift-left equal-height">
   <Card
     imageSrc="assets/emblaze.png"

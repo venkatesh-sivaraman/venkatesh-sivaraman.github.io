@@ -2,7 +2,7 @@
   Venkatesh Sivaraman <span class="fw2">Experience</span>
 </h1>
 
-<div class="mb4">
+<div class="mb4 measure-wide">
   <h2>Industry</h2>
 
   <h4 class="mb0">
@@ -23,6 +23,19 @@
     Developed software in Swift supporting the CarPlay, HomeKit, and MFi
     certification programs. One of three projects selected to present to Apple
     VP of Product Integrity.
+  </p>
+
+  <h2>Education</h2>
+  <h4 class="mb0">
+    Carnegie Mellon University <span class="fw2">2020 - present</span>
+  </h4>
+  <p class="lh-copy mv1">Advised by Prof. Adam Perer</p>
+
+  <h4 class="mb0">
+    Massachusetts Institute of Technology <span class="fw2">2016 - 2020</span>
+  </h4>
+  <p class="lh-copy mv1">
+    Computer Science and Molecular Biology, Minor in Music
   </p>
 
   <h2>Research</h2>

@@ -2,7 +2,7 @@
   Venkatesh Sivaraman <span class="fw2">Publications</span>
 </h1>
 
-<section class="lh-copy">
+<section class="lh-copy measure-wide">
   <h2>2022</h2>
   <p>
     <strong>Sivaraman, V.</strong>, Wu, Y., & Perer, A. (2022). Emblaze:

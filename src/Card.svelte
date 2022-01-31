@@ -2,6 +2,7 @@
   export let imageSrc = null;
   export let imageAlt = '';
   export let url = '';
+  export let videoSrc = null;
 </script>
 
 <div class="fl w-50-ns w-100-m w-100 pa2">
@@ -13,6 +14,17 @@
             src={imageSrc}
             class="db w-100 card-img br2 br--top"
             alt={imageAlt}
+          />
+        </div>
+      {:else if !!videoSrc}
+        <div class="video-container">
+          <iframe
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+            src={videoSrc}
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
           />
         </div>
       {/if}
@@ -40,5 +52,11 @@
 
   .card-content {
     flex-shrink: 0;
+  }
+
+  .video-container {
+    position: relative;
+    height: 200px;
+    width: 100%;
   }
 </style>
