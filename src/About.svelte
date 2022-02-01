@@ -19,6 +19,12 @@
   lives.
 </p>
 <p class="lh-copy f4 measure-wide">
+  For more information, please see my <a
+    class="link blue"
+    href="/assets/venkats_cv.pdf">CV</a
+  >.
+</p>
+<p class="lh-copy f4 measure-wide">
   I would love to chat about research and collaboration opportunities! Contact
   me at venkats [at] cmu [dot] edu.
 </p>

@@ -63,6 +63,11 @@
         href="https://github.com/drgriffis/textessence"
         target="_blank">GitHub</a
       >
+      <a
+        class="f6 link dim ph3 pv2 dib white bg-black"
+        href="https://aclanthology.org/2021.naacl-demos.13/"
+        target="_blank">Paper</a
+      >
     </p>
   </Card>
   <Card

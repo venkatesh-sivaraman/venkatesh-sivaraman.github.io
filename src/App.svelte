@@ -6,6 +6,9 @@
   import Publications from './Publications.svelte';
   import Music from './Music.svelte';
   import statefulSwap from './swap';
+  import Fa from 'svelte-fa';
+  import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+  import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
   export let name;
 
@@ -82,14 +85,22 @@
             class:link={$visibleTab != 4}>Music</a
           >
         </li>
-        <li>
+        <li class="mt1">
           <a
-            class="link github-link flex items-center"
+            class="link contact-link flex items-center"
             href="https://github.com/venkatesh-sivaraman"
             target="_blank"
           >
-            <img class="mr2" src="assets/github.png" width="20" height="20" />
-            GitHub</a
+            <Fa icon={faGithub} /> &nbsp;&nbsp; GitHub</a
+          >
+        </li>
+        <li>
+          <a
+            class="link contact-link flex items-center"
+            href="mailto:venkats@cmu.edu"
+            target="_blank"
+          >
+            <Fa icon={faEnvelope} /> &nbsp;&nbsp; Contact</a
           >
         </li>
       </ul>
@@ -226,7 +237,7 @@
     color: #777777;
   }
 
-  .github-link {
+  .contact-link {
     color: black !important;
   }
 
