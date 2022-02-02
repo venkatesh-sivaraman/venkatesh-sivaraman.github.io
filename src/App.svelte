@@ -113,7 +113,7 @@
       out:fadeAndSlide={{ above: newTab > 0 }}
       on:outroend={visibleTab.onOutro}
     >
-      <About />
+      <About on:projects={() => (newTab = 1)} />
       <footer class="gray">Copyright 2022 Venkatesh Sivaraman.</footer>
     </div>
   {:else if $visibleTab == 1}

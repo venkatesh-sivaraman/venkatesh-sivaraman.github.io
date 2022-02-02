@@ -60,7 +60,7 @@
       >
       <a
         class="f6 link dim ph3 pv2 dib white bg-black"
-        href="https://github.com/drgriffis/textessence"
+        href="https://github.com/drgriffis/text-essence"
         target="_blank">GitHub</a
       >
       <a
