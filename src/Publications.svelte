@@ -5,6 +5,29 @@
 <section class="lh-copy measure-wide">
   <h2>2022</h2>
   <p>
+    Kawakami, A., <strong>Sivaraman, V.</strong> <em>(co-first authors)</em>,
+    Stapleton, L., Cheng, H., Perer, A., Wu, S., Zhu, H., Holstein, K. (2022).
+    "Why Do I Care What's Similar?" Probing Challenges in AI-Assisted Child
+    Welfare Decision-Making through Worker-AI Interface Design Concepts.
+    <em>To appear at ACM DIS 2022.</em>
+  </p>
+  <p>
+    Cheng, H., Stapleton, L., Kawakami, A., <strong>Sivaraman, V.</strong>,
+    Cheng, Y., Qing, D., Perer, A., Holstein, K., Wu, S., Zhu, H. (2022). How
+    Child Welfare Workers Reduce Racial Disparities in Algorithmic Decisions.
+    <em>To appear at ACM CHI 2022.</em>
+  </p>
+  <p>
+    Kawakami, A., <strong>Sivaraman, V.</strong>, Cheng, H., Stapleton, L.,
+    Cheng, Y., Qing, D., Perer, A., Wu, S., Zhu, H., Holstein, K. (2022).
+    Improving Human-AI Partnerships in Child Welfare: Understanding Worker
+    Practices, Challenges, and Desires for Algorithmic Decision Support.
+    <em>To appear at ACM CHI 2022.</em>
+    <a class="link blue" href="https://arxiv.org/abs/2204.02310" target="_blank"
+      >[Preprint]</a
+    >
+  </p>
+  <p>
     <strong>Sivaraman, V.</strong>, Wu, Y., & Perer, A. (2022). Emblaze:
     Illuminating machine learning representations through interactive comparison
     of embedding spaces. <em>To appear at ACM IUI 2022.</em>
