@@ -30,7 +30,7 @@
   <p>
     <strong>Sivaraman, V.</strong>, Wu, Y., & Perer, A. (2022). Emblaze:
     Illuminating machine learning representations through interactive comparison
-    of embedding spaces. <em>To appear at ACM IUI 2022.</em>
+    of embedding spaces. <em>ACM IUI 2022.</em>
     <a class="link blue" href="https://bit.ly/emblaze-demo" target="_blank"
       >[Demo]</a
     >
@@ -39,6 +39,16 @@
       href="https://github.com/cmudig/emblaze"
       target="_blank">[GitHub]</a
     >
+    <a
+      class="link blue"
+      href="https://dl.acm.org/doi/10.1145/3490099.3511137"
+      target="_blank">[Article]</a
+    >
+  </p>
+  <p>
+    Swanson, S., <strong>Sivaraman, V.</strong>, Grigoryan, G., Keating, A.
+    (2022). Tertiary motifs as building blocks for the design of protein-binding
+    peptides. <em>To appear in Protein Science.</em>
   </p>
   <h2>2021</h2>
   <p>
