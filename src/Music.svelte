@@ -12,6 +12,31 @@
 </p>
 <div class="cf shift-left equal-height">
   <Card
+    url="https://www.youtube.com/watch?v=1mqnrWxZ-xw"
+    videoSrc="https://www.youtube.com/embed/1mqnrWxZ-xw"
+  >
+    <h3 class="mb0 lh-title">
+      Debussy: <span class="fw3 ml1">Estampes</span>
+    </h3>
+    <p class="gray mv0">February 2022</p>
+    <p class="lh-copy">
+      Venkat performs Debussy's <em>Estampes</em> at his second solo recital at CMU.
+    </p>
+  </Card>
+  <Card
+    url="https://www.youtube.com/watch?v=Fm-r7pBj0Us"
+    videoSrc="https://www.youtube.com/embed/Fm-r7pBj0Us"
+  >
+    <h3 class="mb0 lh-title">
+      Liszt: <span class="fw3 ml1">Mephisto Waltz No. 1</span>
+    </h3>
+    <p class="gray mv0">February 2022</p>
+    <p class="lh-copy">
+      Venkat performs Liszt's <em>Mephisto Waltz No. 1</em> at his second solo recital
+      at CMU.
+    </p>
+  </Card>
+  <Card
     url="https://www.youtube.com/watch?v=AjKWi564EIY"
     videoSrc="https://www.youtube.com/embed/AjKWi564EIY"
   >
