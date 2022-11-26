@@ -9,7 +9,7 @@
   Here's a sampling of some of the projects and demos I've created in the past.
   Contact me if you'd like to chat about some of the work I'm doing right now!
 </p>
-<div class="cf shift-left equal-height">
+<div class="card-container">
   <Card
     imageSrc="assets/ai-clinician.gif"
     imageAlt="Screenshot of AI Clinician Explorer showing charts of patient vitals and labs that dynamically update as the user drags a slider to navigate through the patient's trajectory."
@@ -145,11 +145,17 @@
 </div>
 
 <style>
-  .shift-left {
-    margin-left: -0.5rem;
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 1fr;
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
   }
 
-  .equal-height {
-    align-content: stretch;
+  @media only screen and (min-width: 800px) {
+    .card-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 </style>

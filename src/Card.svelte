@@ -5,11 +5,9 @@
   export let videoSrc = null;
 </script>
 
-<div class="fl w-50-ns w-100-m w-100 pa3">
+<div class="w-100 pa1">
   <a href={url} target="_blank" class="link black">
-    <div
-      class="card pa3 bg-animate hover-bg-near-white pointer flex flex-column"
-    >
+    <div class="card pa3 bg-animate hover-bg-near-white pointer">
       {#if !!imageSrc}
         <div class="img-container">
           <img
@@ -40,12 +38,10 @@
 <style>
   .card {
     border-radius: 6px;
-    height: 450px;
   }
 
   .img-container {
-    flex: 0 1 auto;
-    max-height: 200px;
+    height: 200px;
   }
 
   .card-img {
@@ -59,7 +55,7 @@
 
   .video-container {
     position: relative;
-    flex: 1 1 auto;
+    height: 200px;
     width: 100%;
   }
 </style>

@@ -1606,7 +1606,7 @@ var app = (function () {
 
     const file$5 = "src/Card.svelte";
 
-    // (21:27) 
+    // (19:27) 
     function create_if_block_1$2(ctx) {
     	let div;
     	let iframe;
@@ -1626,9 +1626,9 @@ var app = (function () {
     			attr_dev(iframe, "frameborder", "0");
     			attr_dev(iframe, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
     			iframe.allowFullscreen = true;
-    			add_location(iframe, file$5, 22, 10, 602);
-    			attr_dev(div, "class", "video-container svelte-1crdtd1");
-    			add_location(div, file$5, 21, 8, 562);
+    			add_location(iframe, file$5, 20, 10, 555);
+    			attr_dev(div, "class", "video-container svelte-1i47ena");
+    			add_location(div, file$5, 19, 8, 515);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -1648,14 +1648,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1$2.name,
     		type: "if",
-    		source: "(21:27) ",
+    		source: "(19:27) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (13:6) {#if !!imageSrc}
+    // (11:6) {#if !!imageSrc}
     function create_if_block$2(ctx) {
     	let div;
     	let img;
@@ -1666,11 +1666,11 @@ var app = (function () {
     			div = element("div");
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = /*imageSrc*/ ctx[0])) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "class", "db w-100 card-img br2 br--top svelte-1crdtd1");
+    			attr_dev(img, "class", "db w-100 card-img br2 br--top svelte-1i47ena");
     			attr_dev(img, "alt", /*imageAlt*/ ctx[1]);
-    			add_location(img, file$5, 14, 10, 389);
-    			attr_dev(div, "class", "img-container svelte-1crdtd1");
-    			add_location(div, file$5, 13, 8, 351);
+    			add_location(img, file$5, 12, 10, 342);
+    			attr_dev(div, "class", "img-container svelte-1i47ena");
+    			add_location(div, file$5, 11, 8, 304);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -1694,7 +1694,7 @@ var app = (function () {
     		block,
     		id: create_if_block$2.name,
     		type: "if",
-    		source: "(13:6) {#if !!imageSrc}",
+    		source: "(11:6) {#if !!imageSrc}",
     		ctx
     	});
 
@@ -1728,15 +1728,15 @@ var app = (function () {
     			t = space();
     			div0 = element("div");
     			if (default_slot) default_slot.c();
-    			attr_dev(div0, "class", "pa2 card-content svelte-1crdtd1");
-    			add_location(div0, file$5, 32, 6, 973);
-    			attr_dev(div1, "class", "card pa3 bg-animate hover-bg-near-white pointer flex flex-column svelte-1crdtd1");
-    			add_location(div1, file$5, 9, 4, 230);
+    			attr_dev(div0, "class", "pa2 card-content svelte-1i47ena");
+    			add_location(div0, file$5, 30, 6, 926);
+    			attr_dev(div1, "class", "card pa3 bg-animate hover-bg-near-white pointer svelte-1i47ena");
+    			add_location(div1, file$5, 9, 4, 211);
     			attr_dev(a, "href", /*url*/ ctx[2]);
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "class", "link black");
-    			add_location(a, file$5, 8, 2, 176);
-    			attr_dev(div2, "class", "fl w-50-ns w-100-m w-100 pa3");
+    			add_location(a, file$5, 8, 2, 157);
+    			attr_dev(div2, "class", "w-100 pa1");
     			add_location(div2, file$5, 7, 0, 131);
     		},
     		l: function claim(nodes) {
@@ -1936,16 +1936,16 @@ var app = (function () {
     			a = element("a");
     			a.textContent = "GitHub";
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$4, 18, 29, 729);
+    			add_location(span, file$4, 18, 29, 717);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$4, 17, 4, 674);
+    			add_location(h3, file$4, 17, 4, 662);
     			attr_dev(p0, "class", "lh-copy");
-    			add_location(p0, file$4, 22, 4, 821);
+    			add_location(p0, file$4, 22, 4, 809);
     			attr_dev(a, "class", "f6 link dim ph3 pv2 dib white bg-black");
     			attr_dev(a, "href", "https://github.com/cmudig/ai-clinician-explorer");
     			attr_dev(a, "target", "_blank");
-    			add_location(a, file$4, 29, 6, 1171);
-    			add_location(p1, file$4, 28, 4, 1161);
+    			add_location(a, file$4, 29, 6, 1159);
+    			add_location(p1, file$4, 28, 4, 1149);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -2007,20 +2007,20 @@ var app = (function () {
     			a1 = element("a");
     			a1.textContent = "GitHub";
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$4, 42, 15, 1550);
+    			add_location(span, file$4, 42, 15, 1538);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$4, 41, 4, 1509);
+    			add_location(h3, file$4, 41, 4, 1497);
     			attr_dev(p0, "class", "lh-copy");
-    			add_location(p0, file$4, 46, 4, 1649);
+    			add_location(p0, file$4, 46, 4, 1637);
     			attr_dev(a0, "class", "f6 link dim ph3 pv2 dib white bg-blue");
     			attr_dev(a0, "href", "https://bit.ly/emblaze-demo");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$4, 51, 6, 1836);
+    			add_location(a0, file$4, 51, 6, 1824);
     			attr_dev(a1, "class", "f6 link dim ph3 pv2 dib white bg-black");
     			attr_dev(a1, "href", "https://github.com/cmudig/emblaze");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$4, 56, 6, 1982);
-    			add_location(p1, file$4, 50, 4, 1826);
+    			add_location(a1, file$4, 56, 6, 1970);
+    			add_location(p1, file$4, 50, 4, 1814);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -2089,24 +2089,24 @@ var app = (function () {
     			a2 = element("a");
     			a2.textContent = "Paper";
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$4, 69, 19, 2378);
+    			add_location(span, file$4, 69, 19, 2366);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$4, 68, 4, 2333);
+    			add_location(h3, file$4, 68, 4, 2321);
     			attr_dev(p0, "class", "lh-copy");
-    			add_location(p0, file$4, 73, 4, 2475);
+    			add_location(p0, file$4, 73, 4, 2463);
     			attr_dev(a0, "class", "f6 link dim ph3 pv2 dib white bg-blue");
     			attr_dev(a0, "href", "https://textessence.dbmi.pitt.edu");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$4, 79, 6, 2742);
+    			add_location(a0, file$4, 79, 6, 2730);
     			attr_dev(a1, "class", "f6 link dim ph3 pv2 dib white bg-black");
     			attr_dev(a1, "href", "https://github.com/drgriffis/text-essence");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$4, 84, 6, 2894);
+    			add_location(a1, file$4, 84, 6, 2882);
     			attr_dev(a2, "class", "f6 link dim ph3 pv2 dib white bg-black");
     			attr_dev(a2, "href", "https://aclanthology.org/2021.naacl-demos.13/");
     			attr_dev(a2, "target", "_blank");
-    			add_location(a2, file$4, 89, 6, 3057);
-    			add_location(p1, file$4, 78, 4, 2732);
+    			add_location(a2, file$4, 89, 6, 3045);
+    			add_location(p1, file$4, 78, 4, 2720);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -2172,20 +2172,20 @@ var app = (function () {
     			a1 = element("a");
     			a1.textContent = "GitHub";
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$4, 102, 16, 3427);
+    			add_location(span, file$4, 102, 16, 3415);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$4, 101, 4, 3385);
+    			add_location(h3, file$4, 101, 4, 3373);
     			attr_dev(p0, "class", "lh-copy");
-    			add_location(p0, file$4, 104, 4, 3489);
+    			add_location(p0, file$4, 104, 4, 3477);
     			attr_dev(a0, "class", "f6 link dim ph3 pv2 dib white bg-blue");
     			attr_dev(a0, "href", "https://fireroad.mit.edu");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$4, 110, 6, 3770);
+    			add_location(a0, file$4, 110, 6, 3758);
     			attr_dev(a1, "class", "f6 link dim ph3 pv2 dib white bg-black");
     			attr_dev(a1, "href", "https://github.com/venkatesh-sivaraman/fireroad-server");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$4, 115, 6, 3916);
-    			add_location(p1, file$4, 109, 4, 3760);
+    			add_location(a1, file$4, 115, 6, 3904);
+    			add_location(p1, file$4, 109, 4, 3748);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -2244,16 +2244,16 @@ var app = (function () {
     			a = element("a");
     			a.textContent = "GitHub";
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$4, 128, 18, 4335);
+    			add_location(span, file$4, 128, 18, 4323);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$4, 127, 4, 4291);
+    			add_location(h3, file$4, 127, 4, 4279);
     			attr_dev(p0, "class", "lh-copy");
-    			add_location(p0, file$4, 130, 4, 4406);
+    			add_location(p0, file$4, 130, 4, 4394);
     			attr_dev(a, "class", "f6 link dim ph3 pv2 dib white bg-black");
     			attr_dev(a, "href", "https://github.com/mdhuggins/shapesynth");
     			attr_dev(a, "target", "_blank");
-    			add_location(a, file$4, 137, 6, 4696);
-    			add_location(p1, file$4, 136, 4, 4686);
+    			add_location(a, file$4, 137, 6, 4684);
+    			add_location(p1, file$4, 136, 4, 4674);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -2385,7 +2385,7 @@ var app = (function () {
     			add_location(h1, file$4, 4, 0, 56);
     			attr_dev(p, "class", "lh-copy measure f5");
     			add_location(p, file$4, 7, 0, 135);
-    			attr_dev(div, "class", "cf shift-left equal-height svelte-cc53z3");
+    			attr_dev(div, "class", "card-container svelte-153zum2");
     			add_location(div, file$4, 11, 0, 330);
     		},
     		l: function claim(nodes) {
@@ -3051,14 +3051,14 @@ var app = (function () {
     			em.textContent = "Estampes";
     			t7 = text(" at his second solo recital at CMU.");
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 18, 15, 557);
+    			add_location(span, file$2, 18, 15, 545);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 17, 4, 516);
+    			add_location(h3, file$2, 17, 4, 504);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 20, 4, 609);
-    			add_location(em, file$2, 22, 32, 703);
+    			add_location(p0, file$2, 20, 4, 597);
+    			add_location(em, file$2, 22, 32, 691);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 21, 4, 651);
+    			add_location(p1, file$2, 21, 4, 639);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -3121,14 +3121,14 @@ var app = (function () {
     			em.textContent = "Mephisto Waltz No. 1";
     			t7 = text(" at his second solo recital\n      at CMU.");
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 30, 13, 941);
+    			add_location(span, file$2, 30, 13, 929);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 29, 4, 902);
+    			add_location(h3, file$2, 29, 4, 890);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 32, 4, 1005);
-    			add_location(em, file$2, 34, 30, 1097);
+    			add_location(p0, file$2, 32, 4, 993);
+    			add_location(em, file$2, 34, 30, 1085);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 33, 4, 1047);
+    			add_location(p1, file$2, 33, 4, 1035);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -3185,13 +3185,13 @@ var app = (function () {
     			p1 = element("p");
     			p1.textContent = "Venkat performs sonatas by Scriabin, Beethoven, and Rachmaninoff in this\n      virtual solo recital streamed from Carnegie Mellon's Kresge Recital Hall.";
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 43, 19, 1359);
+    			add_location(span, file$2, 43, 19, 1347);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 42, 4, 1314);
+    			add_location(h3, file$2, 42, 4, 1302);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 45, 4, 1412);
+    			add_location(p0, file$2, 45, 4, 1400);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 46, 4, 1454);
+    			add_location(p1, file$2, 46, 4, 1442);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -3245,13 +3245,13 @@ var app = (function () {
     			p1 = element("p");
     			p1.textContent = "Venkat performs Ravel's Piano Concerto as a soloist with the MIT Symphony\n      as co-winner of the MIT Concerto Competition from 2020. Click to watch the\n      live-stream (performance starts at 20').";
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 57, 13, 1911);
+    			add_location(span, file$2, 57, 13, 1899);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 56, 4, 1872);
+    			add_location(h3, file$2, 56, 4, 1860);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 59, 4, 1974);
+    			add_location(p0, file$2, 59, 4, 1962);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 60, 4, 2015);
+    			add_location(p1, file$2, 60, 4, 2003);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -3305,13 +3305,13 @@ var app = (function () {
     			p1 = element("p");
     			p1.textContent = "Ji Seok Kim, Taylor Safrit, and Venkatesh Sivaraman perform Dvorak's Piano\n      Trio No. 3 at MIT's Killian Hall in a Chamber Music Society concert.";
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 71, 14, 2429);
+    			add_location(span, file$2, 71, 14, 2417);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 70, 4, 2389);
+    			add_location(h3, file$2, 70, 4, 2377);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 73, 4, 2489);
+    			add_location(p0, file$2, 73, 4, 2477);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 74, 4, 2531);
+    			add_location(p1, file$2, 74, 4, 2519);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -3365,13 +3365,13 @@ var app = (function () {
     			p1 = element("p");
     			p1.textContent = "Henry Love, Taylor Safrit, and Venkatesh Sivaraman perform Soliloquy by\n      Shulamit Ran at an MIT Chamber Music Society concert.";
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 84, 20, 2899);
+    			add_location(span, file$2, 84, 20, 2887);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 83, 4, 2853);
+    			add_location(h3, file$2, 83, 4, 2841);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 86, 4, 2952);
+    			add_location(p0, file$2, 86, 4, 2940);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 87, 4, 2989);
+    			add_location(p1, file$2, 87, 4, 2977);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -3425,13 +3425,13 @@ var app = (function () {
     			p1 = element("p");
     			p1.textContent = "Venkat performs his composition Picasso's Dreams at a solo recital at\n      MIT's Killian Hall.";
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 97, 17, 3336);
+    			add_location(span, file$2, 97, 17, 3324);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 96, 4, 3293);
+    			add_location(h3, file$2, 96, 4, 3281);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 99, 4, 3396);
+    			add_location(p0, file$2, 99, 4, 3384);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 100, 4, 3435);
+    			add_location(p1, file$2, 100, 4, 3423);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -3496,21 +3496,21 @@ var app = (function () {
     			a1.textContent = "third/fourth";
     			t9 = text(" movements.");
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 110, 20, 3749);
+    			add_location(span, file$2, 110, 20, 3737);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 109, 4, 3703);
+    			add_location(h3, file$2, 109, 4, 3691);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 112, 4, 3809);
+    			add_location(p0, file$2, 112, 4, 3797);
     			attr_dev(a0, "class", "link blue");
     			attr_dev(a0, "href", "https://www.youtube.com/watch?v=RUwITozfR74");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$2, 117, 6, 4052);
+    			add_location(a0, file$2, 117, 6, 4040);
     			attr_dev(a1, "class", "link blue");
     			attr_dev(a1, "href", "https://www.youtube.com/watch?v=0dqsxVFovXo");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$2, 123, 6, 4198);
+    			add_location(a1, file$2, 123, 6, 4186);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 113, 4, 3846);
+    			add_location(p1, file$2, 113, 4, 3834);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -3585,22 +3585,22 @@ var app = (function () {
     			a1.textContent = "third";
     			t11 = text(" movements.");
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 135, 13, 4530);
+    			add_location(span, file$2, 135, 13, 4518);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 134, 4, 4491);
+    			add_location(h3, file$2, 134, 4, 4479);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 137, 4, 4592);
-    			add_location(em, file$2, 139, 48, 4699);
+    			add_location(p0, file$2, 137, 4, 4580);
+    			add_location(em, file$2, 139, 48, 4687);
     			attr_dev(a0, "class", "link blue");
     			attr_dev(a0, "href", "https://www.youtube.com/watch?v=-iSp0s9zpUE");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$2, 141, 6, 4808);
+    			add_location(a0, file$2, 141, 6, 4796);
     			attr_dev(a1, "class", "link blue");
     			attr_dev(a1, "href", "https://www.youtube.com/watch?v=cULwYsX6Q88");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$2, 147, 6, 4954);
+    			add_location(a1, file$2, 147, 6, 4942);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 138, 4, 4631);
+    			add_location(p1, file$2, 138, 4, 4619);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -3677,25 +3677,25 @@ var app = (function () {
     			a2.textContent = "fourth";
     			t11 = text(" movements.");
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 159, 13, 5279);
+    			add_location(span, file$2, 159, 13, 5267);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 158, 4, 5240);
+    			add_location(h3, file$2, 158, 4, 5228);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 161, 4, 5344);
+    			add_location(p0, file$2, 161, 4, 5332);
     			attr_dev(a0, "class", "link blue");
     			attr_dev(a0, "href", "https://www.youtube.com/watch?v=7Ku-EH3iPQc");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$2, 165, 6, 5507);
+    			add_location(a0, file$2, 165, 6, 5495);
     			attr_dev(a1, "class", "link blue");
     			attr_dev(a1, "href", "https://www.youtube.com/watch?v=KfOMI2H7vMk");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$2, 170, 6, 5643);
+    			add_location(a1, file$2, 170, 6, 5631);
     			attr_dev(a2, "class", "link blue");
     			attr_dev(a2, "href", "https://www.youtube.com/watch?v=FllN04uTW4k");
     			attr_dev(a2, "target", "_blank");
-    			add_location(a2, file$2, 175, 6, 5783);
+    			add_location(a2, file$2, 175, 6, 5771);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 162, 4, 5386);
+    			add_location(p1, file$2, 162, 4, 5374);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -3899,7 +3899,7 @@ var app = (function () {
     			add_location(h1, file$2, 4, 0, 56);
     			attr_dev(p, "class", "lh-copy measure f5");
     			add_location(p, file$2, 7, 0, 132);
-    			attr_dev(div, "class", "cf shift-left equal-height svelte-cc53z3");
+    			attr_dev(div, "class", "card-container svelte-153zum2");
     			add_location(div, file$2, 12, 0, 348);
     		},
     		l: function claim(nodes) {

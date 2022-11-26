@@ -10,7 +10,7 @@
   chamber, and orchestral works with a variety of groups. See some of my recent
   performances below!
 </p>
-<div class="cf shift-left equal-height">
+<div class="card-container">
   <Card
     url="https://www.youtube.com/watch?v=1mqnrWxZ-xw"
     videoSrc="https://www.youtube.com/embed/1mqnrWxZ-xw"
@@ -183,11 +183,17 @@
 </div>
 
 <style>
-  .shift-left {
-    margin-left: -0.5rem;
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 1fr;
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
   }
 
-  .equal-height {
-    align-content: stretch;
+  @media only screen and (min-width: 800px) {
+    .card-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 </style>
