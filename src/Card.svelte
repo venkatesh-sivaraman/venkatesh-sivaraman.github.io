@@ -7,7 +7,9 @@
 
 <div class="fl w-50-ns w-100-m w-100 pa3">
   <a href={url} target="_blank" class="link black">
-    <div class="card pa3 bg-animate hover-bg-near-white pointer">
+    <div
+      class="card pa3 bg-animate hover-bg-near-white pointer flex flex-column"
+    >
       {#if !!imageSrc}
         <div class="img-container">
           <img
@@ -38,10 +40,12 @@
 <style>
   .card {
     border-radius: 6px;
+    height: 450px;
   }
 
   .img-container {
-    height: 200px;
+    flex: 0 1 auto;
+    max-height: 200px;
   }
 
   .card-img {
@@ -55,7 +59,7 @@
 
   .video-container {
     position: relative;
-    height: 200px;
+    flex: 1 1 auto;
     width: 100%;
   }
 </style>

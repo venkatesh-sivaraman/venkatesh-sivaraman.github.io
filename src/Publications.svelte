@@ -3,28 +3,50 @@
 </h1>
 
 <section class="lh-copy measure-wide">
+  <h2>2023</h2>
+  <p>
+    <strong>Sivaraman, V.</strong>, Bukowski, L., Levin, J., Kahn, J.M., Perer,
+    A. <em>(Under review)</em>. Ignore, trust, or negotiate: Understanding
+    clinician acceptance of AI-based treatment recommendations in health care.
+    <em>Under review for ACM CHI 2023.</em>
+  </p>
   <h2>2022</h2>
   <p>
     Kawakami, A., <strong>Sivaraman, V.</strong> <em>(co-first authors)</em>,
     Stapleton, L., Cheng, H., Perer, A., Wu, S., Zhu, H., Holstein, K. (2022).
     "Why Do I Care What's Similar?" Probing Challenges in AI-Assisted Child
     Welfare Decision-Making through Worker-AI Interface Design Concepts.
-    <em>To appear at ACM DIS 2022.</em>
+    <em>ACM DIS 2022.</em>
+    <a
+      class="link blue"
+      href="https://dl.acm.org/doi/10.1145/3532106.3533556"
+      target="_blank">[Article]</a
+    >
   </p>
   <p>
     Cheng, H., Stapleton, L., Kawakami, A., <strong>Sivaraman, V.</strong>,
     Cheng, Y., Qing, D., Perer, A., Holstein, K., Wu, S., Zhu, H. (2022). How
     Child Welfare Workers Reduce Racial Disparities in Algorithmic Decisions.
-    <em>To appear at ACM CHI 2022.</em>
+    <em>ACM CHI 2022.</em>
+    <a
+      class="link blue"
+      href="https://dl.acm.org/doi/10.1145/3491102.3501831"
+      target="_blank">[Article]</a
+    >
   </p>
   <p>
     Kawakami, A., <strong>Sivaraman, V.</strong>, Cheng, H., Stapleton, L.,
     Cheng, Y., Qing, D., Perer, A., Wu, S., Zhu, H., Holstein, K. (2022).
     Improving Human-AI Partnerships in Child Welfare: Understanding Worker
     Practices, Challenges, and Desires for Algorithmic Decision Support.
-    <em>To appear at ACM CHI 2022.</em>
+    <em>ACM CHI 2022.</em>
     <a class="link blue" href="https://arxiv.org/abs/2204.02310" target="_blank"
       >[Preprint]</a
+    >
+    <a
+      class="link blue"
+      href="https://dl.acm.org/doi/10.1145/3491102.3517439"
+      target="_blank">[Article]</a
     >
   </p>
   <p>

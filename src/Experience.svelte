@@ -6,6 +6,16 @@
   <h2>Industry</h2>
 
   <h4 class="mb0">
+    Verily Life Sciences <span class="fw2">Summer 2022</span>
+  </h4>
+  <p class="lh-copy mv1">Health Informatics Intern</p>
+  <p class="lh-copy mv1 gray">
+    Worked with the Verily Health Platforms Data Science team, developing
+    self-supervised deep learning approaches to characterize heart failure
+    disease states from clinical notes.
+  </p>
+
+  <h4 class="mb0">
     Verily Life Sciences <span class="fw2">Summer 2019</span>
   </h4>
   <p class="lh-copy mv1">Software Engineering Intern</p>
@@ -75,12 +85,21 @@
   <h2>Teaching</h2>
 
   <h4 class="mb0">
+    Programming Usable Interfaces, CMU <span class="fw2">Fall 2022</span>
+  </h4>
+  <p class="lh-copy mv1">Taught by Prof. Alexandra Ion</p>
+  <p class="lh-copy mv1 gray">
+    Led one of five lab sections, prepared lab, homework, and exam materials,
+    and graded assignments.
+  </p>
+
+  <h4 class="mb0">
     Interactive Data Science, CMU <span class="fw2">Spring 2022</span>
   </h4>
   <p class="lh-copy mv1">Taught by Prof. Adam Perer</p>
   <p class="lh-copy mv1 gray">
-    To lead office hours, prepare lecture and lab materials, give a lecture on
-    Uncertainty Visualization, and grade assignments.
+    Led office hours, prepared lecture and lab materials, gave a lecture on
+    Uncertainty Visualization, and graded assignments.
   </p>
 
   <h4 class="mb0">

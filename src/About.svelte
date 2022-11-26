@@ -25,14 +25,32 @@
   lives.
 </p>
 <p class="lh-copy f4 measure-wide">
-  Some of my recent work has focused on helping machine learning developers
-  understand models using embeddings (<a
+  I have recently been focused on tools for model developers and intensive care
+  clinicians (<a
     class="link blue"
     href="#"
     on:click={() => dispatch('projects')}>see more projects</a
   >):
 </p>
 <div class="project-preview-row">
+  <a
+    class="link black mr2"
+    href="https://github.com/cmudig/ai-clinician-explorer"
+    target="_blank"
+  >
+    <div
+      class="project-preview flex flex-column bg-animate hover-bg-near-white pa2"
+    >
+      <img
+        src="assets/ai-clinician.gif"
+        alt="Screenshot of AI Clinician Explorer showing charts of patient vitals and labs that dynamically update as the user drags a slider to navigate through the patient's trajectory."
+      />
+      <p class="f5">
+        <span class="b">AI Clinician Explorer:</span>
+        <span class="fw3">Patient Trajectory Visualization</span>
+      </p>
+    </div>
+  </a>
   <a class="link black mr2" href="https://bit.ly/emblaze-demo" target="_blank">
     <div
       class="project-preview flex flex-column bg-animate hover-bg-near-white pa2"
@@ -41,21 +59,6 @@
       <p class="f5">
         <span class="b">Emblaze:</span>
         <span class="fw3">Interactive Embedding Comparison</span>
-      </p>
-    </div>
-  </a>
-  <a
-    class="link black mr2"
-    href="http://textessence.dbmi.pitt.edu"
-    target="_blank"
-  >
-    <div
-      class="project-preview flex flex-column bg-animate hover-bg-near-white pa2"
-    >
-      <img src="assets/textessence.png" alt="A screenshot of TextEssence." />
-      <p class="f5">
-        <span class="b">TextEssence:</span>
-        <span class="fw3">Inspecting COVID-19 Clinical Word Embeddings</span>
       </p>
     </div>
   </a>

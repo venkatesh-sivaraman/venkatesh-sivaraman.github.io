@@ -11,6 +11,30 @@
 </p>
 <div class="cf shift-left equal-height">
   <Card
+    imageSrc="assets/ai-clinician.gif"
+    imageAlt="Screenshot of AI Clinician Explorer showing charts of patient vitals and labs that dynamically update as the user drags a slider to navigate through the patient's trajectory."
+    url="https://github.com/cmudig/ai-clinician-explorer"
+  >
+    <h3 class="mb0 lh-title">
+      AI Clinician Explorer: <span class="fw3 ml1"
+        >Patient Trajectory Visualization</span
+      >
+    </h3>
+    <p class="lh-copy">
+      This prototype tool allows clinicians to browse detailed trajectories for
+      patients with sepsis, and compare predictions of a reinforcement learning
+      model (the AI Clinician) with actual clinician actions. The live demo is
+      currently unavailable due to the sensitivity of patient data.
+    </p>
+    <p>
+      <a
+        class="f6 link dim ph3 pv2 dib white bg-black"
+        href="https://github.com/cmudig/ai-clinician-explorer"
+        target="_blank">GitHub</a
+      >
+    </p>
+  </Card>
+  <Card
     imageSrc="assets/emblaze.png"
     imageAlt="Two screenshots of the Emblaze user interface."
     url="https://github.com/cmudig/emblaze"
