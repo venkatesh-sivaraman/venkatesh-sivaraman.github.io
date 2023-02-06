@@ -6,9 +6,12 @@
   <h2>2023</h2>
   <p>
     <strong>Sivaraman, V.</strong>, Bukowski, L., Levin, J., Kahn, J.M., Perer,
-    A. <em>(Under review)</em>. Ignore, trust, or negotiate: Understanding
-    clinician acceptance of AI-based treatment recommendations in health care.
-    <em>Under review for ACM CHI 2023.</em>
+    A. Ignore, trust, or negotiate: Understanding clinician acceptance of
+    AI-based treatment recommendations in health care.
+    <em>ACM CHI 2023.</em>
+    <a class="link blue" href="https://arxiv.org/abs/2302.00096" target="_blank"
+      >[Article]</a
+    >
   </p>
   <h2>2022</h2>
   <p>
