@@ -6,6 +6,15 @@
   <h2>Industry</h2>
 
   <h4 class="mb0">
+    Apple <span class="fw2">Summer 2023</span>
+  </h4>
+  <p class="lh-copy mv1">Machine Learning Research Intern</p>
+  <p class="lh-copy mv1 gray">
+    Working with the Human-Centered Machine Intelligence team, developed
+    user-centered tools for machine learning model compression and evaluation.
+  </p>
+
+  <h4 class="mb0">
     Verily Life Sciences <span class="fw2">Summer 2022</span>
   </h4>
   <p class="lh-copy mv1">Health Informatics Intern</p>

@@ -11,25 +11,69 @@
 </p>
 <div class="card-container">
   <Card
-    imageSrc="assets/ai-clinician.gif"
-    imageAlt="Screenshot of AI Clinician Explorer showing charts of patient vitals and labs that dynamically update as the user drags a slider to navigate through the patient's trajectory."
-    url="https://github.com/cmudig/ai-clinician-explorer"
+    imageSrc="assets/tempo.png"
+    imageAlt="Screenshot of Tempo being used to create models to predict patient readmission to a hospital."
+    url="#"
   >
     <h3 class="mb0 lh-title">
-      AI Clinician Explorer: <span class="fw3 ml1"
-        >Patient Trajectory Visualization</span
+      Tempo: <span class="fw3 ml1">Predictive Model Specification</span>
+    </h3>
+    <p class="lh-copy">
+      A tool that allows data scientists and domain experts to collaboratively
+      create, modify, and evaluate specifications of how a predictive model
+      should work. Paper and code coming soon.
+    </p>
+  </Card>
+  <Card
+    imageSrc="assets/counterpoint_animation.gif"
+    imageAlt="A GIF of Counterpoint used to animate between two scatter plot layouts containing 10,000 points."
+    url="https://venkatesh-sivaraman.github.io/counterpoint/"
+  >
+    <h3 class="mb0 lh-title">
+      Counterpoint: <span class="fw3 ml1"
+        >Scalable Custom Web Visualization</span
       >
     </h3>
     <p class="lh-copy">
-      This prototype tool allows clinicians to browse detailed trajectories for
-      patients with sepsis, and compare predictions of a reinforcement learning
-      model (the AI Clinician) with actual clinician actions. The live demo is
-      currently unavailable due to the sensitivity of patient data.
+      Counterpoint is a TypeScript framework that helps developers create
+      interactive, animated data visualizations using custom Canvas or WebGL
+      rendering.
+    </p>
+    <p>
+      <a
+        class="f6 link dim ph3 pv2 dib white bg-blue"
+        href="https://venkatesh-sivaraman.github.io/counterpoint/"
+        target="_blank">Documentation</a
+      >
+      <a
+        class="f6 link dim ph3 pv2 dib white bg-black"
+        href="https://github.com/venkatesh-sivaraman/counterpoint"
+        target="_blank">GitHub</a
+      >
+      <a
+        class="f6 link dim ph3 pv2 dib white bg-black"
+        href="https://www.npmjs.com/package/counterpoint-vis"
+        target="_blank">NPM</a
+      >
+    </p>
+  </Card>
+  <Card
+    imageSrc="assets/divisi.png"
+    imageAlt="Screenshot of Divisi showing slices for a model trained on the UCI Adult dataset."
+    url="#"
+  >
+    <h3 class="mb0 lh-title">
+      Divisi: <span class="fw3 ml1">Interactive Slice Discovery</span>
+    </h3>
+    <p class="lh-copy">
+      A work-in-progress Jupyter widget that uses a novel sampling-based
+      algorithm to find data slices (or subgroups) that have interesting
+      characteristics relative to the overall dataset.
     </p>
     <p>
       <a
         class="f6 link dim ph3 pv2 dib white bg-black"
-        href="https://github.com/cmudig/ai-clinician-explorer"
+        href="https://github.com/venkatesh-sivaraman/slice-finding"
         target="_blank">GitHub</a
       >
     </p>

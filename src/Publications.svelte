@@ -3,6 +3,16 @@
 </h1>
 
 <section class="lh-copy measure-wide">
+  <h2>2024</h2>
+  <p>
+    Park, U., <strong>Sivaraman, V.</strong>, Perer, A. How Consistent are
+    Clinicians? Evaluating the Predictability of Sepsis Disease Progression with
+    Dynamics Models.
+    <em>Workshop paper at Time Series for Health @ ICLR 2024.</em>
+    <a class="link blue" href="https://arxiv.org/abs/2404.07148" target="_blank"
+      >[Article]</a
+    >
+  </p>
   <h2>2023</h2>
   <p>
     <strong>Sivaraman, V.</strong>, Bukowski, L., Levin, J., Kahn, J.M., Perer,

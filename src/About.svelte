@@ -19,46 +19,48 @@
   >, and use that knowledge to
   <span class="fw6">build better ways to communicate AI predictions</span>. I'm
   particularly interested in high-stakes decision making domains such as
-  <span class="fw6">child welfare</span>
-  and <span class="fw6">health care</span>, where an understanding of
-  algorithms' strengths and limitations is crucial to helping improve people's
-  lives.
+  <span class="fw6">health care</span>, where an understanding of algorithms'
+  strengths and limitations is crucial to helping improve people's lives.
 </p>
 <p class="lh-copy f4 measure-wide">
-  I have recently been focused on tools for model developers and intensive care
-  clinicians (<a
+  I have recently been focused on tools for model developers and clinicians, as
+  well as tools to help build beautiful data visualizations (<a
     class="link blue"
     href="#"
     on:click={() => dispatch('projects')}>see more projects</a
   >):
 </p>
 <div class="project-preview-row">
+  <a class="link black mr2" href="#">
+    <div
+      class="project-preview flex flex-column bg-animate hover-bg-near-white pa2"
+    >
+      <img
+        src="assets/tempo.png"
+        alt="Screenshot of Tempo being used to create models to predict patient readmission to a hospital."
+      />
+      <p class="f5">
+        <span class="b">Tempo:</span>
+        <span class="fw3">Predictive Model Specification</span>
+      </p>
+    </div>
+  </a>
   <a
     class="link black mr2"
-    href="https://github.com/cmudig/ai-clinician-explorer"
+    href="https://venkatesh-sivaraman.github.io/counterpoint/"
     target="_blank"
   >
     <div
       class="project-preview flex flex-column bg-animate hover-bg-near-white pa2"
     >
       <img
-        src="assets/ai-clinician.gif"
-        alt="Screenshot of AI Clinician Explorer showing charts of patient vitals and labs that dynamically update as the user drags a slider to navigate through the patient's trajectory."
+        src="assets/counterpoint_animation.gif"
+        class="counterpoint-gif"
+        alt="A GIF of Counterpoint used to animate between two scatter plot layouts containing 10,000 points."
       />
       <p class="f5">
-        <span class="b">AI Clinician Explorer:</span>
-        <span class="fw3">Patient Trajectory Visualization</span>
-      </p>
-    </div>
-  </a>
-  <a class="link black mr2" href="https://bit.ly/emblaze-demo" target="_blank">
-    <div
-      class="project-preview flex flex-column bg-animate hover-bg-near-white pa2"
-    >
-      <img src="assets/emblaze.png" alt="A screenshot of Emblaze." />
-      <p class="f5">
-        <span class="b">Emblaze:</span>
-        <span class="fw3">Interactive Embedding Comparison</span>
+        <span class="b">Counterpoint:</span>
+        <span class="fw3">Scalable Custom Web Visualization</span>
       </p>
     </div>
   </a>
@@ -91,5 +93,9 @@
   .project-preview img {
     object-fit: contain;
     height: 160px;
+  }
+
+  .counterpoint-gif {
+    background-image: url('assets/counterpoint_animation_static.png');
   }
 </style>
