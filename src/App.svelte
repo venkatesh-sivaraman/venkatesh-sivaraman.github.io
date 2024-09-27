@@ -8,7 +8,10 @@
   import statefulSwap from './swap';
   import Fa from 'svelte-fa';
   import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-  import { faGithub } from '@fortawesome/free-brands-svg-icons';
+  import {
+    faGithub,
+    faGoogleScholar,
+  } from '@fortawesome/free-brands-svg-icons';
 
   export let name;
 
@@ -92,6 +95,15 @@
             target="_blank"
           >
             <Fa icon={faGithub} /> &nbsp;&nbsp; GitHub</a
+          >
+        </li>
+        <li class="mt1">
+          <a
+            class="link contact-link flex items-center"
+            href="https://scholar.google.com/citations?user=KDcGcfAAAAAJ"
+            target="_blank"
+          >
+            <Fa icon={faGoogleScholar} /> &nbsp;&nbsp; Google Scholar</a
           >
         </li>
         <li>

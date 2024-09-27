@@ -5,6 +5,39 @@
 <section class="lh-copy measure-wide">
   <h2>2024</h2>
   <p>
+    <strong>Sivaraman, V.</strong>, Kwak, Y., Kuza, C., Yang, Q., Adamson, K.,
+    Suda, K., Tang, L., Gellad, W., Perer, A. Static algorithm, evolving
+    epidemic: Understanding the potential of human-AI risk assessment to support
+    regional overdose prevention. <em>To appear at ACM CSCW 2025.</em>
+  </p>
+  <p>
+    Boggust, A., <strong>Sivaraman, V.</strong> (co-first authors), Assogba, Y.,
+    Ren, D., Moritz, D., Hohman, F. Compress and Compare: Interactively
+    evaluating efficiency and behavior across ML model compression experiments.
+    <em>To appear at IEEE VIS 2024.</em>
+    <a class="link blue" href="https://arxiv.org/abs/2408.03274" target="_blank"
+      >[Preprint]</a
+    >
+    <a
+      class="link blue"
+      href="https://github.com/apple/ml-compress-and-compare"
+      target="_blank">[GitHub]</a
+    >
+  </p>
+  <p>
+    <strong>Sivaraman, V.</strong>, Elavsky, F., Moritz, D., Perer, A.
+    Counterpoint: Orchestrating large-scale custom animated visualizations.
+    <em>To appear at IEEE VIS 2024.</em>
+    <a class="link blue" href="https://dig.cmu.edu/counterpoint" target="_blank"
+      >[Documentation]</a
+    >
+    <a
+      class="link blue"
+      href="https://github.com/cmudig/counterpoint"
+      target="_blank">[GitHub]</a
+    >
+  </p>
+  <p>
     Park, U., <strong>Sivaraman, V.</strong>, Perer, A. How Consistent are
     Clinicians? Evaluating the Predictability of Sepsis Disease Progression with
     Dynamics Models.
@@ -66,8 +99,10 @@
     <strong>Sivaraman, V.</strong>, Wu, Y., & Perer, A. (2022). Emblaze:
     Illuminating machine learning representations through interactive comparison
     of embedding spaces. <em>ACM IUI 2022.</em>
-    <a class="link blue" href="https://bit.ly/emblaze-demo" target="_blank"
-      >[Demo]</a
+    <a
+      class="link blue"
+      href="https://drive.google.com/file/d/1h7N73O4Q-d_9l9H5TT0V8VLqtlpWKsM7/view?usp=share_link"
+      target="_blank">[Video]</a
     >
     <a
       class="link blue"

@@ -95,8 +95,8 @@
     <p>
       <a
         class="f6 link dim ph3 pv2 dib white bg-blue"
-        href="https://bit.ly/emblaze-demo"
-        target="_blank">Demo</a
+        href="https://drive.google.com/file/d/1h7N73O4Q-d_9l9H5TT0V8VLqtlpWKsM7/view?usp=share_link"
+        target="_blank">Video</a
       >
       <a
         class="f6 link dim ph3 pv2 dib white bg-black"
