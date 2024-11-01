@@ -47,7 +47,7 @@
   </a>
   <a
     class="link black mr2"
-    href="https://venkatesh-sivaraman.github.io/counterpoint/"
+    href="https://dig.cmu.edu/counterpoint/"
     target="_blank"
   >
     <div

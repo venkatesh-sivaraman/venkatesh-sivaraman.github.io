@@ -27,7 +27,7 @@
   <Card
     imageSrc="assets/counterpoint_animation.gif"
     imageAlt="A GIF of Counterpoint used to animate between two scatter plot layouts containing 10,000 points."
-    url="https://venkatesh-sivaraman.github.io/counterpoint/"
+    url="https://dig.cmu.edu/counterpoint/"
   >
     <h3 class="mb0 lh-title">
       Counterpoint: <span class="fw3 ml1"
@@ -42,12 +42,12 @@
     <p>
       <a
         class="f6 link dim ph3 pv2 dib white bg-blue"
-        href="https://venkatesh-sivaraman.github.io/counterpoint/"
+        href="https://dig.cmu.edu/counterpoint/"
         target="_blank">Documentation</a
       >
       <a
         class="f6 link dim ph3 pv2 dib white bg-black"
-        href="https://github.com/venkatesh-sivaraman/counterpoint"
+        href="https://github.com/cmudig/counterpoint"
         target="_blank">GitHub</a
       >
       <a
