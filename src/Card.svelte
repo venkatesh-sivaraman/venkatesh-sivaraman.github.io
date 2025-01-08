@@ -6,8 +6,36 @@
 </script>
 
 <div class="w-100 pa1">
-  <a href={url} target="_blank" class="link black">
-    <div class="card pa3 bg-animate hover-bg-near-white pointer">
+  {#if !!url}
+    <a href={url} target="_blank" class="link black">
+      <div class="card pa3 bg-animate hover-bg-near-white pointer">
+        {#if !!imageSrc}
+          <div class="img-container">
+            <img
+              src={imageSrc}
+              class="db w-100 card-img br2 br--top"
+              alt={imageAlt}
+            />
+          </div>
+        {:else if !!videoSrc}
+          <div class="video-container">
+            <iframe
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+              src={videoSrc}
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            />
+          </div>
+        {/if}
+        <div class="pa2 card-content">
+          <slot />
+        </div>
+      </div>
+    </a>
+  {:else}
+    <div class="card pa3">
       {#if !!imageSrc}
         <div class="img-container">
           <img
@@ -32,7 +60,7 @@
         <slot />
       </div>
     </div>
-  </a>
+  {/if}
 </div>
 
 <style>

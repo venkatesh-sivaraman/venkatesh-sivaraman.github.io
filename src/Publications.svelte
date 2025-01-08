@@ -14,7 +14,7 @@
     Boggust, A., <strong>Sivaraman, V.</strong> (co-first authors), Assogba, Y.,
     Ren, D., Moritz, D., Hohman, F. Compress and Compare: Interactively
     evaluating efficiency and behavior across ML model compression experiments.
-    <em>To appear at IEEE VIS 2024.</em>
+    <em>IEEE VIS 2024.</em>
     <a class="link blue" href="https://arxiv.org/abs/2408.03274" target="_blank"
       >[Preprint]</a
     >
@@ -27,7 +27,7 @@
   <p>
     <strong>Sivaraman, V.</strong>, Elavsky, F., Moritz, D., Perer, A.
     Counterpoint: Orchestrating large-scale custom animated visualizations.
-    <em>To appear at IEEE VIS 2024.</em>
+    <em>IEEE VIS 2024.</em>
     <a class="link blue" href="https://dig.cmu.edu/counterpoint" target="_blank"
       >[Documentation]</a
     >

@@ -13,7 +13,6 @@
   <Card
     imageSrc="assets/tempo.png"
     imageAlt="Screenshot of Tempo being used to create models to predict patient readmission to a hospital."
-    url="#"
   >
     <h3 class="mb0 lh-title">
       Tempo: <span class="fw3 ml1">Predictive Model Specification</span>
@@ -60,7 +59,7 @@
   <Card
     imageSrc="assets/divisi.png"
     imageAlt="Screenshot of Divisi showing slices for a model trained on the UCI Adult dataset."
-    url="#"
+    url="https://github.com/cmudig/divisi-toolkit"
   >
     <h3 class="mb0 lh-title">
       Divisi: <span class="fw3 ml1">Interactive Slice Discovery</span>
@@ -73,7 +72,7 @@
     <p>
       <a
         class="f6 link dim ph3 pv2 dib white bg-black"
-        href="https://github.com/venkatesh-sivaraman/slice-finding"
+        href="https://github.com/cmudig/divisi-toolkit"
         target="_blank">GitHub</a
       >
     </p>
