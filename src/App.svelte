@@ -7,7 +7,7 @@
   import Music from './Music.svelte';
   import statefulSwap from './swap';
   import Fa from 'svelte-fa';
-  import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+  import { faEnvelope, faPaperclip } from '@fortawesome/free-solid-svg-icons';
   import {
     faGithub,
     faGoogleScholar,
@@ -49,7 +49,7 @@
       <img
         class="profile-pic dim pointer"
         src="assets/profile.png"
-        alt="Picture of Venkat in Cambridge, Massachusetts"
+        alt="Picture of Venkat in Seattle, Washington"
         on:click={() => (newTab = 0)}
       />
       <ul class="list nav-list pl0">
@@ -106,7 +106,16 @@
             <Fa icon={faGoogleScholar} /> &nbsp;&nbsp; Google Scholar</a
           >
         </li>
-        <li>
+        <li class="mt1">
+          <a
+            class="link contact-link flex items-center"
+            href="/assets/venkats_cv.pdf"
+            target="_blank"
+          >
+            <Fa icon={faPaperclip} /> &nbsp;&nbsp; CV</a
+          >
+        </li>
+        <li class="mt1">
           <a
             class="link contact-link flex items-center"
             href="mailto:venkats@cmu.edu"
@@ -235,6 +244,7 @@
   .document {
     flex-grow: 1;
     margin: 0 32px 32px 32px;
+    z-index: 1;
   }
 
   footer {

@@ -94,6 +94,15 @@
   <h2>Teaching</h2>
 
   <h4 class="mb0">
+    Machine Learning for Healthcare, CMU <span class="fw2">Fall 2024</span>
+  </h4>
+  <p class="lh-copy mv1">Taught by Adam Berger</p>
+  <p class="lh-copy mv1 gray">
+    Taught a guest lecture on human-centered ML in healthcare, led office hours,
+    and mentored students' final projects.
+  </p>
+
+  <h4 class="mb0">
     Programming Usable Interfaces, CMU <span class="fw2">Fall 2022</span>
   </h4>
   <p class="lh-copy mv1">Taught by Prof. Alexandra Ion</p>
@@ -131,12 +140,10 @@
   </p>
 
   <h4 class="mb0">
-    MehtA+ Machine Learning Bootcamp <span class="fw2"
-      >Summer 2020 and 2021</span
-    >
+    MehtA+ Machine Learning Bootcamp <span class="fw2">Summers 2020-2024</span>
   </h4>
   <p class="lh-copy mv1 gray">
-    Prepared and taught guest lectures on human-centered machine learning,
-    embedding representations, and uncertainty.
+    Prepared and taught one guest lecture per summer on human-centered machine
+    learning, embedding representations, and uncertainty.
   </p>
 </div>

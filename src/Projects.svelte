@@ -20,7 +20,19 @@
     <p class="lh-copy">
       A tool that allows data scientists and domain experts to collaboratively
       create, modify, and evaluate specifications of how a predictive model
-      should work. Paper and code coming soon.
+      should work.
+    </p>
+    <p>
+      <a
+        class="f6 link dim ph3 pv2 dib white bg-black"
+        href="https://github.com/cmudig/tempo"
+        target="_blank">GitHub</a
+      >
+      <a
+        class="f6 link dim ph3 pv2 dib white bg-black"
+        href="https://arxiv.org/abs/2502.10526"
+        target="_blank">Preprint</a
+      >
     </p>
   </Card>
   <Card
@@ -74,6 +86,11 @@
         class="f6 link dim ph3 pv2 dib white bg-black"
         href="https://github.com/cmudig/divisi-toolkit"
         target="_blank">GitHub</a
+      >
+      <a
+        class="f6 link dim ph3 pv2 dib white bg-black"
+        href="https://arxiv.org/abs/2502.10537"
+        target="_blank">Preprint</a
       >
     </p>
   </Card>

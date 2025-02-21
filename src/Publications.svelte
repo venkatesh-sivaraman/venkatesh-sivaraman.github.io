@@ -3,18 +3,51 @@
 </h1>
 
 <section class="lh-copy measure-wide">
-  <h2>2024</h2>
+  <h2>2025</h2>
+  <p>
+    <strong>Sivaraman, V.</strong>, Vaishampayan, A., Li, X., Buck, B.R., Ma,
+    Z., Boyce, R.D., Perer, A. Tempo: Helping data scientists collaboratively
+    specify predictive modeling tasks. <em>To appear at ACM CHI 2025.</em>
+    <a class="link blue" href="https://arxiv.org/abs/2502.10526" target="_blank"
+      >[Preprint]</a
+    >
+    <a class="link blue" href="https://github.com/cmudig/tempo" target="_blank"
+      >[GitHub]</a
+    >
+  </p>
+  <p>
+    <strong>Sivaraman, V.</strong>, Li, Z., Perer, A. Divisi: Interactive Search
+    and Visualization for Scalable Exploratory Subgroup Analysis.
+    <em>To appear at ACM CHI 2025.</em>
+    <a class="link blue" href="https://arxiv.org/abs/2502.10537" target="_blank"
+      >[Preprint]</a
+    >
+    <a
+      class="link blue"
+      href="https://github.com/cmudig/divisi-toolkit"
+      target="_blank">[GitHub]</a
+    >
+  </p>
   <p>
     <strong>Sivaraman, V.</strong>, Kwak, Y., Kuza, C., Yang, Q., Adamson, K.,
     Suda, K., Tang, L., Gellad, W., Perer, A. Static algorithm, evolving
     epidemic: Understanding the potential of human-AI risk assessment to support
     regional overdose prevention. <em>To appear at ACM CSCW 2025.</em>
+    <a class="link blue" href="https://arxiv.org/abs/2502.10542" target="_blank"
+      >[Preprint]</a
+    >
   </p>
+  <h2>2024</h2>
   <p>
     Boggust, A., <strong>Sivaraman, V.</strong> (co-first authors), Assogba, Y.,
     Ren, D., Moritz, D., Hohman, F. Compress and Compare: Interactively
     evaluating efficiency and behavior across ML model compression experiments.
     <em>IEEE VIS 2024.</em>
+    <a
+      class="link blue"
+      href="https://ieeexplore.ieee.org/document/10672545"
+      target="_blank">[Article]</a
+    >
     <a class="link blue" href="https://arxiv.org/abs/2408.03274" target="_blank"
       >[Preprint]</a
     >
