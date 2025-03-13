@@ -6,8 +6,9 @@
   <h2>2025</h2>
   <p>
     <strong>Sivaraman, V.</strong>, Vaishampayan, A., Li, X., Buck, B.R., Ma,
-    Z., Boyce, R.D., Perer, A. Tempo: Helping data scientists collaboratively
-    specify predictive modeling tasks. <em>To appear at ACM CHI 2025.</em>
+    Z., Boyce, R.D., Perer, A. Tempo: Helping data scientists and domain experts
+    collaboratively specify predictive modeling tasks.
+    <em>To appear at ACM CHI 2025.</em>
     <a class="link blue" href="https://arxiv.org/abs/2502.10526" target="_blank"
       >[Preprint]</a
     >
