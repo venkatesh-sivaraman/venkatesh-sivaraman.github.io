@@ -5,10 +5,29 @@
 <section class="lh-copy measure-wide">
   <h2>2025</h2>
   <p>
+    Ma, Z., Boyce, R.D., Perer, A., <strong>Sivaraman, V.</strong> TempoQL: A
+    readable, precise, and portable query system for electronic health record
+    data.
+    <em>Machine Learning for Health (ML4H) 2025.</em>
+    <a class="link blue" href="https://arxiv.org/abs/2511.09337" target="_blank"
+      >[Paper]</a
+    >
+    <a
+      class="link blue"
+      href="https://github.com/cmudig/tempo-ql"
+      target="_blank">[GitHub]</a
+    >
+    <a
+      class="link blue"
+      href="http://tempoql-demo.uk.r.appspot.com/"
+      target="_blank">[Demo]</a
+    >
+  </p>
+  <p>
     <strong>Sivaraman, V.</strong>, Vaishampayan, A., Li, X., Buck, B.R., Ma,
     Z., Boyce, R.D., Perer, A. Tempo: Helping data scientists and domain experts
     collaboratively specify predictive modeling tasks.
-    <em>To appear at ACM CHI 2025.</em>
+    <em>ACM CHI 2025.</em>
     <a class="link blue" href="https://arxiv.org/abs/2502.10526" target="_blank"
       >[Preprint]</a
     >
@@ -19,7 +38,7 @@
   <p>
     <strong>Sivaraman, V.</strong>, Li, Z., Perer, A. Divisi: Interactive Search
     and Visualization for Scalable Exploratory Subgroup Analysis.
-    <em>To appear at ACM CHI 2025.</em>
+    <em>ACM CHI 2025.</em>
     <a class="link blue" href="https://arxiv.org/abs/2502.10537" target="_blank"
       >[Preprint]</a
     >
@@ -33,7 +52,7 @@
     <strong>Sivaraman, V.</strong>, Kwak, Y., Kuza, C., Yang, Q., Adamson, K.,
     Suda, K., Tang, L., Gellad, W., Perer, A. Static algorithm, evolving
     epidemic: Understanding the potential of human-AI risk assessment to support
-    regional overdose prevention. <em>To appear at ACM CSCW 2025.</em>
+    regional overdose prevention. <em>ACM CSCW 2025.</em>
     <a class="link blue" href="https://arxiv.org/abs/2502.10542" target="_blank"
       >[Preprint]</a
     >

@@ -20,7 +20,8 @@
     <p class="lh-copy">
       A tool that allows data scientists and domain experts to collaboratively
       create, modify, and evaluate specifications of how a predictive model
-      should work.
+      should work. We also expanded Tempo's query language into a universal
+      query language for time-series EHR data, called TempoQL.
     </p>
     <p>
       <a
@@ -32,6 +33,11 @@
         class="f6 link dim ph3 pv2 dib white bg-black"
         href="https://arxiv.org/abs/2502.10526"
         target="_blank">Preprint</a
+      >
+      <a
+        class="f6 link dim ph3 pv2 dib white bg-black"
+        href="http://tempoql-demo.uk.r.appspot.com/"
+        target="_blank">TempoQL Demo</a
       >
     </p>
   </Card>

@@ -23,25 +23,38 @@
   <span class="fw6">health care</span>, where complementarity between human and
   AI capabilities is crucial to helping improve people's lives.
 </p>
+<p class="lh-copy f4 dark-blue b measure-wide">
+  I will be starting as a postdoc at UCSF in January 2026, working with Profs.
+  Jean Feng and Julian Hong. 🎉
+</p>
 <p class="lh-copy f4 measure-wide">
   I have recently been focused on tools for model developers and clinicians, as
   well as tools to help build beautiful data visualizations (<a
     class="link blue"
+    🎉
     href="#"
     on:click={() => dispatch('projects')}>see more projects</a
   >):
 </p>
 <div class="project-preview-row flex justify-start">
-  <div class="project-preview flex flex-column pa2 mr2">
-    <img
-      src="assets/tempo.png"
-      alt="Screenshot of Tempo being used to create models to predict patient readmission to a hospital."
-    />
-    <p class="f5">
-      <span class="b">Tempo:</span>
-      <span class="fw3">Predictive Model Specification</span>
-    </p>
-  </div>
+  <a
+    class="link black mr2"
+    href="http://tempoql-demo.uk.r.appspot.com/"
+    target="_blank"
+  >
+    <div
+      class="project-preview flex flex-column pa2 mr2 bg-animate hover-bg-near-white"
+    >
+      <img
+        src="assets/tempoql.png"
+        alt="Screenshot of TempoQL being used to extract data from the MIMIC dataset"
+      />
+      <p class="f5">
+        <span class="b">TempoQL:</span>
+        <span class="fw3">Readable and Precise Queries on EHR Data</span>
+      </p>
+    </div>
+  </a>
   <a
     class="link black mr2"
     href="https://dig.cmu.edu/counterpoint/"
@@ -93,6 +106,9 @@
   }
 
   .counterpoint-gif {
-    background-image: url('assets/counterpoint_animation_static.png');
+    background-image: url('/assets/counterpoint_animation_static.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 </style>
