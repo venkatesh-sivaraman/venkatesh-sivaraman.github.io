@@ -775,43 +775,43 @@ var app = (function () {
     	let t8;
     	let span1;
     	let t10;
-    	let span2;
-    	let t12;
-    	let t13;
-    	let p1;
-    	let t15;
-    	let p2;
-    	let t16;
     	let a2;
+    	let t12;
+    	let a3;
+    	let t14;
+    	let t15;
+    	let p1;
+    	let t16;
+    	let a4;
     	let t18;
     	let t19;
     	let div2;
-    	let a3;
+    	let a5;
     	let div0;
     	let img0;
     	let img0_src_value;
     	let t20;
-    	let p3;
-    	let span3;
+    	let p2;
+    	let span2;
     	let t22;
-    	let span4;
+    	let span3;
     	let t24;
-    	let a4;
+    	let a6;
     	let div1;
     	let img1;
     	let img1_src_value;
     	let t25;
-    	let p4;
-    	let span5;
+    	let p3;
+    	let span4;
     	let t27;
-    	let span6;
+    	let span5;
     	let t29;
-    	let p5;
+    	let p4;
     	let t30;
-    	let a5;
+    	let a7;
     	let t32;
     	let t33;
-    	let p6;
+    	let p5;
     	let mounted;
     	let dispose;
 
@@ -821,130 +821,134 @@ var app = (function () {
     			h1.textContent = "Venkatesh Sivaraman";
     			t1 = space();
     			p0 = element("p");
-    			t2 = text("Hi! 👋🏾 I'm Venkat, a PhD student at the Carnegie Mellon University ");
+    			t2 = text("Hi, I'm Venkat! 👋🏾 I'm currently a postdoctoral scholar at UC San Francisco,\n  supervised by ");
     			a0 = element("a");
-    			a0.textContent = "Human-Computer Interaction Institute";
-    			t4 = text(". Advised by\n  ");
+    			a0.textContent = "Jean Feng";
+    			t4 = text("\n  and\n  ");
     			a1 = element("a");
-    			a1.textContent = "Adam Perer";
-    			t6 = text(", I study\n  ");
+    			a1.textContent = "Julian Hong";
+    			t6 = text(". I work on\n  ");
     			span0 = element("span");
-    			span0.textContent = "how trained experts use artificial intelligence (AI) to guide their\n    decision-making";
-    			t8 = text(", and use that knowledge to\n  ");
+    			span0.textContent = "building and evaluating AI-powered tools to help clinical experts make\n    discoveries and improve decisions";
+    			t8 = text(". My work uses qualitative research methods, data visualization, and other\n  techniques from human-computer interaction to\n  ");
     			span1 = element("span");
-    			span1.textContent = "improve how we build and present AI predictions";
-    			t10 = text(". I'm\n  particularly interested in applications of AI in\n  ");
-    			span2 = element("span");
-    			span2.textContent = "health care";
-    			t12 = text(", where complementarity between human and\n  AI capabilities is crucial to helping improve people's lives.");
-    			t13 = space();
-    			p1 = element("p");
-    			p1.textContent = "I will be starting as a postdoc at UCSF in January 2026, working with Profs.\n  Jean Feng and Julian Hong. 🎉";
-    			t15 = space();
-    			p2 = element("p");
-    			t16 = text("I have recently been focused on tools for model developers and clinicians, as\n  well as tools to help build beautiful data visualizations (");
+    			span1.textContent = "design real systems with clinical impact";
+    			t10 = text(". I received\n  my PhD from the\n  ");
     			a2 = element("a");
-    			a2.textContent = "see more projects";
+    			a2.textContent = "Human-Computer Interaction Institute";
+    			t12 = text("\n  at Carnegie Mellon University, advised by\n  ");
+    			a3 = element("a");
+    			a3.textContent = "Adam Perer";
+    			t14 = text(".");
+    			t15 = space();
+    			p1 = element("p");
+    			t16 = text("Some of my recent work includes tools for model developers and clinicians, as\n  well as tools to help build beautiful data visualizations (");
+    			a4 = element("a");
+    			a4.textContent = "see more projects";
     			t18 = text("):");
     			t19 = space();
     			div2 = element("div");
-    			a3 = element("a");
+    			a5 = element("a");
     			div0 = element("div");
     			img0 = element("img");
     			t20 = space();
-    			p3 = element("p");
-    			span3 = element("span");
-    			span3.textContent = "TempoQL:";
+    			p2 = element("p");
+    			span2 = element("span");
+    			span2.textContent = "TempoQL:";
     			t22 = space();
-    			span4 = element("span");
-    			span4.textContent = "Readable and Precise Queries on EHR Data";
+    			span3 = element("span");
+    			span3.textContent = "Readable and Precise Queries on EHR Data";
     			t24 = space();
-    			a4 = element("a");
+    			a6 = element("a");
     			div1 = element("div");
     			img1 = element("img");
     			t25 = space();
-    			p4 = element("p");
-    			span5 = element("span");
-    			span5.textContent = "Counterpoint:";
+    			p3 = element("p");
+    			span4 = element("span");
+    			span4.textContent = "Counterpoint:";
     			t27 = space();
-    			span6 = element("span");
-    			span6.textContent = "Scalable Custom Web Visualization";
+    			span5 = element("span");
+    			span5.textContent = "Scalable Custom Web Visualization";
     			t29 = space();
-    			p5 = element("p");
+    			p4 = element("p");
     			t30 = text("For more information, please see my ");
-    			a5 = element("a");
-    			a5.textContent = "CV";
+    			a7 = element("a");
+    			a7.textContent = "CV";
     			t32 = text(".");
     			t33 = space();
-    			p6 = element("p");
-    			p6.textContent = "I would love to chat about research and collaboration opportunities! Contact\n  me at venkats [at] cmu [dot] edu.";
+    			p5 = element("p");
+    			p5.textContent = "I would love to chat about research and collaboration opportunities! Contact\n  me at venkats [at] cmu [dot] edu.";
     			attr_dev(h1, "class", "mt2");
     			add_location(h1, file$7, 6, 0, 115);
     			attr_dev(a0, "class", "link blue dim");
-    			attr_dev(a0, "href", "https://hcii.cmu.edu");
+    			attr_dev(a0, "href", "http://jeanfeng.com/");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$7, 8, 71, 263);
+    			add_location(a0, file$7, 9, 16, 289);
     			attr_dev(a1, "class", "link blue dim");
-    			attr_dev(a1, "href", "https://perer.org");
+    			attr_dev(a1, "href", "https://honglab.ucsf.edu");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$7, 13, 2, 402);
+    			add_location(a1, file$7, 15, 2, 395);
     			attr_dev(span0, "class", "fw6");
-    			add_location(span0, file$7, 16, 2, 502);
+    			add_location(span0, file$7, 18, 2, 505);
     			attr_dev(span1, "class", "fw6");
-    			add_location(span1, file$7, 20, 2, 652);
-    			attr_dev(span2, "class", "fw6");
-    			add_location(span2, file$7, 22, 2, 783);
+    			add_location(span1, file$7, 23, 2, 771);
+    			attr_dev(a2, "class", "link blue dim");
+    			attr_dev(a2, "href", "https://hcii.cmu.edu");
+    			attr_dev(a2, "target", "_blank");
+    			add_location(a2, file$7, 25, 2, 869);
+    			attr_dev(a3, "class", "link blue dim");
+    			attr_dev(a3, "href", "https://perer.org");
+    			attr_dev(a3, "target", "_blank");
+    			add_location(a3, file$7, 29, 2, 1033);
     			attr_dev(p0, "class", "lh-copy f3 measure-wide");
     			add_location(p0, file$7, 7, 0, 156);
-    			attr_dev(p1, "class", "lh-copy f4 dark-blue b measure-wide");
-    			add_location(p1, file$7, 25, 0, 930);
-    			attr_dev(a2, "class", "link blue");
-    			attr_dev(a2, "🎉", "");
-    			attr_dev(a2, "href", "#");
-    			add_location(a2, file$7, 31, 61, 1271);
-    			attr_dev(p2, "class", "lh-copy f4 measure-wide");
-    			add_location(p2, file$7, 29, 0, 1094);
+    			attr_dev(a4, "class", "link blue");
+    			attr_dev(a4, "🎉", "");
+    			attr_dev(a4, "href", "#");
+    			add_location(a4, file$7, 35, 61, 1305);
+    			attr_dev(p1, "class", "lh-copy f4 measure-wide");
+    			add_location(p1, file$7, 33, 0, 1128);
     			if (!src_url_equal(img0.src, img0_src_value = "assets/tempoql.png")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "Screenshot of TempoQL being used to extract data from the MIMIC dataset");
     			attr_dev(img0, "class", "svelte-8gg0gu");
-    			add_location(img0, file$7, 47, 6, 1655);
-    			attr_dev(span3, "class", "b");
-    			add_location(span3, file$7, 52, 8, 1817);
-    			attr_dev(span4, "class", "fw3");
-    			add_location(span4, file$7, 53, 8, 1857);
-    			attr_dev(p3, "class", "f5");
-    			add_location(p3, file$7, 51, 6, 1794);
+    			add_location(img0, file$7, 51, 6, 1689);
+    			attr_dev(span2, "class", "b");
+    			add_location(span2, file$7, 56, 8, 1851);
+    			attr_dev(span3, "class", "fw3");
+    			add_location(span3, file$7, 57, 8, 1891);
+    			attr_dev(p2, "class", "f5");
+    			add_location(p2, file$7, 55, 6, 1828);
     			attr_dev(div0, "class", "project-preview flex flex-column pa2 mr2 bg-animate hover-bg-near-white svelte-8gg0gu");
-    			add_location(div0, file$7, 44, 4, 1552);
-    			attr_dev(a3, "class", "link black mr2 svelte-8gg0gu");
-    			attr_dev(a3, "href", "http://tempoql-demo.uk.r.appspot.com/");
-    			attr_dev(a3, "target", "_blank");
-    			add_location(a3, file$7, 39, 2, 1445);
+    			add_location(div0, file$7, 48, 4, 1586);
+    			attr_dev(a5, "class", "link black mr2 svelte-8gg0gu");
+    			attr_dev(a5, "href", "http://tempoql-demo.uk.r.appspot.com/");
+    			attr_dev(a5, "target", "_blank");
+    			add_location(a5, file$7, 43, 2, 1479);
     			if (!src_url_equal(img1.src, img1_src_value = "assets/counterpoint_animation.gif")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "class", "counterpoint-gif svelte-8gg0gu");
     			attr_dev(img1, "alt", "A GIF of Counterpoint used to animate between two scatter plot layouts containing 10,000 points.");
-    			add_location(img1, file$7, 65, 6, 2156);
-    			attr_dev(span5, "class", "b");
-    			add_location(span5, file$7, 71, 8, 2391);
-    			attr_dev(span6, "class", "fw3");
-    			add_location(span6, file$7, 72, 8, 2436);
-    			attr_dev(p4, "class", "f5");
-    			add_location(p4, file$7, 70, 6, 2368);
+    			add_location(img1, file$7, 69, 6, 2190);
+    			attr_dev(span4, "class", "b");
+    			add_location(span4, file$7, 75, 8, 2425);
+    			attr_dev(span5, "class", "fw3");
+    			add_location(span5, file$7, 76, 8, 2470);
+    			attr_dev(p3, "class", "f5");
+    			add_location(p3, file$7, 74, 6, 2402);
     			attr_dev(div1, "class", "project-preview flex flex-column bg-animate hover-bg-near-white pa2 svelte-8gg0gu");
-    			add_location(div1, file$7, 62, 4, 2057);
-    			attr_dev(a4, "class", "link black mr2 svelte-8gg0gu");
-    			attr_dev(a4, "href", "https://dig.cmu.edu/counterpoint/");
-    			attr_dev(a4, "target", "_blank");
-    			add_location(a4, file$7, 57, 2, 1954);
+    			add_location(div1, file$7, 66, 4, 2091);
+    			attr_dev(a6, "class", "link black mr2 svelte-8gg0gu");
+    			attr_dev(a6, "href", "https://dig.cmu.edu/counterpoint/");
+    			attr_dev(a6, "target", "_blank");
+    			add_location(a6, file$7, 61, 2, 1988);
     			attr_dev(div2, "class", "project-preview-row flex justify-start svelte-8gg0gu");
-    			add_location(div2, file$7, 38, 0, 1390);
-    			attr_dev(a5, "class", "link blue");
-    			attr_dev(a5, "href", "/assets/venkats_cv.pdf");
-    			add_location(a5, file$7, 79, 38, 2606);
+    			add_location(div2, file$7, 42, 0, 1424);
+    			attr_dev(a7, "class", "link blue");
+    			attr_dev(a7, "href", "/assets/venkats_cv.pdf");
+    			add_location(a7, file$7, 83, 38, 2640);
+    			attr_dev(p4, "class", "lh-copy f4 measure-wide");
+    			add_location(p4, file$7, 82, 0, 2566);
     			attr_dev(p5, "class", "lh-copy f4 measure-wide");
-    			add_location(p5, file$7, 78, 0, 2532);
-    			attr_dev(p6, "class", "lh-copy f4 measure-wide");
-    			add_location(p6, file$7, 84, 0, 2681);
+    			add_location(p5, file$7, 88, 0, 2715);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -962,44 +966,44 @@ var app = (function () {
     			append_dev(p0, t8);
     			append_dev(p0, span1);
     			append_dev(p0, t10);
-    			append_dev(p0, span2);
+    			append_dev(p0, a2);
     			append_dev(p0, t12);
-    			insert_dev(target, t13, anchor);
-    			insert_dev(target, p1, anchor);
+    			append_dev(p0, a3);
+    			append_dev(p0, t14);
     			insert_dev(target, t15, anchor);
-    			insert_dev(target, p2, anchor);
-    			append_dev(p2, t16);
-    			append_dev(p2, a2);
-    			append_dev(p2, t18);
+    			insert_dev(target, p1, anchor);
+    			append_dev(p1, t16);
+    			append_dev(p1, a4);
+    			append_dev(p1, t18);
     			insert_dev(target, t19, anchor);
     			insert_dev(target, div2, anchor);
-    			append_dev(div2, a3);
-    			append_dev(a3, div0);
+    			append_dev(div2, a5);
+    			append_dev(a5, div0);
     			append_dev(div0, img0);
     			append_dev(div0, t20);
-    			append_dev(div0, p3);
-    			append_dev(p3, span3);
-    			append_dev(p3, t22);
-    			append_dev(p3, span4);
+    			append_dev(div0, p2);
+    			append_dev(p2, span2);
+    			append_dev(p2, t22);
+    			append_dev(p2, span3);
     			append_dev(div2, t24);
-    			append_dev(div2, a4);
-    			append_dev(a4, div1);
+    			append_dev(div2, a6);
+    			append_dev(a6, div1);
     			append_dev(div1, img1);
     			append_dev(div1, t25);
-    			append_dev(div1, p4);
-    			append_dev(p4, span5);
-    			append_dev(p4, t27);
-    			append_dev(p4, span6);
+    			append_dev(div1, p3);
+    			append_dev(p3, span4);
+    			append_dev(p3, t27);
+    			append_dev(p3, span5);
     			insert_dev(target, t29, anchor);
-    			insert_dev(target, p5, anchor);
-    			append_dev(p5, t30);
-    			append_dev(p5, a5);
-    			append_dev(p5, t32);
+    			insert_dev(target, p4, anchor);
+    			append_dev(p4, t30);
+    			append_dev(p4, a7);
+    			append_dev(p4, t32);
     			insert_dev(target, t33, anchor);
-    			insert_dev(target, p6, anchor);
+    			insert_dev(target, p5, anchor);
 
     			if (!mounted) {
-    				dispose = listen_dev(a2, "click", /*click_handler*/ ctx[1], false, false, false);
+    				dispose = listen_dev(a4, "click", /*click_handler*/ ctx[1], false, false, false);
     				mounted = true;
     			}
     		},
@@ -1010,16 +1014,14 @@ var app = (function () {
     			if (detaching) detach_dev(h1);
     			if (detaching) detach_dev(t1);
     			if (detaching) detach_dev(p0);
-    			if (detaching) detach_dev(t13);
-    			if (detaching) detach_dev(p1);
     			if (detaching) detach_dev(t15);
-    			if (detaching) detach_dev(p2);
+    			if (detaching) detach_dev(p1);
     			if (detaching) detach_dev(t19);
     			if (detaching) detach_dev(div2);
     			if (detaching) detach_dev(t29);
-    			if (detaching) detach_dev(p5);
+    			if (detaching) detach_dev(p4);
     			if (detaching) detach_dev(t33);
-    			if (detaching) detach_dev(p6);
+    			if (detaching) detach_dev(p5);
     			mounted = false;
     			dispose();
     		}
@@ -1109,37 +1111,37 @@ var app = (function () {
     	let t30;
     	let p7;
     	let t32;
-    	let h21;
-    	let t34;
     	let h44;
-    	let t35;
+    	let t33;
     	let span5;
-    	let t37;
+    	let t35;
     	let p8;
+    	let t37;
+    	let p9;
     	let t39;
     	let h45;
     	let t40;
     	let span6;
     	let t42;
-    	let p9;
-    	let t44;
-    	let h22;
-    	let t46;
-    	let h46;
-    	let t47;
-    	let span7;
-    	let t49;
     	let p10;
-    	let t51;
+    	let t44;
     	let p11;
+    	let t46;
+    	let h21;
+    	let t48;
+    	let h46;
+    	let t49;
+    	let span7;
+    	let t51;
+    	let p12;
     	let t53;
     	let h47;
     	let t54;
     	let span8;
     	let t56;
-    	let p12;
-    	let t58;
     	let p13;
+    	let t58;
+    	let h22;
     	let t60;
     	let h48;
     	let t61;
@@ -1149,23 +1151,23 @@ var app = (function () {
     	let t65;
     	let p15;
     	let t67;
-    	let h23;
-    	let t69;
     	let h49;
-    	let t70;
+    	let t68;
     	let span10;
-    	let t72;
+    	let t70;
     	let p16;
-    	let t74;
+    	let t72;
     	let p17;
-    	let t76;
+    	let t74;
     	let h410;
-    	let t77;
+    	let t75;
     	let span11;
-    	let t79;
+    	let t77;
     	let p18;
-    	let t81;
+    	let t79;
     	let p19;
+    	let t81;
+    	let h23;
     	let t83;
     	let h411;
     	let t84;
@@ -1196,6 +1198,22 @@ var app = (function () {
     	let span15;
     	let t107;
     	let p26;
+    	let t109;
+    	let p27;
+    	let t111;
+    	let h415;
+    	let t112;
+    	let span16;
+    	let t114;
+    	let p28;
+    	let t116;
+    	let p29;
+    	let t118;
+    	let h416;
+    	let t119;
+    	let span17;
+    	let t121;
+    	let p30;
 
     	const block = {
     		c: function create() {
@@ -1206,294 +1224,332 @@ var app = (function () {
     			t2 = space();
     			div = element("div");
     			h20 = element("h2");
-    			h20.textContent = "Industry";
+    			h20.textContent = "Employment";
     			t4 = space();
     			h40 = element("h4");
-    			t5 = text("Apple ");
+    			t5 = text("UC San Francisco ");
     			span1 = element("span");
-    			span1.textContent = "Summer 2023";
+    			span1.textContent = "January 2026 - present";
     			t7 = space();
     			p0 = element("p");
-    			p0.textContent = "Machine Learning Research Intern";
+    			p0.textContent = "Postdoctoral Scholar";
     			t9 = space();
     			p1 = element("p");
-    			p1.textContent = "Working with the Human-Centered Machine Intelligence team, developed\n    user-centered tools for machine learning model compression and evaluation.";
+    			p1.textContent = "Supervised by Profs. Jean Feng and Julian Hong and supported by the Weill\n    Cancer Hub West, building agentic AI tools to help clinical experts leverage\n    large-scale multimodal cancer data.";
     			t11 = space();
     			h41 = element("h4");
-    			t12 = text("Verily Life Sciences ");
+    			t12 = text("Wood Wide AI ");
     			span2 = element("span");
-    			span2.textContent = "Summer 2022";
+    			span2.textContent = "May 2025 - present";
     			t14 = space();
     			p2 = element("p");
-    			p2.textContent = "Health Informatics Intern";
+    			p2.textContent = "Consultant";
     			t16 = space();
     			p3 = element("p");
-    			p3.textContent = "Worked with the Verily Health Platforms Data Science team, developing\n    self-supervised deep learning approaches to characterize heart failure\n    disease states from clinical notes.";
+    			p3.textContent = "As consultant during early founding stages, designed and implemented user\n    interfaces for human-in-the-loop machine learning.";
     			t18 = space();
     			h42 = element("h4");
-    			t19 = text("Verily Life Sciences ");
+    			t19 = text("Apple ");
     			span3 = element("span");
-    			span3.textContent = "Summer 2019";
+    			span3.textContent = "Summer 2023";
     			t21 = space();
     			p4 = element("p");
-    			p4.textContent = "Software Engineering Intern";
+    			p4.textContent = "Machine Learning Research Intern";
     			t23 = space();
     			p5 = element("p");
-    			p5.textContent = "Worked on the Clinical Studies Platform Data Science team. Designed and\n    implemented an Apache Beam pipeline using both novel and existing NLP\n    algorithms to process the ClinicalTrials.gov database.";
+    			p5.textContent = "Working with the Human-Centered Machine Intelligence team, developed\n    user-centered tools for machine learning model compression and evaluation.";
     			t25 = space();
     			h43 = element("h4");
-    			t26 = text("Apple ");
+    			t26 = text("Verily Life Sciences ");
     			span4 = element("span");
-    			span4.textContent = "Summer 2017";
+    			span4.textContent = "Summer 2022";
     			t28 = space();
     			p6 = element("p");
-    			p6.textContent = "Software Engineering Intern";
+    			p6.textContent = "Health Informatics Intern";
     			t30 = space();
     			p7 = element("p");
-    			p7.textContent = "Developed software in Swift supporting the CarPlay, HomeKit, and MFi\n    certification programs. One of three projects selected to present to Apple\n    VP of Product Integrity.";
+    			p7.textContent = "Worked with the Verily Health Platforms Data Science team, developing\n    self-supervised deep learning approaches to characterize heart failure\n    disease states from clinical notes.";
     			t32 = space();
-    			h21 = element("h2");
-    			h21.textContent = "Education";
-    			t34 = space();
     			h44 = element("h4");
-    			t35 = text("Carnegie Mellon University ");
+    			t33 = text("Verily Life Sciences ");
     			span5 = element("span");
-    			span5.textContent = "2020 - present";
-    			t37 = space();
+    			span5.textContent = "Summer 2019";
+    			t35 = space();
     			p8 = element("p");
-    			p8.textContent = "Advised by Prof. Adam Perer";
+    			p8.textContent = "Software Engineering Intern";
+    			t37 = space();
+    			p9 = element("p");
+    			p9.textContent = "Worked on the Clinical Studies Platform Data Science team. Designed and\n    implemented an Apache Beam pipeline using both novel and existing NLP\n    algorithms to process the ClinicalTrials.gov database.";
     			t39 = space();
     			h45 = element("h4");
-    			t40 = text("Massachusetts Institute of Technology ");
+    			t40 = text("Apple ");
     			span6 = element("span");
-    			span6.textContent = "2016 - 2020";
+    			span6.textContent = "Summer 2017";
     			t42 = space();
-    			p9 = element("p");
-    			p9.textContent = "Computer Science and Molecular Biology, Minor in Music";
-    			t44 = space();
-    			h22 = element("h2");
-    			h22.textContent = "Research";
-    			t46 = space();
-    			h46 = element("h4");
-    			t47 = text("Keating Lab, MIT Biology Department ");
-    			span7 = element("span");
-    			span7.textContent = "2018 - 2020";
-    			t49 = space();
     			p10 = element("p");
-    			p10.textContent = "Advised by Prof. Amy Keating";
-    			t51 = space();
+    			p10.textContent = "Software Engineering Intern";
+    			t44 = space();
     			p11 = element("p");
-    			p11.textContent = "Built a flexible high-throughput Python pipeline to compute and predict\n    protein binding affinities. Developed a C++ toolkit for designing novel\n    peptides, and an 3D visualization tool to render those peptides around a\n    known protein.";
+    			p11.textContent = "Developed software in Swift supporting the CarPlay, HomeKit, and MFi\n    certification programs. One of three projects selected to present to Apple\n    VP of Product Integrity.";
+    			t46 = space();
+    			h21 = element("h2");
+    			h21.textContent = "Education";
+    			t48 = space();
+    			h46 = element("h4");
+    			t49 = text("Carnegie Mellon University ");
+    			span7 = element("span");
+    			span7.textContent = "2020 - present";
+    			t51 = space();
+    			p12 = element("p");
+    			p12.textContent = "Advised by Prof. Adam Perer";
     			t53 = space();
     			h47 = element("h4");
-    			t54 = text("Structural Bioinformatics Lab, Pompeu Fabra University ");
+    			t54 = text("Massachusetts Institute of Technology ");
     			span8 = element("span");
-    			span8.textContent = "Summer 2018";
+    			span8.textContent = "2016 - 2020";
     			t56 = space();
-    			p12 = element("p");
-    			p12.textContent = "Advised by Prof. Baldo Oliva";
-    			t58 = space();
     			p13 = element("p");
-    			p13.textContent = "Created machine learning models to predict mutation-induced changes in\n    protein-protein and DNA-transcription factor interactions.";
+    			p13.textContent = "Computer Science and Molecular Biology, Minor in Music";
+    			t58 = space();
+    			h22 = element("h2");
+    			h22.textContent = "Additional Research";
     			t60 = space();
     			h48 = element("h4");
-    			t61 = text("Kloczkowski Lab, Nationwide Children's Hospital ");
+    			t61 = text("Keating Lab, MIT Biology Department ");
     			span9 = element("span");
-    			span9.textContent = "2014 - 2016";
+    			span9.textContent = "2018 - 2020";
     			t63 = space();
     			p14 = element("p");
-    			p14.textContent = "Advised by Prof. Andrzej Kloczkowski";
+    			p14.textContent = "Advised by Prof. Amy Keating";
     			t65 = space();
     			p15 = element("p");
-    			p15.textContent = "Developed a novel algorithm to predict protein structure based on statistics\n    of amino acid orientations.";
+    			p15.textContent = "Built a flexible high-throughput Python pipeline to compute and predict\n    protein binding affinities. Developed a C++ toolkit for designing novel\n    peptides, and an 3D visualization tool to render those peptides around a\n    known protein.";
     			t67 = space();
+    			h49 = element("h4");
+    			t68 = text("Structural Bioinformatics Lab, Pompeu Fabra University ");
+    			span10 = element("span");
+    			span10.textContent = "Summer 2018";
+    			t70 = space();
+    			p16 = element("p");
+    			p16.textContent = "Advised by Prof. Baldo Oliva";
+    			t72 = space();
+    			p17 = element("p");
+    			p17.textContent = "Created machine learning models to predict mutation-induced changes in\n    protein-protein and DNA-transcription factor interactions.";
+    			t74 = space();
+    			h410 = element("h4");
+    			t75 = text("Kloczkowski Lab, Nationwide Children's Hospital ");
+    			span11 = element("span");
+    			span11.textContent = "2014 - 2016";
+    			t77 = space();
+    			p18 = element("p");
+    			p18.textContent = "Advised by Prof. Andrzej Kloczkowski";
+    			t79 = space();
+    			p19 = element("p");
+    			p19.textContent = "Developed a novel algorithm to predict protein structure based on statistics\n    of amino acid orientations.";
+    			t81 = space();
     			h23 = element("h2");
     			h23.textContent = "Teaching";
-    			t69 = space();
-    			h49 = element("h4");
-    			t70 = text("Machine Learning for Healthcare, CMU ");
-    			span10 = element("span");
-    			span10.textContent = "Fall 2024";
-    			t72 = space();
-    			p16 = element("p");
-    			p16.textContent = "Taught by Adam Berger";
-    			t74 = space();
-    			p17 = element("p");
-    			p17.textContent = "Taught a guest lecture on human-centered ML in healthcare, led office hours,\n    and mentored students' final projects.";
-    			t76 = space();
-    			h410 = element("h4");
-    			t77 = text("Programming Usable Interfaces, CMU ");
-    			span11 = element("span");
-    			span11.textContent = "Fall 2022";
-    			t79 = space();
-    			p18 = element("p");
-    			p18.textContent = "Taught by Prof. Alexandra Ion";
-    			t81 = space();
-    			p19 = element("p");
-    			p19.textContent = "Led one of five lab sections, prepared lab, homework, and exam materials,\n    and graded assignments.";
     			t83 = space();
     			h411 = element("h4");
-    			t84 = text("Interactive Data Science, CMU ");
+    			t84 = text("Machine Learning for Healthcare, CMU ");
     			span12 = element("span");
-    			span12.textContent = "Spring 2022";
+    			span12.textContent = "Fall 2024";
     			t86 = space();
     			p20 = element("p");
-    			p20.textContent = "Taught by Prof. Adam Perer";
+    			p20.textContent = "Taught by Adam Berger";
     			t88 = space();
     			p21 = element("p");
-    			p21.textContent = "Led office hours, prepared lecture and lab materials, gave a lecture on\n    Uncertainty Visualization, and graded assignments.";
+    			p21.textContent = "Taught a guest lecture on human-centered ML in healthcare, led office hours,\n    and mentored students' final projects.";
     			t90 = space();
     			h412 = element("h4");
-    			t91 = text("Fundamentals of Music Processing, MIT ");
+    			t91 = text("Programming Usable Interfaces, CMU ");
     			span13 = element("span");
-    			span13.textContent = "Fall 2019";
+    			span13.textContent = "Fall 2022";
     			t93 = space();
     			p22 = element("p");
-    			p22.textContent = "Taught by Eric Humphrey";
+    			p22.textContent = "Taught by Prof. Alexandra Ion";
     			t95 = space();
     			p23 = element("p");
-    			p23.textContent = "As the only TA for the class, led office hours, helped prepare lecture, lab,\n    and homework materials, and taught a lecture on the music fingerprinting\n    algorithm (as used in Shazam).";
+    			p23.textContent = "Led one of five lab sections, prepared lab, homework, and exam materials,\n    and graded assignments.";
     			t97 = space();
     			h413 = element("h4");
-    			t98 = text("Splash, MIT ");
+    			t98 = text("Interactive Data Science, CMU ");
     			span14 = element("span");
-    			span14.textContent = "2018 and 2019";
+    			span14.textContent = "Spring 2022";
     			t100 = space();
     			p24 = element("p");
-    			p24.textContent = "Co-taught with Brian Mills";
+    			p24.textContent = "Taught by Prof. Adam Perer";
     			t102 = space();
     			p25 = element("p");
-    			p25.textContent = "Taught one-day classes to 20-40 high schoolers on topics such as film music\n    and music signal processing algorithms.";
+    			p25.textContent = "Led office hours, prepared lecture and lab materials, gave a lecture on\n    Uncertainty Visualization, and graded assignments.";
     			t104 = space();
     			h414 = element("h4");
-    			t105 = text("MehtA+ Machine Learning Bootcamp ");
+    			t105 = text("Fundamentals of Music Processing, MIT ");
     			span15 = element("span");
-    			span15.textContent = "Summers 2020-2024";
+    			span15.textContent = "Fall 2019";
     			t107 = space();
     			p26 = element("p");
-    			p26.textContent = "Prepared and taught one guest lecture per summer on human-centered machine\n    learning, embedding representations, and uncertainty.";
+    			p26.textContent = "Taught by Eric Humphrey";
+    			t109 = space();
+    			p27 = element("p");
+    			p27.textContent = "As the only TA for the class, led office hours, helped prepare lecture, lab,\n    and homework materials, and taught a lecture on the music fingerprinting\n    algorithm (as used in Shazam).";
+    			t111 = space();
+    			h415 = element("h4");
+    			t112 = text("Splash, MIT ");
+    			span16 = element("span");
+    			span16.textContent = "2018 and 2019";
+    			t114 = space();
+    			p28 = element("p");
+    			p28.textContent = "Co-taught with Brian Mills";
+    			t116 = space();
+    			p29 = element("p");
+    			p29.textContent = "Taught one-day classes to 20-40 high schoolers on topics such as film music\n    and music signal processing algorithms.";
+    			t118 = space();
+    			h416 = element("h4");
+    			t119 = text("MehtA+ Machine Learning Bootcamp ");
+    			span17 = element("span");
+    			span17.textContent = "Summers 2020-2024";
+    			t121 = space();
+    			p30 = element("p");
+    			p30.textContent = "Prepared and taught one guest lecture per summer on human-centered machine\n    learning, embedding representations, and uncertainty.";
     			attr_dev(span0, "class", "fw2");
     			add_location(span0, file$6, 1, 22, 39);
     			attr_dev(h1, "class", "mt2");
     			add_location(h1, file$6, 0, 0, 0);
     			add_location(h20, file$6, 5, 2, 115);
     			attr_dev(span1, "class", "fw2");
-    			add_location(span1, file$6, 8, 10, 163);
+    			add_location(span1, file$6, 8, 21, 176);
     			attr_dev(h40, "class", "mb0");
-    			add_location(h40, file$6, 7, 2, 136);
+    			add_location(h40, file$6, 7, 2, 138);
     			attr_dev(p0, "class", "lh-copy mv1");
-    			add_location(p0, file$6, 10, 2, 210);
+    			add_location(p0, file$6, 10, 2, 234);
     			attr_dev(p1, "class", "lh-copy mv1 gray");
-    			add_location(p1, file$6, 11, 2, 272);
+    			add_location(p1, file$6, 11, 2, 284);
     			attr_dev(span2, "class", "fw2");
-    			add_location(span2, file$6, 17, 25, 505);
+    			add_location(span2, file$6, 18, 17, 556);
     			attr_dev(h41, "class", "mb0");
-    			add_location(h41, file$6, 16, 2, 463);
+    			add_location(h41, file$6, 17, 2, 522);
     			attr_dev(p2, "class", "lh-copy mv1");
-    			add_location(p2, file$6, 19, 2, 552);
+    			add_location(p2, file$6, 20, 2, 610);
     			attr_dev(p3, "class", "lh-copy mv1 gray");
-    			add_location(p3, file$6, 20, 2, 607);
+    			add_location(p3, file$6, 21, 2, 650);
     			attr_dev(span3, "class", "fw2");
-    			add_location(span3, file$6, 27, 25, 877);
+    			add_location(span3, file$6, 27, 10, 849);
     			attr_dev(h42, "class", "mb0");
-    			add_location(h42, file$6, 26, 2, 835);
+    			add_location(h42, file$6, 26, 2, 822);
     			attr_dev(p4, "class", "lh-copy mv1");
-    			add_location(p4, file$6, 29, 2, 924);
+    			add_location(p4, file$6, 29, 2, 896);
     			attr_dev(p5, "class", "lh-copy mv1 gray");
-    			add_location(p5, file$6, 30, 2, 981);
+    			add_location(p5, file$6, 30, 2, 958);
     			attr_dev(span4, "class", "fw2");
-    			add_location(span4, file$6, 37, 10, 1256);
+    			add_location(span4, file$6, 36, 25, 1191);
     			attr_dev(h43, "class", "mb0");
-    			add_location(h43, file$6, 36, 2, 1229);
+    			add_location(h43, file$6, 35, 2, 1149);
     			attr_dev(p6, "class", "lh-copy mv1");
-    			add_location(p6, file$6, 39, 2, 1303);
+    			add_location(p6, file$6, 38, 2, 1238);
     			attr_dev(p7, "class", "lh-copy mv1 gray");
-    			add_location(p7, file$6, 40, 2, 1360);
-    			add_location(h21, file$6, 46, 2, 1580);
+    			add_location(p7, file$6, 39, 2, 1293);
     			attr_dev(span5, "class", "fw2");
-    			add_location(span5, file$6, 48, 31, 1649);
+    			add_location(span5, file$6, 46, 25, 1563);
     			attr_dev(h44, "class", "mb0");
-    			add_location(h44, file$6, 47, 2, 1601);
+    			add_location(h44, file$6, 45, 2, 1521);
     			attr_dev(p8, "class", "lh-copy mv1");
-    			add_location(p8, file$6, 50, 2, 1699);
+    			add_location(p8, file$6, 48, 2, 1610);
+    			attr_dev(p9, "class", "lh-copy mv1 gray");
+    			add_location(p9, file$6, 49, 2, 1667);
     			attr_dev(span6, "class", "fw2");
-    			add_location(span6, file$6, 53, 42, 1816);
+    			add_location(span6, file$6, 56, 10, 1942);
     			attr_dev(h45, "class", "mb0");
-    			add_location(h45, file$6, 52, 2, 1757);
-    			attr_dev(p9, "class", "lh-copy mv1");
-    			add_location(p9, file$6, 55, 2, 1863);
-    			add_location(h22, file$6, 59, 2, 1956);
-    			attr_dev(span7, "class", "fw2");
-    			add_location(span7, file$6, 61, 40, 2033);
-    			attr_dev(h46, "class", "mb0");
-    			add_location(h46, file$6, 60, 2, 1976);
+    			add_location(h45, file$6, 55, 2, 1915);
     			attr_dev(p10, "class", "lh-copy mv1");
-    			add_location(p10, file$6, 63, 2, 2080);
+    			add_location(p10, file$6, 58, 2, 1989);
     			attr_dev(p11, "class", "lh-copy mv1 gray");
-    			add_location(p11, file$6, 64, 2, 2138);
-    			attr_dev(span8, "class", "fw2");
-    			add_location(span8, file$6, 72, 59, 2501);
-    			attr_dev(h47, "class", "mb0");
-    			add_location(h47, file$6, 71, 2, 2425);
+    			add_location(p11, file$6, 59, 2, 2046);
+    			add_location(h21, file$6, 65, 2, 2266);
+    			attr_dev(span7, "class", "fw2");
+    			add_location(span7, file$6, 67, 31, 2335);
+    			attr_dev(h46, "class", "mb0");
+    			add_location(h46, file$6, 66, 2, 2287);
     			attr_dev(p12, "class", "lh-copy mv1");
-    			add_location(p12, file$6, 76, 2, 2560);
-    			attr_dev(p13, "class", "lh-copy mv1 gray");
-    			add_location(p13, file$6, 77, 2, 2618);
+    			add_location(p12, file$6, 69, 2, 2385);
+    			attr_dev(span8, "class", "fw2");
+    			add_location(span8, file$6, 72, 42, 2502);
+    			attr_dev(h47, "class", "mb0");
+    			add_location(h47, file$6, 71, 2, 2443);
+    			attr_dev(p13, "class", "lh-copy mv1");
+    			add_location(p13, file$6, 74, 2, 2549);
+    			add_location(h22, file$6, 78, 2, 2642);
     			attr_dev(span9, "class", "fw2");
-    			add_location(span9, file$6, 83, 52, 2864);
+    			add_location(span9, file$6, 80, 40, 2730);
     			attr_dev(h48, "class", "mb0");
-    			add_location(h48, file$6, 82, 2, 2795);
+    			add_location(h48, file$6, 79, 2, 2673);
     			attr_dev(p14, "class", "lh-copy mv1");
-    			add_location(p14, file$6, 87, 2, 2923);
+    			add_location(p14, file$6, 82, 2, 2777);
     			attr_dev(p15, "class", "lh-copy mv1 gray");
-    			add_location(p15, file$6, 88, 2, 2989);
-    			add_location(h23, file$6, 93, 2, 3141);
+    			add_location(p15, file$6, 83, 2, 2835);
     			attr_dev(span10, "class", "fw2");
-    			add_location(span10, file$6, 96, 41, 3220);
+    			add_location(span10, file$6, 91, 59, 3198);
     			attr_dev(h49, "class", "mb0");
-    			add_location(h49, file$6, 95, 2, 3162);
+    			add_location(h49, file$6, 90, 2, 3122);
     			attr_dev(p16, "class", "lh-copy mv1");
-    			add_location(p16, file$6, 98, 2, 3265);
+    			add_location(p16, file$6, 95, 2, 3257);
     			attr_dev(p17, "class", "lh-copy mv1 gray");
-    			add_location(p17, file$6, 99, 2, 3316);
+    			add_location(p17, file$6, 96, 2, 3315);
     			attr_dev(span11, "class", "fw2");
-    			add_location(span11, file$6, 105, 39, 3535);
+    			add_location(span11, file$6, 102, 52, 3561);
     			attr_dev(h410, "class", "mb0");
-    			add_location(h410, file$6, 104, 2, 3479);
+    			add_location(h410, file$6, 101, 2, 3492);
     			attr_dev(p18, "class", "lh-copy mv1");
-    			add_location(p18, file$6, 107, 2, 3580);
+    			add_location(p18, file$6, 106, 2, 3620);
     			attr_dev(p19, "class", "lh-copy mv1 gray");
-    			add_location(p19, file$6, 108, 2, 3639);
+    			add_location(p19, file$6, 107, 2, 3686);
+    			add_location(h23, file$6, 112, 2, 3838);
     			attr_dev(span12, "class", "fw2");
-    			add_location(span12, file$6, 114, 34, 3835);
+    			add_location(span12, file$6, 115, 41, 3917);
     			attr_dev(h411, "class", "mb0");
-    			add_location(h411, file$6, 113, 2, 3784);
+    			add_location(h411, file$6, 114, 2, 3859);
     			attr_dev(p20, "class", "lh-copy mv1");
-    			add_location(p20, file$6, 116, 2, 3882);
+    			add_location(p20, file$6, 117, 2, 3962);
     			attr_dev(p21, "class", "lh-copy mv1 gray");
-    			add_location(p21, file$6, 117, 2, 3938);
+    			add_location(p21, file$6, 118, 2, 4013);
     			attr_dev(span13, "class", "fw2");
-    			add_location(span13, file$6, 123, 42, 4167);
+    			add_location(span13, file$6, 124, 39, 4232);
     			attr_dev(h412, "class", "mb0");
-    			add_location(h412, file$6, 122, 2, 4108);
+    			add_location(h412, file$6, 123, 2, 4176);
     			attr_dev(p22, "class", "lh-copy mv1");
-    			add_location(p22, file$6, 125, 2, 4212);
+    			add_location(p22, file$6, 126, 2, 4277);
     			attr_dev(p23, "class", "lh-copy mv1 gray");
-    			add_location(p23, file$6, 126, 2, 4265);
+    			add_location(p23, file$6, 127, 2, 4336);
     			attr_dev(span14, "class", "fw2");
-    			add_location(span14, file$6, 133, 16, 4530);
+    			add_location(span14, file$6, 133, 34, 4532);
     			attr_dev(h413, "class", "mb0");
-    			add_location(h413, file$6, 132, 2, 4497);
+    			add_location(h413, file$6, 132, 2, 4481);
     			attr_dev(p24, "class", "lh-copy mv1");
     			add_location(p24, file$6, 135, 2, 4579);
     			attr_dev(p25, "class", "lh-copy mv1 gray");
     			add_location(p25, file$6, 136, 2, 4635);
     			attr_dev(span15, "class", "fw2");
-    			add_location(span15, file$6, 142, 37, 4852);
+    			add_location(span15, file$6, 142, 42, 4864);
     			attr_dev(h414, "class", "mb0");
-    			add_location(h414, file$6, 141, 2, 4798);
-    			attr_dev(p26, "class", "lh-copy mv1 gray");
-    			add_location(p26, file$6, 144, 2, 4905);
+    			add_location(h414, file$6, 141, 2, 4805);
+    			attr_dev(p26, "class", "lh-copy mv1");
+    			add_location(p26, file$6, 144, 2, 4909);
+    			attr_dev(p27, "class", "lh-copy mv1 gray");
+    			add_location(p27, file$6, 145, 2, 4962);
+    			attr_dev(span16, "class", "fw2");
+    			add_location(span16, file$6, 152, 16, 5227);
+    			attr_dev(h415, "class", "mb0");
+    			add_location(h415, file$6, 151, 2, 5194);
+    			attr_dev(p28, "class", "lh-copy mv1");
+    			add_location(p28, file$6, 154, 2, 5276);
+    			attr_dev(p29, "class", "lh-copy mv1 gray");
+    			add_location(p29, file$6, 155, 2, 5332);
+    			attr_dev(span17, "class", "fw2");
+    			add_location(span17, file$6, 161, 37, 5549);
+    			attr_dev(h416, "class", "mb0");
+    			add_location(h416, file$6, 160, 2, 5495);
+    			attr_dev(p30, "class", "lh-copy mv1 gray");
+    			add_location(p30, file$6, 163, 2, 5602);
     			attr_dev(div, "class", "mb4 measure-wide");
     			add_location(div, file$6, 4, 0, 82);
     		},
@@ -1540,37 +1596,37 @@ var app = (function () {
     			append_dev(div, t30);
     			append_dev(div, p7);
     			append_dev(div, t32);
-    			append_dev(div, h21);
-    			append_dev(div, t34);
     			append_dev(div, h44);
-    			append_dev(h44, t35);
+    			append_dev(h44, t33);
     			append_dev(h44, span5);
-    			append_dev(div, t37);
+    			append_dev(div, t35);
     			append_dev(div, p8);
+    			append_dev(div, t37);
+    			append_dev(div, p9);
     			append_dev(div, t39);
     			append_dev(div, h45);
     			append_dev(h45, t40);
     			append_dev(h45, span6);
     			append_dev(div, t42);
-    			append_dev(div, p9);
-    			append_dev(div, t44);
-    			append_dev(div, h22);
-    			append_dev(div, t46);
-    			append_dev(div, h46);
-    			append_dev(h46, t47);
-    			append_dev(h46, span7);
-    			append_dev(div, t49);
     			append_dev(div, p10);
-    			append_dev(div, t51);
+    			append_dev(div, t44);
     			append_dev(div, p11);
+    			append_dev(div, t46);
+    			append_dev(div, h21);
+    			append_dev(div, t48);
+    			append_dev(div, h46);
+    			append_dev(h46, t49);
+    			append_dev(h46, span7);
+    			append_dev(div, t51);
+    			append_dev(div, p12);
     			append_dev(div, t53);
     			append_dev(div, h47);
     			append_dev(h47, t54);
     			append_dev(h47, span8);
     			append_dev(div, t56);
-    			append_dev(div, p12);
-    			append_dev(div, t58);
     			append_dev(div, p13);
+    			append_dev(div, t58);
+    			append_dev(div, h22);
     			append_dev(div, t60);
     			append_dev(div, h48);
     			append_dev(h48, t61);
@@ -1580,23 +1636,23 @@ var app = (function () {
     			append_dev(div, t65);
     			append_dev(div, p15);
     			append_dev(div, t67);
-    			append_dev(div, h23);
-    			append_dev(div, t69);
     			append_dev(div, h49);
-    			append_dev(h49, t70);
+    			append_dev(h49, t68);
     			append_dev(h49, span10);
-    			append_dev(div, t72);
+    			append_dev(div, t70);
     			append_dev(div, p16);
-    			append_dev(div, t74);
+    			append_dev(div, t72);
     			append_dev(div, p17);
-    			append_dev(div, t76);
+    			append_dev(div, t74);
     			append_dev(div, h410);
-    			append_dev(h410, t77);
+    			append_dev(h410, t75);
     			append_dev(h410, span11);
-    			append_dev(div, t79);
+    			append_dev(div, t77);
     			append_dev(div, p18);
-    			append_dev(div, t81);
+    			append_dev(div, t79);
     			append_dev(div, p19);
+    			append_dev(div, t81);
+    			append_dev(div, h23);
     			append_dev(div, t83);
     			append_dev(div, h411);
     			append_dev(h411, t84);
@@ -1627,6 +1683,22 @@ var app = (function () {
     			append_dev(h414, span15);
     			append_dev(div, t107);
     			append_dev(div, p26);
+    			append_dev(div, t109);
+    			append_dev(div, p27);
+    			append_dev(div, t111);
+    			append_dev(div, h415);
+    			append_dev(h415, t112);
+    			append_dev(h415, span16);
+    			append_dev(div, t114);
+    			append_dev(div, p28);
+    			append_dev(div, t116);
+    			append_dev(div, p29);
+    			append_dev(div, t118);
+    			append_dev(div, h416);
+    			append_dev(h416, t119);
+    			append_dev(h416, span17);
+    			append_dev(div, t121);
+    			append_dev(div, p30);
     		},
     		p: noop,
     		i: noop,
@@ -3114,169 +3186,180 @@ var app = (function () {
     	let h20;
     	let t4;
     	let p0;
-    	let t5;
     	let strong0;
-    	let t7;
+    	let t6;
     	let em0;
-    	let t9;
+    	let t8;
     	let a0;
-    	let t11;
+    	let t10;
     	let a1;
-    	let t13;
-    	let a2;
-    	let t15;
+    	let t12;
+    	let h21;
+    	let t14;
     	let p1;
+    	let t15;
     	let strong1;
     	let t17;
     	let em1;
     	let t19;
-    	let a3;
+    	let a2;
     	let t21;
-    	let a4;
+    	let a3;
     	let t23;
+    	let a4;
+    	let t25;
     	let p2;
     	let strong2;
-    	let t25;
-    	let em2;
     	let t27;
-    	let a5;
+    	let em2;
     	let t29;
-    	let a6;
+    	let a5;
     	let t31;
+    	let a6;
+    	let t33;
     	let p3;
     	let strong3;
-    	let t33;
-    	let em3;
     	let t35;
-    	let a7;
+    	let em3;
     	let t37;
-    	let h21;
+    	let a7;
     	let t39;
-    	let p4;
-    	let t40;
-    	let strong4;
-    	let t42;
-    	let em4;
-    	let t44;
     	let a8;
-    	let t46;
+    	let t41;
+    	let p4;
+    	let strong4;
+    	let t43;
+    	let em4;
+    	let t45;
     	let a9;
-    	let t48;
-    	let a10;
-    	let t50;
+    	let t47;
+    	let h22;
+    	let t49;
     	let p5;
+    	let t50;
     	let strong5;
     	let t52;
     	let em5;
     	let t54;
-    	let a11;
+    	let a10;
     	let t56;
-    	let a12;
+    	let a11;
     	let t58;
+    	let a12;
+    	let t60;
     	let p6;
-    	let t59;
     	let strong6;
-    	let t61;
+    	let t62;
     	let em6;
-    	let t63;
+    	let t64;
     	let a13;
-    	let t65;
-    	let h22;
-    	let t67;
-    	let p7;
-    	let strong7;
-    	let t69;
-    	let em7;
-    	let t71;
+    	let t66;
     	let a14;
+    	let t68;
+    	let p7;
+    	let t69;
+    	let strong7;
+    	let t71;
+    	let em7;
     	let t73;
-    	let h23;
-    	let t75;
-    	let p8;
-    	let t76;
-    	let strong8;
-    	let t78;
-    	let em8;
-    	let t80;
-    	let em9;
-    	let t82;
     	let a15;
-    	let t84;
-    	let p9;
-    	let t85;
-    	let strong9;
-    	let t87;
-    	let em10;
-    	let t89;
+    	let t75;
+    	let h23;
+    	let t77;
+    	let p8;
+    	let strong8;
+    	let t79;
+    	let em8;
+    	let t81;
     	let a16;
-    	let t91;
-    	let p10;
+    	let t83;
+    	let h24;
+    	let t85;
+    	let p9;
+    	let t86;
+    	let strong9;
+    	let t88;
+    	let em9;
+    	let t90;
+    	let em10;
     	let t92;
-    	let strong10;
-    	let t94;
-    	let em11;
-    	let t96;
     	let a17;
-    	let t98;
+    	let t94;
+    	let p10;
+    	let t95;
+    	let strong10;
+    	let t97;
+    	let em11;
+    	let t99;
     	let a18;
-    	let t100;
+    	let t101;
     	let p11;
-    	let strong11;
     	let t102;
-    	let em12;
+    	let strong11;
     	let t104;
-    	let a19;
+    	let em12;
     	let t106;
-    	let a20;
+    	let a19;
     	let t108;
-    	let a21;
+    	let a20;
     	let t110;
     	let p12;
-    	let t111;
     	let strong12;
-    	let t113;
+    	let t112;
     	let em13;
-    	let t115;
-    	let h24;
-    	let t117;
-    	let p13;
-    	let t118;
-    	let strong13;
-    	let t120;
-    	let em14;
-    	let t122;
+    	let t114;
+    	let a21;
+    	let t116;
     	let a22;
-    	let t124;
+    	let t118;
     	let a23;
-    	let t126;
-    	let p14;
-    	let t127;
-    	let strong14;
-    	let t129;
-    	let em15;
-    	let t131;
-    	let a24;
-    	let t133;
-    	let a25;
-    	let t135;
-    	let a26;
-    	let t137;
-    	let p15;
-    	let t138;
-    	let strong15;
-    	let t140;
-    	let em16;
-    	let t142;
-    	let a27;
-    	let t144;
+    	let t120;
+    	let p13;
+    	let t121;
+    	let strong13;
+    	let t123;
+    	let em14;
+    	let t125;
     	let h25;
-    	let t146;
-    	let p16;
-    	let strong16;
-    	let t148;
-    	let em17;
-    	let t150;
+    	let t127;
+    	let p14;
+    	let t128;
+    	let strong14;
+    	let t130;
+    	let em15;
+    	let t132;
+    	let a24;
+    	let t134;
+    	let a25;
+    	let t136;
+    	let p15;
+    	let t137;
+    	let strong15;
+    	let t139;
+    	let em16;
+    	let t141;
+    	let a26;
+    	let t143;
+    	let a27;
+    	let t145;
     	let a28;
+    	let t147;
+    	let p16;
+    	let t148;
+    	let strong16;
+    	let t150;
+    	let em17;
+    	let t152;
+    	let a29;
+    	let t154;
+    	let h26;
+    	let t156;
+    	let p17;
+    	let strong17;
+    	let t158;
+    	let em18;
+    	let t160;
+    	let a30;
 
     	const block = {
     		c: function create() {
@@ -3287,419 +3370,447 @@ var app = (function () {
     			t2 = space();
     			section = element("section");
     			h20 = element("h2");
-    			h20.textContent = "2025";
+    			h20.textContent = "2026";
     			t4 = space();
     			p0 = element("p");
-    			t5 = text("Ma, Z., Boyce, R.D., Perer, A., ");
     			strong0 = element("strong");
     			strong0.textContent = "Sivaraman, V.";
-    			t7 = text(" TempoQL: A\n    readable, precise, and portable query system for electronic health record\n    data.\n    ");
+    			t6 = text(", Mason, E., Li, M., Tong, J., King, A.J.,\n    Kahn, J.M., Perer, A. Intelligent Reasoning Cues: A framework and case study\n    of the roles of AI information in complex decisions.\n    ");
     			em0 = element("em");
-    			em0.textContent = "Machine Learning for Health (ML4H) 2025.";
-    			t9 = space();
+    			em0.textContent = "To appear at ACM CHI 2026.";
+    			t8 = space();
     			a0 = element("a");
-    			a0.textContent = "[Paper]";
-    			t11 = space();
+    			a0.textContent = "[Preprint]";
+    			t10 = space();
     			a1 = element("a");
     			a1.textContent = "[GitHub]";
-    			t13 = space();
-    			a2 = element("a");
-    			a2.textContent = "[Demo]";
-    			t15 = space();
+    			t12 = space();
+    			h21 = element("h2");
+    			h21.textContent = "2025";
+    			t14 = space();
     			p1 = element("p");
+    			t15 = text("Ma, Z., Boyce, R.D., Perer, A., ");
     			strong1 = element("strong");
     			strong1.textContent = "Sivaraman, V.";
-    			t17 = text(", Vaishampayan, A., Li, X., Buck, B.R., Ma,\n    Z., Boyce, R.D., Perer, A. Tempo: Helping data scientists and domain experts\n    collaboratively specify predictive modeling tasks.\n    ");
+    			t17 = text(" TempoQL: A\n    readable, precise, and portable query system for electronic health record\n    data.\n    ");
     			em1 = element("em");
-    			em1.textContent = "ACM CHI 2025.";
+    			em1.textContent = "Machine Learning for Health (ML4H) 2025.";
     			t19 = space();
-    			a3 = element("a");
-    			a3.textContent = "[Preprint]";
+    			a2 = element("a");
+    			a2.textContent = "[Paper]";
     			t21 = space();
-    			a4 = element("a");
-    			a4.textContent = "[GitHub]";
+    			a3 = element("a");
+    			a3.textContent = "[GitHub]";
     			t23 = space();
+    			a4 = element("a");
+    			a4.textContent = "[Demo]";
+    			t25 = space();
     			p2 = element("p");
     			strong2 = element("strong");
     			strong2.textContent = "Sivaraman, V.";
-    			t25 = text(", Li, Z., Perer, A. Divisi: Interactive Search\n    and Visualization for Scalable Exploratory Subgroup Analysis.\n    ");
+    			t27 = text(", Vaishampayan, A., Li, X., Buck, B.R., Ma,\n    Z., Boyce, R.D., Perer, A. Tempo: Helping data scientists and domain experts\n    collaboratively specify predictive modeling tasks.\n    ");
     			em2 = element("em");
     			em2.textContent = "ACM CHI 2025.";
-    			t27 = space();
+    			t29 = space();
     			a5 = element("a");
     			a5.textContent = "[Preprint]";
-    			t29 = space();
+    			t31 = space();
     			a6 = element("a");
     			a6.textContent = "[GitHub]";
-    			t31 = space();
+    			t33 = space();
     			p3 = element("p");
     			strong3 = element("strong");
     			strong3.textContent = "Sivaraman, V.";
-    			t33 = text(", Kwak, Y., Kuza, C., Yang, Q., Adamson, K.,\n    Suda, K., Tang, L., Gellad, W., Perer, A. Static algorithm, evolving\n    epidemic: Understanding the potential of human-AI risk assessment to support\n    regional overdose prevention. ");
+    			t35 = text(", Li, Z., Perer, A. Divisi: Interactive Search\n    and Visualization for Scalable Exploratory Subgroup Analysis.\n    ");
     			em3 = element("em");
-    			em3.textContent = "ACM CSCW 2025.";
-    			t35 = space();
+    			em3.textContent = "ACM CHI 2025.";
+    			t37 = space();
     			a7 = element("a");
     			a7.textContent = "[Preprint]";
-    			t37 = space();
-    			h21 = element("h2");
-    			h21.textContent = "2024";
     			t39 = space();
+    			a8 = element("a");
+    			a8.textContent = "[GitHub]";
+    			t41 = space();
     			p4 = element("p");
-    			t40 = text("Boggust, A., ");
     			strong4 = element("strong");
     			strong4.textContent = "Sivaraman, V.";
-    			t42 = text(" (co-first authors), Assogba, Y.,\n    Ren, D., Moritz, D., Hohman, F. Compress and Compare: Interactively\n    evaluating efficiency and behavior across ML model compression experiments.\n    ");
+    			t43 = text(", Kwak, Y., Kuza, C., Yang, Q., Adamson, K.,\n    Suda, K., Tang, L., Gellad, W., Perer, A. Static algorithm, evolving\n    epidemic: Understanding the potential of human-AI risk assessment to support\n    regional overdose prevention. ");
     			em4 = element("em");
-    			em4.textContent = "IEEE VIS 2024.";
-    			t44 = space();
-    			a8 = element("a");
-    			a8.textContent = "[Article]";
-    			t46 = space();
+    			em4.textContent = "ACM CSCW 2025.";
+    			t45 = space();
     			a9 = element("a");
     			a9.textContent = "[Preprint]";
-    			t48 = space();
-    			a10 = element("a");
-    			a10.textContent = "[GitHub]";
-    			t50 = space();
+    			t47 = space();
+    			h22 = element("h2");
+    			h22.textContent = "2024";
+    			t49 = space();
     			p5 = element("p");
+    			t50 = text("Boggust, A., ");
     			strong5 = element("strong");
     			strong5.textContent = "Sivaraman, V.";
-    			t52 = text(", Elavsky, F., Moritz, D., Perer, A.\n    Counterpoint: Orchestrating large-scale custom animated visualizations.\n    ");
+    			t52 = text(" (co-first authors), Assogba, Y.,\n    Ren, D., Moritz, D., Hohman, F. Compress and Compare: Interactively\n    evaluating efficiency and behavior across ML model compression experiments.\n    ");
     			em5 = element("em");
     			em5.textContent = "IEEE VIS 2024.";
     			t54 = space();
-    			a11 = element("a");
-    			a11.textContent = "[Documentation]";
+    			a10 = element("a");
+    			a10.textContent = "[Article]";
     			t56 = space();
+    			a11 = element("a");
+    			a11.textContent = "[Preprint]";
+    			t58 = space();
     			a12 = element("a");
     			a12.textContent = "[GitHub]";
-    			t58 = space();
+    			t60 = space();
     			p6 = element("p");
-    			t59 = text("Park, U., ");
     			strong6 = element("strong");
     			strong6.textContent = "Sivaraman, V.";
-    			t61 = text(", Perer, A. How Consistent are\n    Clinicians? Evaluating the Predictability of Sepsis Disease Progression with\n    Dynamics Models.\n    ");
+    			t62 = text(", Elavsky, F., Moritz, D., Perer, A.\n    Counterpoint: Orchestrating large-scale custom animated visualizations.\n    ");
     			em6 = element("em");
-    			em6.textContent = "Workshop paper at Time Series for Health @ ICLR 2024.";
-    			t63 = space();
+    			em6.textContent = "IEEE VIS 2024.";
+    			t64 = space();
     			a13 = element("a");
-    			a13.textContent = "[Article]";
-    			t65 = space();
-    			h22 = element("h2");
-    			h22.textContent = "2023";
-    			t67 = space();
+    			a13.textContent = "[Documentation]";
+    			t66 = space();
+    			a14 = element("a");
+    			a14.textContent = "[GitHub]";
+    			t68 = space();
     			p7 = element("p");
+    			t69 = text("Park, U., ");
     			strong7 = element("strong");
     			strong7.textContent = "Sivaraman, V.";
-    			t69 = text(", Bukowski, L., Levin, J., Kahn, J.M., Perer,\n    A. Ignore, trust, or negotiate: Understanding clinician acceptance of\n    AI-based treatment recommendations in health care.\n    ");
+    			t71 = text(", Perer, A. How Consistent are\n    Clinicians? Evaluating the Predictability of Sepsis Disease Progression with\n    Dynamics Models.\n    ");
     			em7 = element("em");
-    			em7.textContent = "ACM CHI 2023.";
-    			t71 = space();
-    			a14 = element("a");
-    			a14.textContent = "[Article]";
+    			em7.textContent = "Workshop paper at Time Series for Health @ ICLR 2024.";
     			t73 = space();
-    			h23 = element("h2");
-    			h23.textContent = "2022";
-    			t75 = space();
-    			p8 = element("p");
-    			t76 = text("Kawakami, A., ");
-    			strong8 = element("strong");
-    			strong8.textContent = "Sivaraman, V.";
-    			t78 = space();
-    			em8 = element("em");
-    			em8.textContent = "(co-first authors)";
-    			t80 = text(",\n    Stapleton, L., Cheng, H., Perer, A., Wu, S., Zhu, H., Holstein, K. (2022).\n    \"Why Do I Care What's Similar?\" Probing Challenges in AI-Assisted Child\n    Welfare Decision-Making through Worker-AI Interface Design Concepts.\n    ");
-    			em9 = element("em");
-    			em9.textContent = "ACM DIS 2022.";
-    			t82 = space();
     			a15 = element("a");
     			a15.textContent = "[Article]";
-    			t84 = space();
-    			p9 = element("p");
-    			t85 = text("Cheng, H., Stapleton, L., Kawakami, A., ");
-    			strong9 = element("strong");
-    			strong9.textContent = "Sivaraman, V.";
-    			t87 = text(",\n    Cheng, Y., Qing, D., Perer, A., Holstein, K., Wu, S., Zhu, H. (2022). How\n    Child Welfare Workers Reduce Racial Disparities in Algorithmic Decisions.\n    ");
-    			em10 = element("em");
-    			em10.textContent = "ACM CHI 2022.";
-    			t89 = space();
+    			t75 = space();
+    			h23 = element("h2");
+    			h23.textContent = "2023";
+    			t77 = space();
+    			p8 = element("p");
+    			strong8 = element("strong");
+    			strong8.textContent = "Sivaraman, V.";
+    			t79 = text(", Bukowski, L., Levin, J., Kahn, J.M., Perer,\n    A. Ignore, trust, or negotiate: Understanding clinician acceptance of\n    AI-based treatment recommendations in health care.\n    ");
+    			em8 = element("em");
+    			em8.textContent = "ACM CHI 2023.";
+    			t81 = space();
     			a16 = element("a");
     			a16.textContent = "[Article]";
-    			t91 = space();
+    			t83 = space();
+    			h24 = element("h2");
+    			h24.textContent = "2022";
+    			t85 = space();
+    			p9 = element("p");
+    			t86 = text("Kawakami, A., ");
+    			strong9 = element("strong");
+    			strong9.textContent = "Sivaraman, V.";
+    			t88 = space();
+    			em9 = element("em");
+    			em9.textContent = "(co-first authors)";
+    			t90 = text(",\n    Stapleton, L., Cheng, H., Perer, A., Wu, S., Zhu, H., Holstein, K. (2022).\n    \"Why Do I Care What's Similar?\" Probing Challenges in AI-Assisted Child\n    Welfare Decision-Making through Worker-AI Interface Design Concepts.\n    ");
+    			em10 = element("em");
+    			em10.textContent = "ACM DIS 2022.";
+    			t92 = space();
+    			a17 = element("a");
+    			a17.textContent = "[Article]";
+    			t94 = space();
     			p10 = element("p");
-    			t92 = text("Kawakami, A., ");
+    			t95 = text("Cheng, H., Stapleton, L., Kawakami, A., ");
     			strong10 = element("strong");
     			strong10.textContent = "Sivaraman, V.";
-    			t94 = text(", Cheng, H., Stapleton, L.,\n    Cheng, Y., Qing, D., Perer, A., Wu, S., Zhu, H., Holstein, K. (2022).\n    Improving Human-AI Partnerships in Child Welfare: Understanding Worker\n    Practices, Challenges, and Desires for Algorithmic Decision Support.\n    ");
+    			t97 = text(",\n    Cheng, Y., Qing, D., Perer, A., Holstein, K., Wu, S., Zhu, H. (2022). How\n    Child Welfare Workers Reduce Racial Disparities in Algorithmic Decisions.\n    ");
     			em11 = element("em");
     			em11.textContent = "ACM CHI 2022.";
-    			t96 = space();
-    			a17 = element("a");
-    			a17.textContent = "[Preprint]";
-    			t98 = space();
+    			t99 = space();
     			a18 = element("a");
     			a18.textContent = "[Article]";
-    			t100 = space();
+    			t101 = space();
     			p11 = element("p");
+    			t102 = text("Kawakami, A., ");
     			strong11 = element("strong");
     			strong11.textContent = "Sivaraman, V.";
-    			t102 = text(", Wu, Y., & Perer, A. (2022). Emblaze:\n    Illuminating machine learning representations through interactive comparison\n    of embedding spaces. ");
+    			t104 = text(", Cheng, H., Stapleton, L.,\n    Cheng, Y., Qing, D., Perer, A., Wu, S., Zhu, H., Holstein, K. (2022).\n    Improving Human-AI Partnerships in Child Welfare: Understanding Worker\n    Practices, Challenges, and Desires for Algorithmic Decision Support.\n    ");
     			em12 = element("em");
-    			em12.textContent = "ACM IUI 2022.";
-    			t104 = space();
-    			a19 = element("a");
-    			a19.textContent = "[Video]";
+    			em12.textContent = "ACM CHI 2022.";
     			t106 = space();
-    			a20 = element("a");
-    			a20.textContent = "[GitHub]";
+    			a19 = element("a");
+    			a19.textContent = "[Preprint]";
     			t108 = space();
-    			a21 = element("a");
-    			a21.textContent = "[Article]";
+    			a20 = element("a");
+    			a20.textContent = "[Article]";
     			t110 = space();
     			p12 = element("p");
-    			t111 = text("Swanson, S., ");
     			strong12 = element("strong");
     			strong12.textContent = "Sivaraman, V.";
-    			t113 = text(", Grigoryan, G., Keating, A.\n    (2022). Tertiary motifs as building blocks for the design of protein-binding\n    peptides. ");
+    			t112 = text(", Wu, Y., & Perer, A. (2022). Emblaze:\n    Illuminating machine learning representations through interactive comparison\n    of embedding spaces. ");
     			em13 = element("em");
-    			em13.textContent = "To appear in Protein Science.";
-    			t115 = space();
-    			h24 = element("h2");
-    			h24.textContent = "2021";
-    			t117 = space();
+    			em13.textContent = "ACM IUI 2022.";
+    			t114 = space();
+    			a21 = element("a");
+    			a21.textContent = "[Video]";
+    			t116 = space();
+    			a22 = element("a");
+    			a22.textContent = "[GitHub]";
+    			t118 = space();
+    			a23 = element("a");
+    			a23.textContent = "[Article]";
+    			t120 = space();
     			p13 = element("p");
-    			t118 = text("Wu, J., ");
+    			t121 = text("Swanson, S., ");
     			strong13 = element("strong");
     			strong13.textContent = "Sivaraman, V.";
-    			t120 = text(", Kumar, D. (first three authors equal\n    contribution), Banda, J. M., & Sontag, D. (2021). Pulse of the pandemic:\n    Iterative topic filtering for clinical information extraction from social\n    media. ");
+    			t123 = text(", Grigoryan, G., Keating, A.\n    (2022). Tertiary motifs as building blocks for the design of protein-binding\n    peptides. ");
     			em14 = element("em");
-    			em14.textContent = "Journal of Biomedical Informatics.";
-    			t122 = space();
-    			a22 = element("a");
-    			a22.textContent = "[Article]";
-    			t124 = space();
-    			a23 = element("a");
-    			a23.textContent = "[Preprint]";
-    			t126 = space();
+    			em14.textContent = "To appear in Protein Science.";
+    			t125 = space();
+    			h25 = element("h2");
+    			h25.textContent = "2021";
+    			t127 = space();
     			p14 = element("p");
-    			t127 = text("Newman-Griffis, D., ");
+    			t128 = text("Wu, J., ");
     			strong14 = element("strong");
     			strong14.textContent = "Sivaraman, V.";
-    			t129 = text(", Perer, A.,\n    Fosler-Lussier, E., & Hochheiser, H. (2021). TextEssence: A Tool for\n    Interactive Analysis of Semantic Shifts Between Corpora.\n    ");
+    			t130 = text(", Kumar, D. (first three authors equal\n    contribution), Banda, J. M., & Sontag, D. (2021). Pulse of the pandemic:\n    Iterative topic filtering for clinical information extraction from social\n    media. ");
     			em15 = element("em");
-    			em15.textContent = "NAACL Systems Demonstration.";
-    			t131 = space();
+    			em15.textContent = "Journal of Biomedical Informatics.";
+    			t132 = space();
     			a24 = element("a");
-    			a24.textContent = "[Demo]";
-    			t133 = space();
+    			a24.textContent = "[Article]";
+    			t134 = space();
     			a25 = element("a");
-    			a25.textContent = "[Article]";
-    			t135 = space();
-    			a26 = element("a");
-    			a26.textContent = "[Preprint]";
-    			t137 = space();
+    			a25.textContent = "[Preprint]";
+    			t136 = space();
     			p15 = element("p");
-    			t138 = text("Hwang, T., Parker, S. S., Hill, S. M., Ilunga, M. W., Grant, R. A.,\n    ");
+    			t137 = text("Newman-Griffis, D., ");
     			strong15 = element("strong");
     			strong15.textContent = "Sivaraman, V.";
-    			t140 = text(", Mouneimne, G., & Keating, A. E. (2021). A\n    proteome-wide screen uncovers diverse roles for sequence context surrounding\n    proline-rich motifs in Ena/VASP molecular recognition.\n    ");
+    			t139 = text(", Perer, A.,\n    Fosler-Lussier, E., & Hochheiser, H. (2021). TextEssence: A Tool for\n    Interactive Analysis of Semantic Shifts Between Corpora.\n    ");
     			em16 = element("em");
-    			em16.textContent = "Under review.";
-    			t142 = space();
+    			em16.textContent = "NAACL Systems Demonstration.";
+    			t141 = space();
+    			a26 = element("a");
+    			a26.textContent = "[Demo]";
+    			t143 = space();
     			a27 = element("a");
-    			a27.textContent = "[Preprint]";
-    			t144 = space();
-    			h25 = element("h2");
-    			h25.textContent = "Older";
-    			t146 = space();
+    			a27.textContent = "[Article]";
+    			t145 = space();
+    			a28 = element("a");
+    			a28.textContent = "[Preprint]";
+    			t147 = space();
     			p16 = element("p");
+    			t148 = text("Hwang, T., Parker, S. S., Hill, S. M., Ilunga, M. W., Grant, R. A.,\n    ");
     			strong16 = element("strong");
     			strong16.textContent = "Sivaraman, V.";
-    			t148 = text(", Yoon, D., & Mitros, P. (2016). Simplified\n    audio production in asynchronous voice-based discussions.\n    ");
+    			t150 = text(", Mouneimne, G., & Keating, A. E. (2021). A\n    proteome-wide screen uncovers diverse roles for sequence context surrounding\n    proline-rich motifs in Ena/VASP molecular recognition.\n    ");
     			em17 = element("em");
-    			em17.textContent = "ACM CHI 2016.";
-    			t150 = space();
-    			a28 = element("a");
-    			a28.textContent = "[Article]";
+    			em17.textContent = "Under review.";
+    			t152 = space();
+    			a29 = element("a");
+    			a29.textContent = "[Preprint]";
+    			t154 = space();
+    			h26 = element("h2");
+    			h26.textContent = "Older";
+    			t156 = space();
+    			p17 = element("p");
+    			strong17 = element("strong");
+    			strong17.textContent = "Sivaraman, V.";
+    			t158 = text(", Yoon, D., & Mitros, P. (2016). Simplified\n    audio production in asynchronous voice-based discussions.\n    ");
+    			em18 = element("em");
+    			em18.textContent = "ACM CHI 2016.";
+    			t160 = space();
+    			a30 = element("a");
+    			a30.textContent = "[Article]";
     			attr_dev(span, "class", "fw2");
     			add_location(span, file$3, 1, 22, 39);
     			attr_dev(h1, "class", "mt2");
     			add_location(h1, file$3, 0, 0, 0);
     			add_location(h20, file$3, 5, 2, 125);
-    			add_location(strong0, file$3, 7, 36, 181);
-    			add_location(em0, file$3, 10, 4, 315);
+    			add_location(strong0, file$3, 7, 4, 149);
+    			add_location(em0, file$3, 10, 4, 364);
     			attr_dev(a0, "class", "link blue");
-    			attr_dev(a0, "href", "https://arxiv.org/abs/2511.09337");
+    			attr_dev(a0, "href", "https://arxiv.org/abs/2602.00259");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$3, 11, 4, 369);
+    			add_location(a0, file$3, 11, 4, 404);
     			attr_dev(a1, "class", "link blue");
-    			attr_dev(a1, "href", "https://github.com/cmudig/tempo-ql");
+    			attr_dev(a1, "href", "https://github.com/cmudig/sepsis-reasoning-dashboard");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$3, 14, 4, 474);
-    			attr_dev(a2, "class", "link blue");
-    			attr_dev(a2, "href", "http://tempoql-demo.uk.r.appspot.com/");
-    			attr_dev(a2, "target", "_blank");
-    			add_location(a2, file$3, 19, 4, 593);
+    			add_location(a1, file$3, 14, 4, 512);
     			add_location(p0, file$3, 6, 2, 141);
-    			add_location(strong1, file$3, 26, 4, 726);
-    			add_location(em1, file$3, 29, 4, 940);
+    			add_location(h21, file$3, 20, 2, 654);
+    			add_location(strong1, file$3, 22, 36, 710);
+    			add_location(em1, file$3, 25, 4, 844);
+    			attr_dev(a2, "class", "link blue");
+    			attr_dev(a2, "href", "https://arxiv.org/abs/2511.09337");
+    			attr_dev(a2, "target", "_blank");
+    			add_location(a2, file$3, 26, 4, 898);
     			attr_dev(a3, "class", "link blue");
-    			attr_dev(a3, "href", "https://arxiv.org/abs/2502.10526");
+    			attr_dev(a3, "href", "https://github.com/cmudig/tempo-ql");
     			attr_dev(a3, "target", "_blank");
-    			add_location(a3, file$3, 30, 4, 967);
+    			add_location(a3, file$3, 29, 4, 1003);
     			attr_dev(a4, "class", "link blue");
-    			attr_dev(a4, "href", "https://github.com/cmudig/tempo");
+    			attr_dev(a4, "href", "http://tempoql-demo.uk.r.appspot.com/");
     			attr_dev(a4, "target", "_blank");
-    			add_location(a4, file$3, 33, 4, 1075);
-    			add_location(p1, file$3, 25, 2, 718);
-    			add_location(strong2, file$3, 38, 4, 1193);
-    			add_location(em2, file$3, 40, 4, 1340);
+    			add_location(a4, file$3, 34, 4, 1122);
+    			add_location(p1, file$3, 21, 2, 670);
+    			add_location(strong2, file$3, 41, 4, 1255);
+    			add_location(em2, file$3, 44, 4, 1469);
     			attr_dev(a5, "class", "link blue");
-    			attr_dev(a5, "href", "https://arxiv.org/abs/2502.10537");
+    			attr_dev(a5, "href", "https://arxiv.org/abs/2502.10526");
     			attr_dev(a5, "target", "_blank");
-    			add_location(a5, file$3, 41, 4, 1367);
+    			add_location(a5, file$3, 45, 4, 1496);
     			attr_dev(a6, "class", "link blue");
-    			attr_dev(a6, "href", "https://github.com/cmudig/divisi-toolkit");
+    			attr_dev(a6, "href", "https://github.com/cmudig/tempo");
     			attr_dev(a6, "target", "_blank");
-    			add_location(a6, file$3, 44, 4, 1475);
-    			add_location(p2, file$3, 37, 2, 1185);
-    			add_location(strong3, file$3, 51, 4, 1613);
-    			add_location(em3, file$3, 54, 34, 1876);
+    			add_location(a6, file$3, 48, 4, 1604);
+    			add_location(p2, file$3, 40, 2, 1247);
+    			add_location(strong3, file$3, 53, 4, 1722);
+    			add_location(em3, file$3, 55, 4, 1869);
     			attr_dev(a7, "class", "link blue");
-    			attr_dev(a7, "href", "https://arxiv.org/abs/2502.10542");
+    			attr_dev(a7, "href", "https://arxiv.org/abs/2502.10537");
     			attr_dev(a7, "target", "_blank");
-    			add_location(a7, file$3, 55, 4, 1904);
-    			add_location(p3, file$3, 50, 2, 1605);
-    			add_location(h21, file$3, 59, 2, 2017);
-    			add_location(strong4, file$3, 61, 17, 2054);
-    			add_location(em4, file$3, 64, 4, 2274);
+    			add_location(a7, file$3, 56, 4, 1896);
     			attr_dev(a8, "class", "link blue");
-    			attr_dev(a8, "href", "https://ieeexplore.ieee.org/document/10672545");
+    			attr_dev(a8, "href", "https://github.com/cmudig/divisi-toolkit");
     			attr_dev(a8, "target", "_blank");
-    			add_location(a8, file$3, 65, 4, 2302);
+    			add_location(a8, file$3, 59, 4, 2004);
+    			add_location(p3, file$3, 52, 2, 1714);
+    			add_location(strong4, file$3, 66, 4, 2142);
+    			add_location(em4, file$3, 69, 34, 2405);
     			attr_dev(a9, "class", "link blue");
-    			attr_dev(a9, "href", "https://arxiv.org/abs/2408.03274");
+    			attr_dev(a9, "href", "https://arxiv.org/abs/2502.10542");
     			attr_dev(a9, "target", "_blank");
     			add_location(a9, file$3, 70, 4, 2433);
+    			add_location(p4, file$3, 65, 2, 2134);
+    			add_location(h22, file$3, 74, 2, 2546);
+    			add_location(strong5, file$3, 76, 17, 2583);
+    			add_location(em5, file$3, 79, 4, 2803);
     			attr_dev(a10, "class", "link blue");
-    			attr_dev(a10, "href", "https://github.com/apple/ml-compress-and-compare");
+    			attr_dev(a10, "href", "https://ieeexplore.ieee.org/document/10672545");
     			attr_dev(a10, "target", "_blank");
-    			add_location(a10, file$3, 73, 4, 2541);
-    			add_location(p4, file$3, 60, 2, 2033);
-    			add_location(strong5, file$3, 80, 4, 2687);
-    			add_location(em5, file$3, 82, 4, 2834);
+    			add_location(a10, file$3, 80, 4, 2831);
     			attr_dev(a11, "class", "link blue");
-    			attr_dev(a11, "href", "https://dig.cmu.edu/counterpoint");
+    			attr_dev(a11, "href", "https://arxiv.org/abs/2408.03274");
     			attr_dev(a11, "target", "_blank");
-    			add_location(a11, file$3, 83, 4, 2862);
+    			add_location(a11, file$3, 85, 4, 2962);
     			attr_dev(a12, "class", "link blue");
-    			attr_dev(a12, "href", "https://github.com/cmudig/counterpoint");
+    			attr_dev(a12, "href", "https://github.com/apple/ml-compress-and-compare");
     			attr_dev(a12, "target", "_blank");
-    			add_location(a12, file$3, 86, 4, 2975);
-    			add_location(p5, file$3, 79, 2, 2679);
-    			add_location(strong6, file$3, 93, 14, 3121);
-    			add_location(em6, file$3, 96, 4, 3288);
+    			add_location(a12, file$3, 88, 4, 3070);
+    			add_location(p5, file$3, 75, 2, 2562);
+    			add_location(strong6, file$3, 95, 4, 3216);
+    			add_location(em6, file$3, 97, 4, 3363);
     			attr_dev(a13, "class", "link blue");
-    			attr_dev(a13, "href", "https://arxiv.org/abs/2404.07148");
+    			attr_dev(a13, "href", "https://dig.cmu.edu/counterpoint");
     			attr_dev(a13, "target", "_blank");
-    			add_location(a13, file$3, 97, 4, 3355);
-    			add_location(p6, file$3, 92, 2, 3103);
-    			add_location(h22, file$3, 101, 2, 3467);
-    			add_location(strong7, file$3, 103, 4, 3491);
-    			add_location(em7, file$3, 106, 4, 3700);
+    			add_location(a13, file$3, 98, 4, 3391);
     			attr_dev(a14, "class", "link blue");
-    			attr_dev(a14, "href", "https://arxiv.org/abs/2302.00096");
+    			attr_dev(a14, "href", "https://github.com/cmudig/counterpoint");
     			attr_dev(a14, "target", "_blank");
-    			add_location(a14, file$3, 107, 4, 3727);
-    			add_location(p7, file$3, 102, 2, 3483);
-    			add_location(h23, file$3, 111, 2, 3839);
-    			add_location(strong8, file$3, 113, 18, 3877);
-    			add_location(em8, file$3, 113, 49, 3908);
-    			add_location(em9, file$3, 117, 4, 4169);
+    			add_location(a14, file$3, 101, 4, 3504);
+    			add_location(p6, file$3, 94, 2, 3208);
+    			add_location(strong7, file$3, 108, 14, 3650);
+    			add_location(em7, file$3, 111, 4, 3817);
     			attr_dev(a15, "class", "link blue");
-    			attr_dev(a15, "href", "https://dl.acm.org/doi/10.1145/3532106.3533556");
+    			attr_dev(a15, "href", "https://arxiv.org/abs/2404.07148");
     			attr_dev(a15, "target", "_blank");
-    			add_location(a15, file$3, 118, 4, 4196);
-    			add_location(p8, file$3, 112, 2, 3855);
-    			add_location(strong9, file$3, 125, 44, 4381);
-    			add_location(em10, file$3, 128, 4, 4573);
+    			add_location(a15, file$3, 112, 4, 3884);
+    			add_location(p7, file$3, 107, 2, 3632);
+    			add_location(h23, file$3, 116, 2, 3996);
+    			add_location(strong8, file$3, 118, 4, 4020);
+    			add_location(em8, file$3, 121, 4, 4229);
     			attr_dev(a16, "class", "link blue");
-    			attr_dev(a16, "href", "https://dl.acm.org/doi/10.1145/3491102.3501831");
+    			attr_dev(a16, "href", "https://arxiv.org/abs/2302.00096");
     			attr_dev(a16, "target", "_blank");
-    			add_location(a16, file$3, 129, 4, 4600);
-    			add_location(p9, file$3, 124, 2, 4333);
-    			add_location(strong10, file$3, 136, 18, 4759);
-    			add_location(em11, file$3, 140, 4, 5043);
+    			add_location(a16, file$3, 122, 4, 4256);
+    			add_location(p8, file$3, 117, 2, 4012);
+    			add_location(h24, file$3, 126, 2, 4368);
+    			add_location(strong9, file$3, 128, 18, 4406);
+    			add_location(em9, file$3, 128, 49, 4437);
+    			add_location(em10, file$3, 132, 4, 4698);
     			attr_dev(a17, "class", "link blue");
-    			attr_dev(a17, "href", "https://arxiv.org/abs/2204.02310");
+    			attr_dev(a17, "href", "https://dl.acm.org/doi/10.1145/3532106.3533556");
     			attr_dev(a17, "target", "_blank");
-    			add_location(a17, file$3, 141, 4, 5070);
+    			add_location(a17, file$3, 133, 4, 4725);
+    			add_location(p9, file$3, 127, 2, 4384);
+    			add_location(strong10, file$3, 140, 44, 4910);
+    			add_location(em11, file$3, 143, 4, 5102);
     			attr_dev(a18, "class", "link blue");
-    			attr_dev(a18, "href", "https://dl.acm.org/doi/10.1145/3491102.3517439");
+    			attr_dev(a18, "href", "https://dl.acm.org/doi/10.1145/3491102.3501831");
     			attr_dev(a18, "target", "_blank");
-    			add_location(a18, file$3, 144, 4, 5178);
-    			add_location(p10, file$3, 135, 2, 4737);
-    			add_location(strong11, file$3, 151, 4, 5323);
-    			add_location(em12, file$3, 153, 25, 5498);
+    			add_location(a18, file$3, 144, 4, 5129);
+    			add_location(p10, file$3, 139, 2, 4862);
+    			add_location(strong11, file$3, 151, 18, 5288);
+    			add_location(em12, file$3, 155, 4, 5572);
     			attr_dev(a19, "class", "link blue");
-    			attr_dev(a19, "href", "https://drive.google.com/file/d/1h7N73O4Q-d_9l9H5TT0V8VLqtlpWKsM7/view?usp=share_link");
+    			attr_dev(a19, "href", "https://arxiv.org/abs/2204.02310");
     			attr_dev(a19, "target", "_blank");
-    			add_location(a19, file$3, 154, 4, 5525);
+    			add_location(a19, file$3, 156, 4, 5599);
     			attr_dev(a20, "class", "link blue");
-    			attr_dev(a20, "href", "https://github.com/cmudig/emblaze");
+    			attr_dev(a20, "href", "https://dl.acm.org/doi/10.1145/3491102.3517439");
     			attr_dev(a20, "target", "_blank");
-    			add_location(a20, file$3, 159, 4, 5694);
+    			add_location(a20, file$3, 159, 4, 5707);
+    			add_location(p11, file$3, 150, 2, 5266);
+    			add_location(strong12, file$3, 166, 4, 5852);
+    			add_location(em13, file$3, 168, 25, 6027);
     			attr_dev(a21, "class", "link blue");
-    			attr_dev(a21, "href", "https://dl.acm.org/doi/10.1145/3490099.3511137");
+    			attr_dev(a21, "href", "https://drive.google.com/file/d/1h7N73O4Q-d_9l9H5TT0V8VLqtlpWKsM7/view?usp=share_link");
     			attr_dev(a21, "target", "_blank");
-    			add_location(a21, file$3, 164, 4, 5812);
-    			add_location(p11, file$3, 150, 2, 5315);
-    			add_location(strong12, file$3, 171, 17, 5970);
-    			add_location(em13, file$3, 173, 14, 6124);
-    			add_location(p12, file$3, 170, 2, 5949);
-    			add_location(h24, file$3, 175, 2, 6172);
-    			add_location(strong13, file$3, 177, 12, 6204);
-    			add_location(em14, file$3, 180, 11, 6439);
+    			add_location(a21, file$3, 169, 4, 6054);
     			attr_dev(a22, "class", "link blue");
-    			attr_dev(a22, "href", "https://www.sciencedirect.com/science/article/abs/pii/S1532046421001738");
+    			attr_dev(a22, "href", "https://github.com/cmudig/emblaze");
     			attr_dev(a22, "target", "_blank");
-    			add_location(a22, file$3, 181, 4, 6487);
+    			add_location(a22, file$3, 174, 4, 6223);
     			attr_dev(a23, "class", "link blue");
-    			attr_dev(a23, "href", "https://arxiv.org/abs/2102.06836");
+    			attr_dev(a23, "href", "https://dl.acm.org/doi/10.1145/3490099.3511137");
     			attr_dev(a23, "target", "_blank");
-    			add_location(a23, file$3, 186, 4, 6644);
-    			add_location(p13, file$3, 176, 2, 6188);
-    			add_location(strong14, file$3, 191, 24, 6785);
-    			add_location(em15, file$3, 194, 4, 6966);
+    			add_location(a23, file$3, 179, 4, 6341);
+    			add_location(p12, file$3, 165, 2, 5844);
+    			add_location(strong13, file$3, 186, 17, 6499);
+    			add_location(em14, file$3, 188, 14, 6653);
+    			add_location(p13, file$3, 185, 2, 6478);
+    			add_location(h25, file$3, 190, 2, 6701);
+    			add_location(strong14, file$3, 192, 12, 6733);
+    			add_location(em15, file$3, 195, 11, 6968);
     			attr_dev(a24, "class", "link blue");
-    			attr_dev(a24, "href", "https://textessence.dbmi.pitt.edu");
+    			attr_dev(a24, "href", "https://www.sciencedirect.com/science/article/abs/pii/S1532046421001738");
     			attr_dev(a24, "target", "_blank");
-    			add_location(a24, file$3, 195, 4, 7010);
+    			add_location(a24, file$3, 196, 4, 7016);
     			attr_dev(a25, "class", "link blue");
-    			attr_dev(a25, "href", "https://aclanthology.org/2021.naacl-demos.13/");
+    			attr_dev(a25, "href", "https://arxiv.org/abs/2102.06836");
     			attr_dev(a25, "target", "_blank");
-    			add_location(a25, file$3, 200, 4, 7126);
+    			add_location(a25, file$3, 201, 4, 7173);
+    			add_location(p14, file$3, 191, 2, 6717);
+    			add_location(strong15, file$3, 206, 24, 7314);
+    			add_location(em16, file$3, 209, 4, 7495);
     			attr_dev(a26, "class", "link blue");
-    			attr_dev(a26, "href", "https://arxiv.org/abs/2103.11029");
+    			attr_dev(a26, "href", "https://textessence.dbmi.pitt.edu");
     			attr_dev(a26, "target", "_blank");
-    			add_location(a26, file$3, 205, 4, 7257);
-    			add_location(p14, file$3, 190, 2, 6757);
-    			add_location(strong15, file$3, 211, 4, 7450);
-    			add_location(em16, file$3, 214, 4, 7668);
+    			add_location(a26, file$3, 210, 4, 7539);
     			attr_dev(a27, "class", "link blue");
-    			attr_dev(a27, "href", "https://www.biorxiv.org/content/10.1101/2021.03.22.436451v1");
+    			attr_dev(a27, "href", "https://aclanthology.org/2021.naacl-demos.13/");
     			attr_dev(a27, "target", "_blank");
-    			add_location(a27, file$3, 215, 4, 7695);
-    			add_location(p15, file$3, 209, 2, 7370);
-    			add_location(h25, file$3, 221, 2, 7846);
-    			add_location(strong16, file$3, 223, 4, 7871);
-    			add_location(em17, file$3, 225, 4, 8011);
+    			add_location(a27, file$3, 215, 4, 7655);
     			attr_dev(a28, "class", "link blue");
-    			attr_dev(a28, "href", "https://dl.acm.org/doi/10.1145/2858036.2858416");
+    			attr_dev(a28, "href", "https://arxiv.org/abs/2103.11029");
     			attr_dev(a28, "target", "_blank");
-    			add_location(a28, file$3, 226, 4, 8038);
-    			add_location(p16, file$3, 222, 2, 7863);
+    			add_location(a28, file$3, 220, 4, 7786);
+    			add_location(p15, file$3, 205, 2, 7286);
+    			add_location(strong16, file$3, 226, 4, 7979);
+    			add_location(em17, file$3, 229, 4, 8197);
+    			attr_dev(a29, "class", "link blue");
+    			attr_dev(a29, "href", "https://www.biorxiv.org/content/10.1101/2021.03.22.436451v1");
+    			attr_dev(a29, "target", "_blank");
+    			add_location(a29, file$3, 230, 4, 8224);
+    			add_location(p16, file$3, 224, 2, 7899);
+    			add_location(h26, file$3, 236, 2, 8375);
+    			add_location(strong17, file$3, 238, 4, 8400);
+    			add_location(em18, file$3, 240, 4, 8540);
+    			attr_dev(a30, "class", "link blue");
+    			attr_dev(a30, "href", "https://dl.acm.org/doi/10.1145/2858036.2858416");
+    			attr_dev(a30, "target", "_blank");
+    			add_location(a30, file$3, 241, 4, 8567);
+    			add_location(p17, file$3, 237, 2, 8392);
     			attr_dev(section, "class", "lh-copy measure-wide");
     			add_location(section, file$3, 4, 0, 84);
     		},
@@ -3715,169 +3826,180 @@ var app = (function () {
     			append_dev(section, h20);
     			append_dev(section, t4);
     			append_dev(section, p0);
-    			append_dev(p0, t5);
     			append_dev(p0, strong0);
-    			append_dev(p0, t7);
+    			append_dev(p0, t6);
     			append_dev(p0, em0);
-    			append_dev(p0, t9);
+    			append_dev(p0, t8);
     			append_dev(p0, a0);
-    			append_dev(p0, t11);
+    			append_dev(p0, t10);
     			append_dev(p0, a1);
-    			append_dev(p0, t13);
-    			append_dev(p0, a2);
-    			append_dev(section, t15);
+    			append_dev(section, t12);
+    			append_dev(section, h21);
+    			append_dev(section, t14);
     			append_dev(section, p1);
+    			append_dev(p1, t15);
     			append_dev(p1, strong1);
     			append_dev(p1, t17);
     			append_dev(p1, em1);
     			append_dev(p1, t19);
-    			append_dev(p1, a3);
+    			append_dev(p1, a2);
     			append_dev(p1, t21);
+    			append_dev(p1, a3);
+    			append_dev(p1, t23);
     			append_dev(p1, a4);
-    			append_dev(section, t23);
+    			append_dev(section, t25);
     			append_dev(section, p2);
     			append_dev(p2, strong2);
-    			append_dev(p2, t25);
-    			append_dev(p2, em2);
     			append_dev(p2, t27);
-    			append_dev(p2, a5);
+    			append_dev(p2, em2);
     			append_dev(p2, t29);
+    			append_dev(p2, a5);
+    			append_dev(p2, t31);
     			append_dev(p2, a6);
-    			append_dev(section, t31);
+    			append_dev(section, t33);
     			append_dev(section, p3);
     			append_dev(p3, strong3);
-    			append_dev(p3, t33);
-    			append_dev(p3, em3);
     			append_dev(p3, t35);
+    			append_dev(p3, em3);
+    			append_dev(p3, t37);
     			append_dev(p3, a7);
-    			append_dev(section, t37);
-    			append_dev(section, h21);
-    			append_dev(section, t39);
+    			append_dev(p3, t39);
+    			append_dev(p3, a8);
+    			append_dev(section, t41);
     			append_dev(section, p4);
-    			append_dev(p4, t40);
     			append_dev(p4, strong4);
-    			append_dev(p4, t42);
+    			append_dev(p4, t43);
     			append_dev(p4, em4);
-    			append_dev(p4, t44);
-    			append_dev(p4, a8);
-    			append_dev(p4, t46);
+    			append_dev(p4, t45);
     			append_dev(p4, a9);
-    			append_dev(p4, t48);
-    			append_dev(p4, a10);
-    			append_dev(section, t50);
+    			append_dev(section, t47);
+    			append_dev(section, h22);
+    			append_dev(section, t49);
     			append_dev(section, p5);
+    			append_dev(p5, t50);
     			append_dev(p5, strong5);
     			append_dev(p5, t52);
     			append_dev(p5, em5);
     			append_dev(p5, t54);
-    			append_dev(p5, a11);
+    			append_dev(p5, a10);
     			append_dev(p5, t56);
+    			append_dev(p5, a11);
+    			append_dev(p5, t58);
     			append_dev(p5, a12);
-    			append_dev(section, t58);
+    			append_dev(section, t60);
     			append_dev(section, p6);
-    			append_dev(p6, t59);
     			append_dev(p6, strong6);
-    			append_dev(p6, t61);
+    			append_dev(p6, t62);
     			append_dev(p6, em6);
-    			append_dev(p6, t63);
+    			append_dev(p6, t64);
     			append_dev(p6, a13);
-    			append_dev(section, t65);
-    			append_dev(section, h22);
-    			append_dev(section, t67);
+    			append_dev(p6, t66);
+    			append_dev(p6, a14);
+    			append_dev(section, t68);
     			append_dev(section, p7);
-    			append_dev(p7, strong7);
     			append_dev(p7, t69);
-    			append_dev(p7, em7);
+    			append_dev(p7, strong7);
     			append_dev(p7, t71);
-    			append_dev(p7, a14);
-    			append_dev(section, t73);
-    			append_dev(section, h23);
+    			append_dev(p7, em7);
+    			append_dev(p7, t73);
+    			append_dev(p7, a15);
     			append_dev(section, t75);
+    			append_dev(section, h23);
+    			append_dev(section, t77);
     			append_dev(section, p8);
-    			append_dev(p8, t76);
     			append_dev(p8, strong8);
-    			append_dev(p8, t78);
+    			append_dev(p8, t79);
     			append_dev(p8, em8);
-    			append_dev(p8, t80);
-    			append_dev(p8, em9);
-    			append_dev(p8, t82);
-    			append_dev(p8, a15);
-    			append_dev(section, t84);
+    			append_dev(p8, t81);
+    			append_dev(p8, a16);
+    			append_dev(section, t83);
+    			append_dev(section, h24);
+    			append_dev(section, t85);
     			append_dev(section, p9);
-    			append_dev(p9, t85);
+    			append_dev(p9, t86);
     			append_dev(p9, strong9);
-    			append_dev(p9, t87);
+    			append_dev(p9, t88);
+    			append_dev(p9, em9);
+    			append_dev(p9, t90);
     			append_dev(p9, em10);
-    			append_dev(p9, t89);
-    			append_dev(p9, a16);
-    			append_dev(section, t91);
+    			append_dev(p9, t92);
+    			append_dev(p9, a17);
+    			append_dev(section, t94);
     			append_dev(section, p10);
-    			append_dev(p10, t92);
+    			append_dev(p10, t95);
     			append_dev(p10, strong10);
-    			append_dev(p10, t94);
+    			append_dev(p10, t97);
     			append_dev(p10, em11);
-    			append_dev(p10, t96);
-    			append_dev(p10, a17);
-    			append_dev(p10, t98);
+    			append_dev(p10, t99);
     			append_dev(p10, a18);
-    			append_dev(section, t100);
+    			append_dev(section, t101);
     			append_dev(section, p11);
-    			append_dev(p11, strong11);
     			append_dev(p11, t102);
-    			append_dev(p11, em12);
+    			append_dev(p11, strong11);
     			append_dev(p11, t104);
-    			append_dev(p11, a19);
+    			append_dev(p11, em12);
     			append_dev(p11, t106);
-    			append_dev(p11, a20);
+    			append_dev(p11, a19);
     			append_dev(p11, t108);
-    			append_dev(p11, a21);
+    			append_dev(p11, a20);
     			append_dev(section, t110);
     			append_dev(section, p12);
-    			append_dev(p12, t111);
     			append_dev(p12, strong12);
-    			append_dev(p12, t113);
+    			append_dev(p12, t112);
     			append_dev(p12, em13);
-    			append_dev(section, t115);
-    			append_dev(section, h24);
-    			append_dev(section, t117);
+    			append_dev(p12, t114);
+    			append_dev(p12, a21);
+    			append_dev(p12, t116);
+    			append_dev(p12, a22);
+    			append_dev(p12, t118);
+    			append_dev(p12, a23);
+    			append_dev(section, t120);
     			append_dev(section, p13);
-    			append_dev(p13, t118);
+    			append_dev(p13, t121);
     			append_dev(p13, strong13);
-    			append_dev(p13, t120);
+    			append_dev(p13, t123);
     			append_dev(p13, em14);
-    			append_dev(p13, t122);
-    			append_dev(p13, a22);
-    			append_dev(p13, t124);
-    			append_dev(p13, a23);
-    			append_dev(section, t126);
-    			append_dev(section, p14);
-    			append_dev(p14, t127);
-    			append_dev(p14, strong14);
-    			append_dev(p14, t129);
-    			append_dev(p14, em15);
-    			append_dev(p14, t131);
-    			append_dev(p14, a24);
-    			append_dev(p14, t133);
-    			append_dev(p14, a25);
-    			append_dev(p14, t135);
-    			append_dev(p14, a26);
-    			append_dev(section, t137);
-    			append_dev(section, p15);
-    			append_dev(p15, t138);
-    			append_dev(p15, strong15);
-    			append_dev(p15, t140);
-    			append_dev(p15, em16);
-    			append_dev(p15, t142);
-    			append_dev(p15, a27);
-    			append_dev(section, t144);
+    			append_dev(section, t125);
     			append_dev(section, h25);
-    			append_dev(section, t146);
+    			append_dev(section, t127);
+    			append_dev(section, p14);
+    			append_dev(p14, t128);
+    			append_dev(p14, strong14);
+    			append_dev(p14, t130);
+    			append_dev(p14, em15);
+    			append_dev(p14, t132);
+    			append_dev(p14, a24);
+    			append_dev(p14, t134);
+    			append_dev(p14, a25);
+    			append_dev(section, t136);
+    			append_dev(section, p15);
+    			append_dev(p15, t137);
+    			append_dev(p15, strong15);
+    			append_dev(p15, t139);
+    			append_dev(p15, em16);
+    			append_dev(p15, t141);
+    			append_dev(p15, a26);
+    			append_dev(p15, t143);
+    			append_dev(p15, a27);
+    			append_dev(p15, t145);
+    			append_dev(p15, a28);
+    			append_dev(section, t147);
     			append_dev(section, p16);
-    			append_dev(p16, strong16);
     			append_dev(p16, t148);
-    			append_dev(p16, em17);
+    			append_dev(p16, strong16);
     			append_dev(p16, t150);
-    			append_dev(p16, a28);
+    			append_dev(p16, em17);
+    			append_dev(p16, t152);
+    			append_dev(p16, a29);
+    			append_dev(section, t154);
+    			append_dev(section, h26);
+    			append_dev(section, t156);
+    			append_dev(section, p17);
+    			append_dev(p17, strong17);
+    			append_dev(p17, t158);
+    			append_dev(p17, em18);
+    			append_dev(p17, t160);
+    			append_dev(p17, a30);
     		},
     		p: noop,
     		i: noop,
@@ -3929,8 +4051,86 @@ var app = (function () {
     /* src/Music.svelte generated by Svelte v3.46.3 */
     const file$2 = "src/Music.svelte";
 
-    // (14:2) <Card     url="https://www.youtube.com/watch?v=1mqnrWxZ-xw"     videoSrc="https://www.youtube.com/embed/1mqnrWxZ-xw"   >
-    function create_default_slot_9(ctx) {
+    // (14:2) <Card     url="https://www.youtube.com/playlist?list=PLKLtP4RGT8N33oqQOeC5sTMzTJcYx699C"     videoSrc="https://www.youtube.com/embed/PygP6bV5BTM?si=2H7gFow7GGPEMc30"   >
+    function create_default_slot_7(ctx) {
+    	let h3;
+    	let t0;
+    	let span;
+    	let t2;
+    	let p0;
+    	let t4;
+    	let p1;
+    	let t5;
+    	let em;
+    	let t7;
+    	let a;
+
+    	const block = {
+    		c: function create() {
+    			h3 = element("h3");
+    			t0 = text("Ravel: ");
+    			span = element("span");
+    			span.textContent = "Miroirs";
+    			t2 = space();
+    			p0 = element("p");
+    			p0.textContent = "October 2025";
+    			t4 = space();
+    			p1 = element("p");
+    			t5 = text("Venkat's last solo recital at CMU, in collaboration with Prof. Sergey\n      Schepkin, features Ravel's ");
+    			em = element("em");
+    			em.textContent = "Miroirs";
+    			t7 = text(".\n      ");
+    			a = element("a");
+    			a.textContent = "Click to view the playlist.";
+    			attr_dev(span, "class", "fw3 ml1");
+    			add_location(span, file$2, 18, 13, 592);
+    			attr_dev(h3, "class", "mb0 lh-title");
+    			add_location(h3, file$2, 17, 4, 553);
+    			attr_dev(p0, "class", "gray mv0");
+    			add_location(p0, file$2, 20, 4, 643);
+    			add_location(em, file$2, 23, 33, 813);
+    			attr_dev(a, "class", "link blue");
+    			attr_dev(a, "href", "https://www.youtube.com/playlist?list=PLKLtP4RGT8N33oqQOeC5sTMzTJcYx699C");
+    			attr_dev(a, "target", "_blank");
+    			add_location(a, file$2, 24, 6, 837);
+    			attr_dev(p1, "class", "lh-copy");
+    			add_location(p1, file$2, 21, 4, 684);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, h3, anchor);
+    			append_dev(h3, t0);
+    			append_dev(h3, span);
+    			insert_dev(target, t2, anchor);
+    			insert_dev(target, p0, anchor);
+    			insert_dev(target, t4, anchor);
+    			insert_dev(target, p1, anchor);
+    			append_dev(p1, t5);
+    			append_dev(p1, em);
+    			append_dev(p1, t7);
+    			append_dev(p1, a);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(h3);
+    			if (detaching) detach_dev(t2);
+    			if (detaching) detach_dev(p0);
+    			if (detaching) detach_dev(t4);
+    			if (detaching) detach_dev(p1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_7.name,
+    		type: "slot",
+    		source: "(14:2) <Card     url=\\\"https://www.youtube.com/playlist?list=PLKLtP4RGT8N33oqQOeC5sTMzTJcYx699C\\\"     videoSrc=\\\"https://www.youtube.com/embed/PygP6bV5BTM?si=2H7gFow7GGPEMc30\\\"   >",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (32:2) <Card     url="https://www.youtube.com/watch?v=1mqnrWxZ-xw"     videoSrc="https://www.youtube.com/embed/1mqnrWxZ-xw"   >
+    function create_default_slot_6(ctx) {
     	let h3;
     	let t0;
     	let span;
@@ -3958,14 +4158,14 @@ var app = (function () {
     			em.textContent = "Estampes";
     			t7 = text(" at his second solo recital at CMU.");
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 18, 15, 545);
+    			add_location(span, file$2, 36, 15, 1204);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 17, 4, 504);
+    			add_location(h3, file$2, 35, 4, 1163);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 20, 4, 597);
-    			add_location(em, file$2, 22, 32, 691);
+    			add_location(p0, file$2, 38, 4, 1256);
+    			add_location(em, file$2, 40, 32, 1350);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 21, 4, 639);
+    			add_location(p1, file$2, 39, 4, 1298);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -3990,17 +4190,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_9.name,
+    		id: create_default_slot_6.name,
     		type: "slot",
-    		source: "(14:2) <Card     url=\\\"https://www.youtube.com/watch?v=1mqnrWxZ-xw\\\"     videoSrc=\\\"https://www.youtube.com/embed/1mqnrWxZ-xw\\\"   >",
+    		source: "(32:2) <Card     url=\\\"https://www.youtube.com/watch?v=1mqnrWxZ-xw\\\"     videoSrc=\\\"https://www.youtube.com/embed/1mqnrWxZ-xw\\\"   >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (26:2) <Card     url="https://www.youtube.com/watch?v=Fm-r7pBj0Us"     videoSrc="https://www.youtube.com/embed/Fm-r7pBj0Us"   >
-    function create_default_slot_8(ctx) {
+    // (44:2) <Card     url="https://www.youtube.com/watch?v=Fm-r7pBj0Us"     videoSrc="https://www.youtube.com/embed/Fm-r7pBj0Us"   >
+    function create_default_slot_5(ctx) {
     	let h3;
     	let t0;
     	let span;
@@ -4028,14 +4228,14 @@ var app = (function () {
     			em.textContent = "Mephisto Waltz No. 1";
     			t7 = text(" at his second solo recital\n      at CMU.");
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 30, 13, 929);
+    			add_location(span, file$2, 48, 13, 1588);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 29, 4, 890);
+    			add_location(h3, file$2, 47, 4, 1549);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 32, 4, 993);
-    			add_location(em, file$2, 34, 30, 1085);
+    			add_location(p0, file$2, 50, 4, 1652);
+    			add_location(em, file$2, 52, 30, 1744);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 33, 4, 1035);
+    			add_location(p1, file$2, 51, 4, 1694);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -4060,17 +4260,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_8.name,
+    		id: create_default_slot_5.name,
     		type: "slot",
-    		source: "(26:2) <Card     url=\\\"https://www.youtube.com/watch?v=Fm-r7pBj0Us\\\"     videoSrc=\\\"https://www.youtube.com/embed/Fm-r7pBj0Us\\\"   >",
+    		source: "(44:2) <Card     url=\\\"https://www.youtube.com/watch?v=Fm-r7pBj0Us\\\"     videoSrc=\\\"https://www.youtube.com/embed/Fm-r7pBj0Us\\\"   >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (39:2) <Card     url="https://www.youtube.com/watch?v=AjKWi564EIY"     videoSrc="https://www.youtube.com/embed/AjKWi564EIY"   >
-    function create_default_slot_7(ctx) {
+    // (57:2) <Card     url="https://www.youtube.com/watch?v=AjKWi564EIY"     videoSrc="https://www.youtube.com/embed/AjKWi564EIY"   >
+    function create_default_slot_4(ctx) {
     	let h3;
     	let t0;
     	let span;
@@ -4092,193 +4292,13 @@ var app = (function () {
     			p1 = element("p");
     			p1.textContent = "Venkat performs sonatas by Scriabin, Beethoven, and Rachmaninoff in this\n      virtual solo recital streamed from Carnegie Mellon's Kresge Recital Hall.";
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 43, 19, 1347);
+    			add_location(span, file$2, 61, 19, 2006);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 42, 4, 1302);
+    			add_location(h3, file$2, 60, 4, 1961);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 45, 4, 1400);
+    			add_location(p0, file$2, 63, 4, 2059);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 46, 4, 1442);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, h3, anchor);
-    			append_dev(h3, t0);
-    			append_dev(h3, span);
-    			insert_dev(target, t2, anchor);
-    			insert_dev(target, p0, anchor);
-    			insert_dev(target, t4, anchor);
-    			insert_dev(target, p1, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(h3);
-    			if (detaching) detach_dev(t2);
-    			if (detaching) detach_dev(p0);
-    			if (detaching) detach_dev(t4);
-    			if (detaching) detach_dev(p1);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_7.name,
-    		type: "slot",
-    		source: "(39:2) <Card     url=\\\"https://www.youtube.com/watch?v=AjKWi564EIY\\\"     videoSrc=\\\"https://www.youtube.com/embed/AjKWi564EIY\\\"   >",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (52:2) <Card     url="https://mta.mit.edu/video/mitso-fall-concert-live-webcast"     imageSrc="assets/mitso.png"     imageAlt="A picture of Venkat at the piano from a poster for his performance with the MIT Symphony"   >
-    function create_default_slot_6(ctx) {
-    	let h3;
-    	let t0;
-    	let span;
-    	let t2;
-    	let p0;
-    	let t4;
-    	let p1;
-
-    	const block = {
-    		c: function create() {
-    			h3 = element("h3");
-    			t0 = text("Ravel: ");
-    			span = element("span");
-    			span.textContent = "Piano Concerto in G";
-    			t2 = space();
-    			p0 = element("p");
-    			p0.textContent = "October 2021";
-    			t4 = space();
-    			p1 = element("p");
-    			p1.textContent = "Venkat performs Ravel's Piano Concerto as a soloist with the MIT Symphony\n      as co-winner of the MIT Concerto Competition from 2020. Click to watch the\n      live-stream (performance starts at 20').";
-    			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 57, 13, 1899);
-    			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 56, 4, 1860);
-    			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 59, 4, 1962);
-    			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 60, 4, 2003);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, h3, anchor);
-    			append_dev(h3, t0);
-    			append_dev(h3, span);
-    			insert_dev(target, t2, anchor);
-    			insert_dev(target, p0, anchor);
-    			insert_dev(target, t4, anchor);
-    			insert_dev(target, p1, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(h3);
-    			if (detaching) detach_dev(t2);
-    			if (detaching) detach_dev(p0);
-    			if (detaching) detach_dev(t4);
-    			if (detaching) detach_dev(p1);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_6.name,
-    		type: "slot",
-    		source: "(52:2) <Card     url=\\\"https://mta.mit.edu/video/mitso-fall-concert-live-webcast\\\"     imageSrc=\\\"assets/mitso.png\\\"     imageAlt=\\\"A picture of Venkat at the piano from a poster for his performance with the MIT Symphony\\\"   >",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (67:2) <Card     url="https://www.youtube.com/watch?v=Yo6NBDNKYiM"     videoSrc="https://www.youtube.com/embed/Yo6NBDNKYiM"   >
-    function create_default_slot_5(ctx) {
-    	let h3;
-    	let t0;
-    	let span;
-    	let t2;
-    	let p0;
-    	let t4;
-    	let p1;
-
-    	const block = {
-    		c: function create() {
-    			h3 = element("h3");
-    			t0 = text("Dvorak: ");
-    			span = element("span");
-    			span.textContent = "Piano Trio No. 3";
-    			t2 = space();
-    			p0 = element("p");
-    			p0.textContent = "December 2019";
-    			t4 = space();
-    			p1 = element("p");
-    			p1.textContent = "Ji Seok Kim, Taylor Safrit, and Venkatesh Sivaraman perform Dvorak's Piano\n      Trio No. 3 at MIT's Killian Hall in a Chamber Music Society concert.";
-    			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 71, 14, 2417);
-    			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 70, 4, 2377);
-    			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 73, 4, 2477);
-    			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 74, 4, 2519);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, h3, anchor);
-    			append_dev(h3, t0);
-    			append_dev(h3, span);
-    			insert_dev(target, t2, anchor);
-    			insert_dev(target, p0, anchor);
-    			insert_dev(target, t4, anchor);
-    			insert_dev(target, p1, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(h3);
-    			if (detaching) detach_dev(t2);
-    			if (detaching) detach_dev(p0);
-    			if (detaching) detach_dev(t4);
-    			if (detaching) detach_dev(p1);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_5.name,
-    		type: "slot",
-    		source: "(67:2) <Card     url=\\\"https://www.youtube.com/watch?v=Yo6NBDNKYiM\\\"     videoSrc=\\\"https://www.youtube.com/embed/Yo6NBDNKYiM\\\"   >",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (80:2) <Card     url="https://www.youtube.com/watch?v=Ulj9CzxSgwU"     videoSrc="https://www.youtube.com/embed/Ulj9CzxSgwU"   >
-    function create_default_slot_4(ctx) {
-    	let h3;
-    	let t0;
-    	let span;
-    	let t2;
-    	let p0;
-    	let t4;
-    	let p1;
-
-    	const block = {
-    		c: function create() {
-    			h3 = element("h3");
-    			t0 = text("Shulamit Ran: ");
-    			span = element("span");
-    			span.textContent = "Soliloquy";
-    			t2 = space();
-    			p0 = element("p");
-    			p0.textContent = "May 2019";
-    			t4 = space();
-    			p1 = element("p");
-    			p1.textContent = "Henry Love, Taylor Safrit, and Venkatesh Sivaraman perform Soliloquy by\n      Shulamit Ran at an MIT Chamber Music Society concert.";
-    			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 84, 20, 2887);
-    			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 83, 4, 2841);
-    			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 86, 4, 2940);
-    			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 87, 4, 2977);
+    			add_location(p1, file$2, 64, 4, 2101);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -4302,14 +4322,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4.name,
     		type: "slot",
-    		source: "(80:2) <Card     url=\\\"https://www.youtube.com/watch?v=Ulj9CzxSgwU\\\"     videoSrc=\\\"https://www.youtube.com/embed/Ulj9CzxSgwU\\\"   >",
+    		source: "(57:2) <Card     url=\\\"https://www.youtube.com/watch?v=AjKWi564EIY\\\"     videoSrc=\\\"https://www.youtube.com/embed/AjKWi564EIY\\\"   >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (93:2) <Card     url="https://www.youtube.com/watch?v=sldyqayzrKw"     videoSrc="https://www.youtube.com/embed/sldyqayzrKw"   >
+    // (70:2) <Card     url="https://www.youtube.com/watch?v=Ulj9CzxSgwU"     videoSrc="https://www.youtube.com/embed/Ulj9CzxSgwU"   >
     function create_default_slot_3(ctx) {
     	let h3;
     	let t0;
@@ -4322,23 +4342,23 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			h3 = element("h3");
-    			t0 = text("Sivaraman: ");
+    			t0 = text("Shulamit Ran: ");
     			span = element("span");
-    			span.textContent = "Picasso's Dreams";
+    			span.textContent = "Soliloquy";
     			t2 = space();
     			p0 = element("p");
-    			p0.textContent = "April 2019";
+    			p0.textContent = "May 2019";
     			t4 = space();
     			p1 = element("p");
-    			p1.textContent = "Venkat performs his composition Picasso's Dreams at a solo recital at\n      MIT's Killian Hall.";
+    			p1.textContent = "Henry Love, Taylor Safrit, and Venkatesh Sivaraman perform Soliloquy by\n      Shulamit Ran at an MIT Chamber Music Society concert.";
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 97, 17, 3324);
+    			add_location(span, file$2, 74, 20, 2472);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 96, 4, 3281);
+    			add_location(h3, file$2, 73, 4, 2426);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 99, 4, 3384);
+    			add_location(p0, file$2, 76, 4, 2525);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 100, 4, 3423);
+    			add_location(p1, file$2, 77, 4, 2562);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -4362,15 +4382,75 @@ var app = (function () {
     		block,
     		id: create_default_slot_3.name,
     		type: "slot",
-    		source: "(93:2) <Card     url=\\\"https://www.youtube.com/watch?v=sldyqayzrKw\\\"     videoSrc=\\\"https://www.youtube.com/embed/sldyqayzrKw\\\"   >",
+    		source: "(70:2) <Card     url=\\\"https://www.youtube.com/watch?v=Ulj9CzxSgwU\\\"     videoSrc=\\\"https://www.youtube.com/embed/Ulj9CzxSgwU\\\"   >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (106:2) <Card     url="https://www.youtube.com/watch?v=PyQaq62N_fI"     videoSrc="https://www.youtube.com/embed/PyQaq62N_fI"   >
+    // (83:2) <Card     url="https://www.youtube.com/watch?v=sldyqayzrKw"     videoSrc="https://www.youtube.com/embed/sldyqayzrKw"   >
     function create_default_slot_2(ctx) {
+    	let h3;
+    	let t0;
+    	let span;
+    	let t2;
+    	let p0;
+    	let t4;
+    	let p1;
+
+    	const block = {
+    		c: function create() {
+    			h3 = element("h3");
+    			t0 = text("Sivaraman: ");
+    			span = element("span");
+    			span.textContent = "Picasso's Dreams";
+    			t2 = space();
+    			p0 = element("p");
+    			p0.textContent = "April 2019";
+    			t4 = space();
+    			p1 = element("p");
+    			p1.textContent = "Venkat performs his composition Picasso's Dreams at a solo recital at\n      MIT's Killian Hall.";
+    			attr_dev(span, "class", "fw3 ml1");
+    			add_location(span, file$2, 87, 17, 2909);
+    			attr_dev(h3, "class", "mb0 lh-title");
+    			add_location(h3, file$2, 86, 4, 2866);
+    			attr_dev(p0, "class", "gray mv0");
+    			add_location(p0, file$2, 89, 4, 2969);
+    			attr_dev(p1, "class", "lh-copy");
+    			add_location(p1, file$2, 90, 4, 3008);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, h3, anchor);
+    			append_dev(h3, t0);
+    			append_dev(h3, span);
+    			insert_dev(target, t2, anchor);
+    			insert_dev(target, p0, anchor);
+    			insert_dev(target, t4, anchor);
+    			insert_dev(target, p1, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(h3);
+    			if (detaching) detach_dev(t2);
+    			if (detaching) detach_dev(p0);
+    			if (detaching) detach_dev(t4);
+    			if (detaching) detach_dev(p1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_2.name,
+    		type: "slot",
+    		source: "(83:2) <Card     url=\\\"https://www.youtube.com/watch?v=sldyqayzrKw\\\"     videoSrc=\\\"https://www.youtube.com/embed/sldyqayzrKw\\\"   >",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (96:2) <Card     url="https://www.youtube.com/watch?v=PyQaq62N_fI"     videoSrc="https://www.youtube.com/embed/PyQaq62N_fI"   >
+    function create_default_slot_1(ctx) {
     	let h3;
     	let t0;
     	let span;
@@ -4403,21 +4483,21 @@ var app = (function () {
     			a1.textContent = "third/fourth";
     			t9 = text(" movements.");
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 110, 20, 3737);
+    			add_location(span, file$2, 100, 20, 3322);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 109, 4, 3691);
+    			add_location(h3, file$2, 99, 4, 3276);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 112, 4, 3797);
+    			add_location(p0, file$2, 102, 4, 3382);
     			attr_dev(a0, "class", "link blue");
     			attr_dev(a0, "href", "https://www.youtube.com/watch?v=RUwITozfR74");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$2, 117, 6, 4040);
+    			add_location(a0, file$2, 107, 6, 3625);
     			attr_dev(a1, "class", "link blue");
     			attr_dev(a1, "href", "https://www.youtube.com/watch?v=0dqsxVFovXo");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$2, 123, 6, 4186);
+    			add_location(a1, file$2, 113, 6, 3771);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 113, 4, 3834);
+    			add_location(p1, file$2, 103, 4, 3419);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -4444,17 +4524,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_2.name,
+    		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(106:2) <Card     url=\\\"https://www.youtube.com/watch?v=PyQaq62N_fI\\\"     videoSrc=\\\"https://www.youtube.com/embed/PyQaq62N_fI\\\"   >",
+    		source: "(96:2) <Card     url=\\\"https://www.youtube.com/watch?v=PyQaq62N_fI\\\"     videoSrc=\\\"https://www.youtube.com/embed/PyQaq62N_fI\\\"   >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (131:2) <Card     url="https://www.youtube.com/watch?v=PyQaq62N_fI"     videoSrc="https://www.youtube.com/embed/PyQaq62N_fI"   >
-    function create_default_slot_1(ctx) {
+    // (121:2) <Card     url="https://www.youtube.com/watch?v=PyQaq62N_fI"     videoSrc="https://www.youtube.com/embed/PyQaq62N_fI"   >
+    function create_default_slot(ctx) {
     	let h3;
     	let t0;
     	let span;
@@ -4492,22 +4572,22 @@ var app = (function () {
     			a1.textContent = "third";
     			t11 = text(" movements.");
     			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 135, 13, 4518);
+    			add_location(span, file$2, 125, 13, 4103);
     			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 134, 4, 4479);
+    			add_location(h3, file$2, 124, 4, 4064);
     			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 137, 4, 4580);
-    			add_location(em, file$2, 139, 48, 4687);
+    			add_location(p0, file$2, 127, 4, 4165);
+    			add_location(em, file$2, 129, 48, 4272);
     			attr_dev(a0, "class", "link blue");
     			attr_dev(a0, "href", "https://www.youtube.com/watch?v=-iSp0s9zpUE");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$2, 141, 6, 4796);
+    			add_location(a0, file$2, 131, 6, 4381);
     			attr_dev(a1, "class", "link blue");
     			attr_dev(a1, "href", "https://www.youtube.com/watch?v=cULwYsX6Q88");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$2, 147, 6, 4942);
+    			add_location(a1, file$2, 137, 6, 4527);
     			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 138, 4, 4619);
+    			add_location(p1, file$2, 128, 4, 4204);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -4536,104 +4616,9 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_1.name,
-    		type: "slot",
-    		source: "(131:2) <Card     url=\\\"https://www.youtube.com/watch?v=PyQaq62N_fI\\\"     videoSrc=\\\"https://www.youtube.com/embed/PyQaq62N_fI\\\"   >",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (155:2) <Card     url="https://www.youtube.com/watch?v=sb6SReBcXUI"     videoSrc="https://www.youtube.com/embed/sb6SReBcXUI"   >
-    function create_default_slot(ctx) {
-    	let h3;
-    	let t0;
-    	let span;
-    	let t2;
-    	let p0;
-    	let t4;
-    	let p1;
-    	let t5;
-    	let a0;
-    	let t7;
-    	let a1;
-    	let t9;
-    	let a2;
-    	let t11;
-
-    	const block = {
-    		c: function create() {
-    			h3 = element("h3");
-    			t0 = text("Ravel: ");
-    			span = element("span");
-    			span.textContent = "Piano Trio in A minor";
-    			t2 = space();
-    			p0 = element("p");
-    			p0.textContent = "December 2017";
-    			t4 = space();
-    			p1 = element("p");
-    			t5 = text("Venkat performs Ravel's Piano Trio with Henry Love and Taylor Safrit. See\n      also the\n      ");
-    			a0 = element("a");
-    			a0.textContent = "first";
-    			t7 = text(",\n      ");
-    			a1 = element("a");
-    			a1.textContent = "third";
-    			t9 = text(", and\n      ");
-    			a2 = element("a");
-    			a2.textContent = "fourth";
-    			t11 = text(" movements.");
-    			attr_dev(span, "class", "fw3 ml1");
-    			add_location(span, file$2, 159, 13, 5267);
-    			attr_dev(h3, "class", "mb0 lh-title");
-    			add_location(h3, file$2, 158, 4, 5228);
-    			attr_dev(p0, "class", "gray mv0");
-    			add_location(p0, file$2, 161, 4, 5332);
-    			attr_dev(a0, "class", "link blue");
-    			attr_dev(a0, "href", "https://www.youtube.com/watch?v=7Ku-EH3iPQc");
-    			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$2, 165, 6, 5495);
-    			attr_dev(a1, "class", "link blue");
-    			attr_dev(a1, "href", "https://www.youtube.com/watch?v=KfOMI2H7vMk");
-    			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$2, 170, 6, 5631);
-    			attr_dev(a2, "class", "link blue");
-    			attr_dev(a2, "href", "https://www.youtube.com/watch?v=FllN04uTW4k");
-    			attr_dev(a2, "target", "_blank");
-    			add_location(a2, file$2, 175, 6, 5771);
-    			attr_dev(p1, "class", "lh-copy");
-    			add_location(p1, file$2, 162, 4, 5374);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, h3, anchor);
-    			append_dev(h3, t0);
-    			append_dev(h3, span);
-    			insert_dev(target, t2, anchor);
-    			insert_dev(target, p0, anchor);
-    			insert_dev(target, t4, anchor);
-    			insert_dev(target, p1, anchor);
-    			append_dev(p1, t5);
-    			append_dev(p1, a0);
-    			append_dev(p1, t7);
-    			append_dev(p1, a1);
-    			append_dev(p1, t9);
-    			append_dev(p1, a2);
-    			append_dev(p1, t11);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(h3);
-    			if (detaching) detach_dev(t2);
-    			if (detaching) detach_dev(p0);
-    			if (detaching) detach_dev(t4);
-    			if (detaching) detach_dev(p1);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(155:2) <Card     url=\\\"https://www.youtube.com/watch?v=sb6SReBcXUI\\\"     videoSrc=\\\"https://www.youtube.com/embed/sb6SReBcXUI\\\"   >",
+    		source: "(121:2) <Card     url=\\\"https://www.youtube.com/watch?v=PyQaq62N_fI\\\"     videoSrc=\\\"https://www.youtube.com/embed/PyQaq62N_fI\\\"   >",
     		ctx
     	});
 
@@ -4663,17 +4648,13 @@ var app = (function () {
     	let card6;
     	let t11;
     	let card7;
-    	let t12;
-    	let card8;
-    	let t13;
-    	let card9;
     	let current;
 
     	card0 = new Card({
     			props: {
-    				url: "https://www.youtube.com/watch?v=1mqnrWxZ-xw",
-    				videoSrc: "https://www.youtube.com/embed/1mqnrWxZ-xw",
-    				$$slots: { default: [create_default_slot_9] },
+    				url: "https://www.youtube.com/playlist?list=PLKLtP4RGT8N33oqQOeC5sTMzTJcYx699C",
+    				videoSrc: "https://www.youtube.com/embed/PygP6bV5BTM?si=2H7gFow7GGPEMc30",
+    				$$slots: { default: [create_default_slot_7] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -4681,9 +4662,9 @@ var app = (function () {
 
     	card1 = new Card({
     			props: {
-    				url: "https://www.youtube.com/watch?v=Fm-r7pBj0Us",
-    				videoSrc: "https://www.youtube.com/embed/Fm-r7pBj0Us",
-    				$$slots: { default: [create_default_slot_8] },
+    				url: "https://www.youtube.com/watch?v=1mqnrWxZ-xw",
+    				videoSrc: "https://www.youtube.com/embed/1mqnrWxZ-xw",
+    				$$slots: { default: [create_default_slot_6] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -4691,9 +4672,9 @@ var app = (function () {
 
     	card2 = new Card({
     			props: {
-    				url: "https://www.youtube.com/watch?v=AjKWi564EIY",
-    				videoSrc: "https://www.youtube.com/embed/AjKWi564EIY",
-    				$$slots: { default: [create_default_slot_7] },
+    				url: "https://www.youtube.com/watch?v=Fm-r7pBj0Us",
+    				videoSrc: "https://www.youtube.com/embed/Fm-r7pBj0Us",
+    				$$slots: { default: [create_default_slot_5] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -4701,10 +4682,9 @@ var app = (function () {
 
     	card3 = new Card({
     			props: {
-    				url: "https://mta.mit.edu/video/mitso-fall-concert-live-webcast",
-    				imageSrc: "assets/mitso.png",
-    				imageAlt: "A picture of Venkat at the piano from a poster for his performance with the MIT Symphony",
-    				$$slots: { default: [create_default_slot_6] },
+    				url: "https://www.youtube.com/watch?v=AjKWi564EIY",
+    				videoSrc: "https://www.youtube.com/embed/AjKWi564EIY",
+    				$$slots: { default: [create_default_slot_4] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -4712,9 +4692,9 @@ var app = (function () {
 
     	card4 = new Card({
     			props: {
-    				url: "https://www.youtube.com/watch?v=Yo6NBDNKYiM",
-    				videoSrc: "https://www.youtube.com/embed/Yo6NBDNKYiM",
-    				$$slots: { default: [create_default_slot_5] },
+    				url: "https://www.youtube.com/watch?v=Ulj9CzxSgwU",
+    				videoSrc: "https://www.youtube.com/embed/Ulj9CzxSgwU",
+    				$$slots: { default: [create_default_slot_3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -4722,35 +4702,15 @@ var app = (function () {
 
     	card5 = new Card({
     			props: {
-    				url: "https://www.youtube.com/watch?v=Ulj9CzxSgwU",
-    				videoSrc: "https://www.youtube.com/embed/Ulj9CzxSgwU",
-    				$$slots: { default: [create_default_slot_4] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	card6 = new Card({
-    			props: {
     				url: "https://www.youtube.com/watch?v=sldyqayzrKw",
     				videoSrc: "https://www.youtube.com/embed/sldyqayzrKw",
-    				$$slots: { default: [create_default_slot_3] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	card7 = new Card({
-    			props: {
-    				url: "https://www.youtube.com/watch?v=PyQaq62N_fI",
-    				videoSrc: "https://www.youtube.com/embed/PyQaq62N_fI",
     				$$slots: { default: [create_default_slot_2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
     		});
 
-    	card8 = new Card({
+    	card6 = new Card({
     			props: {
     				url: "https://www.youtube.com/watch?v=PyQaq62N_fI",
     				videoSrc: "https://www.youtube.com/embed/PyQaq62N_fI",
@@ -4760,10 +4720,10 @@ var app = (function () {
     			$$inline: true
     		});
 
-    	card9 = new Card({
+    	card7 = new Card({
     			props: {
-    				url: "https://www.youtube.com/watch?v=sb6SReBcXUI",
-    				videoSrc: "https://www.youtube.com/embed/sb6SReBcXUI",
+    				url: "https://www.youtube.com/watch?v=PyQaq62N_fI",
+    				videoSrc: "https://www.youtube.com/embed/PyQaq62N_fI",
     				$$slots: { default: [create_default_slot] },
     				$$scope: { ctx }
     			},
@@ -4796,10 +4756,6 @@ var app = (function () {
     			create_component(card6.$$.fragment);
     			t11 = space();
     			create_component(card7.$$.fragment);
-    			t12 = space();
-    			create_component(card8.$$.fragment);
-    			t13 = space();
-    			create_component(card9.$$.fragment);
     			attr_dev(span, "class", "fw2");
     			add_location(span, file$2, 5, 22, 95);
     			attr_dev(h1, "class", "mt2");
@@ -4835,10 +4791,6 @@ var app = (function () {
     			mount_component(card6, div, null);
     			append_dev(div, t11);
     			mount_component(card7, div, null);
-    			append_dev(div, t12);
-    			mount_component(card8, div, null);
-    			append_dev(div, t13);
-    			mount_component(card9, div, null);
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
@@ -4898,20 +4850,6 @@ var app = (function () {
     			}
 
     			card7.$set(card7_changes);
-    			const card8_changes = {};
-
-    			if (dirty & /*$$scope*/ 1) {
-    				card8_changes.$$scope = { dirty, ctx };
-    			}
-
-    			card8.$set(card8_changes);
-    			const card9_changes = {};
-
-    			if (dirty & /*$$scope*/ 1) {
-    				card9_changes.$$scope = { dirty, ctx };
-    			}
-
-    			card9.$set(card9_changes);
     		},
     		i: function intro(local) {
     			if (current) return;
@@ -4923,8 +4861,6 @@ var app = (function () {
     			transition_in(card5.$$.fragment, local);
     			transition_in(card6.$$.fragment, local);
     			transition_in(card7.$$.fragment, local);
-    			transition_in(card8.$$.fragment, local);
-    			transition_in(card9.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
@@ -4936,8 +4872,6 @@ var app = (function () {
     			transition_out(card5.$$.fragment, local);
     			transition_out(card6.$$.fragment, local);
     			transition_out(card7.$$.fragment, local);
-    			transition_out(card8.$$.fragment, local);
-    			transition_out(card9.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
@@ -4954,8 +4888,6 @@ var app = (function () {
     			destroy_component(card5);
     			destroy_component(card6);
     			destroy_component(card7);
-    			destroy_component(card8);
-    			destroy_component(card9);
     		}
     	};
 
@@ -5907,11 +5839,11 @@ var app = (function () {
     			create_component(music.$$.fragment);
     			t0 = space();
     			footer = element("footer");
-    			footer.textContent = "Copyright 2024 Venkatesh Sivaraman.";
+    			footer.textContent = "Copyright 2026 Venkatesh Sivaraman.";
     			attr_dev(footer, "class", "gray svelte-awkk6r");
-    			add_location(footer, file, 177, 6, 5014);
+    			add_location(footer, file, 177, 6, 5015);
     			attr_dev(div, "class", "document svelte-awkk6r");
-    			add_location(div, file, 170, 4, 4826);
+    			add_location(div, file, 170, 4, 4827);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -5985,11 +5917,11 @@ var app = (function () {
     			create_component(experience.$$.fragment);
     			t0 = space();
     			footer = element("footer");
-    			footer.textContent = "Copyright 2024 Venkatesh Sivaraman.";
+    			footer.textContent = "Copyright 2026 Venkatesh Sivaraman.";
     			attr_dev(footer, "class", "gray svelte-awkk6r");
-    			add_location(footer, file, 167, 6, 4715);
+    			add_location(footer, file, 167, 6, 4716);
     			attr_dev(div, "class", "document svelte-awkk6r");
-    			add_location(div, file, 160, 4, 4522);
+    			add_location(div, file, 160, 4, 4523);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -6063,11 +5995,11 @@ var app = (function () {
     			create_component(publications.$$.fragment);
     			t0 = space();
     			footer = element("footer");
-    			footer.textContent = "Copyright 2024 Venkatesh Sivaraman.";
+    			footer.textContent = "Copyright 2026 Venkatesh Sivaraman.";
     			attr_dev(footer, "class", "gray svelte-awkk6r");
-    			add_location(footer, file, 157, 6, 4411);
+    			add_location(footer, file, 157, 6, 4412);
     			attr_dev(div, "class", "document svelte-awkk6r");
-    			add_location(div, file, 150, 4, 4216);
+    			add_location(div, file, 150, 4, 4217);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -6141,11 +6073,11 @@ var app = (function () {
     			create_component(projects.$$.fragment);
     			t0 = space();
     			footer = element("footer");
-    			footer.textContent = "Copyright 2024 Venkatesh Sivaraman.";
+    			footer.textContent = "Copyright 2026 Venkatesh Sivaraman.";
     			attr_dev(footer, "class", "gray svelte-awkk6r");
-    			add_location(footer, file, 147, 6, 4105);
+    			add_location(footer, file, 147, 6, 4106);
     			attr_dev(div, "class", "document svelte-awkk6r");
-    			add_location(div, file, 140, 4, 3914);
+    			add_location(div, file, 140, 4, 3915);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -6220,11 +6152,11 @@ var app = (function () {
     			create_component(about.$$.fragment);
     			t0 = space();
     			footer = element("footer");
-    			footer.textContent = "Copyright 2024 Venkatesh Sivaraman.";
+    			footer.textContent = "Copyright 2026 Venkatesh Sivaraman.";
     			attr_dev(footer, "class", "gray svelte-awkk6r");
-    			add_location(footer, file, 137, 6, 3803);
+    			add_location(footer, file, 137, 6, 3804);
     			attr_dev(div, "class", "document svelte-awkk6r");
-    			add_location(div, file, 130, 4, 3582);
+    			add_location(div, file, 130, 4, 3583);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -6423,69 +6355,69 @@ var app = (function () {
     			attr_dev(img, "class", "profile-pic dim pointer svelte-awkk6r");
     			if (!src_url_equal(img.src, img_src_value = "assets/profile.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Picture of Venkat in Seattle, Washington");
-    			add_location(img, file, 48, 6, 1212);
+    			add_location(img, file, 48, 6, 1213);
     			attr_dev(a0, "class", "svelte-awkk6r");
     			toggle_class(a0, "active-link", /*$visibleTab*/ ctx[1] == 0);
     			toggle_class(a0, "link", /*$visibleTab*/ ctx[1] != 0);
-    			add_location(a0, file, 56, 10, 1452);
+    			add_location(a0, file, 56, 10, 1453);
     			attr_dev(li0, "class", "svelte-awkk6r");
-    			add_location(li0, file, 55, 8, 1437);
+    			add_location(li0, file, 55, 8, 1438);
     			attr_dev(a1, "class", "svelte-awkk6r");
     			toggle_class(a1, "active-link", /*$visibleTab*/ ctx[1] == 1);
     			toggle_class(a1, "link", /*$visibleTab*/ ctx[1] != 1);
-    			add_location(a1, file, 63, 10, 1646);
+    			add_location(a1, file, 63, 10, 1647);
     			attr_dev(li1, "class", "svelte-awkk6r");
-    			add_location(li1, file, 62, 8, 1631);
+    			add_location(li1, file, 62, 8, 1632);
     			attr_dev(a2, "class", "svelte-awkk6r");
     			toggle_class(a2, "active-link", /*$visibleTab*/ ctx[1] == 2);
     			toggle_class(a2, "link", /*$visibleTab*/ ctx[1] != 2);
-    			add_location(a2, file, 70, 10, 1843);
+    			add_location(a2, file, 70, 10, 1844);
     			attr_dev(li2, "class", "svelte-awkk6r");
-    			add_location(li2, file, 69, 8, 1828);
+    			add_location(li2, file, 69, 8, 1829);
     			attr_dev(a3, "class", "svelte-awkk6r");
     			toggle_class(a3, "active-link", /*$visibleTab*/ ctx[1] == 3);
     			toggle_class(a3, "link", /*$visibleTab*/ ctx[1] != 3);
-    			add_location(a3, file, 77, 10, 2044);
+    			add_location(a3, file, 77, 10, 2045);
     			attr_dev(li3, "class", "svelte-awkk6r");
-    			add_location(li3, file, 76, 8, 2029);
+    			add_location(li3, file, 76, 8, 2030);
     			attr_dev(a4, "class", "svelte-awkk6r");
     			toggle_class(a4, "active-link", /*$visibleTab*/ ctx[1] == 4);
     			toggle_class(a4, "link", /*$visibleTab*/ ctx[1] != 4);
-    			add_location(a4, file, 84, 10, 2243);
+    			add_location(a4, file, 84, 10, 2244);
     			attr_dev(li4, "class", "svelte-awkk6r");
-    			add_location(li4, file, 83, 8, 2228);
+    			add_location(li4, file, 83, 8, 2229);
     			attr_dev(a5, "class", "link contact-link flex items-center svelte-awkk6r");
     			attr_dev(a5, "href", "https://github.com/venkatesh-sivaraman");
     			attr_dev(a5, "target", "_blank");
-    			add_location(a5, file, 91, 10, 2449);
+    			add_location(a5, file, 91, 10, 2450);
     			attr_dev(li5, "class", "mt1 svelte-awkk6r");
-    			add_location(li5, file, 90, 8, 2422);
+    			add_location(li5, file, 90, 8, 2423);
     			attr_dev(a6, "class", "link contact-link flex items-center svelte-awkk6r");
     			attr_dev(a6, "href", "https://scholar.google.com/citations?user=KDcGcfAAAAAJ");
     			attr_dev(a6, "target", "_blank");
-    			add_location(a6, file, 100, 10, 2725);
+    			add_location(a6, file, 100, 10, 2726);
     			attr_dev(li6, "class", "mt1 svelte-awkk6r");
-    			add_location(li6, file, 99, 8, 2698);
+    			add_location(li6, file, 99, 8, 2699);
     			attr_dev(a7, "class", "link contact-link flex items-center svelte-awkk6r");
     			attr_dev(a7, "href", "/assets/venkats_cv.pdf");
     			attr_dev(a7, "target", "_blank");
-    			add_location(a7, file, 109, 10, 3032);
+    			add_location(a7, file, 109, 10, 3033);
     			attr_dev(li7, "class", "mt1 svelte-awkk6r");
-    			add_location(li7, file, 108, 8, 3005);
+    			add_location(li7, file, 108, 8, 3006);
     			attr_dev(a8, "class", "link contact-link flex items-center svelte-awkk6r");
     			attr_dev(a8, "href", "mailto:venkats@cmu.edu");
     			attr_dev(a8, "target", "_blank");
-    			add_location(a8, file, 118, 10, 3291);
+    			add_location(a8, file, 118, 10, 3292);
     			attr_dev(li8, "class", "mt1 svelte-awkk6r");
-    			add_location(li8, file, 117, 8, 3264);
+    			add_location(li8, file, 117, 8, 3265);
     			attr_dev(ul, "class", "list nav-list pl0 svelte-awkk6r");
-    			add_location(ul, file, 54, 6, 1398);
+    			add_location(ul, file, 54, 6, 1399);
     			attr_dev(div, "class", "nav-container svelte-awkk6r");
-    			add_location(div, file, 47, 4, 1178);
+    			add_location(div, file, 47, 4, 1179);
     			attr_dev(aside, "class", "svelte-awkk6r");
-    			add_location(aside, file, 46, 2, 1166);
+    			add_location(aside, file, 46, 2, 1167);
     			attr_dev(main, "class", "sans-serif svelte-awkk6r");
-    			add_location(main, file, 45, 0, 1138);
+    			add_location(main, file, 45, 0, 1139);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");

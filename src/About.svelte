@@ -6,29 +6,33 @@
 
 <h1 class="mt2">Venkatesh Sivaraman</h1>
 <p class="lh-copy f3 measure-wide">
-  Hi! 👋🏾 I'm Venkat, a PhD student at the Carnegie Mellon University <a
+  Hi, I'm Venkat! 👋🏾 I'm currently a postdoctoral scholar at UC San Francisco,
+  supervised by <a
     class="link blue dim"
-    href="https://hcii.cmu.edu"
-    target="_blank">Human-Computer Interaction Institute</a
-  >. Advised by
+    href="http://jeanfeng.com/"
+    target="_blank">Jean Feng</a
+  >
+  and
+  <a class="link blue dim" href="https://honglab.ucsf.edu" target="_blank"
+    >Julian Hong</a
+  >. I work on
+  <span class="fw6"
+    >building and evaluating AI-powered tools to help clinical experts make
+    discoveries and improve decisions</span
+  >. My work uses qualitative research methods, data visualization, and other
+  techniques from human-computer interaction to
+  <span class="fw6">design real systems with clinical impact</span>. I received
+  my PhD from the
+  <a class="link blue dim" href="https://hcii.cmu.edu" target="_blank"
+    >Human-Computer Interaction Institute</a
+  >
+  at Carnegie Mellon University, advised by
   <a class="link blue dim" href="https://perer.org" target="_blank"
     >Adam Perer</a
-  >, I study
-  <span class="fw6"
-    >how trained experts use artificial intelligence (AI) to guide their
-    decision-making</span
-  >, and use that knowledge to
-  <span class="fw6">improve how we build and present AI predictions</span>. I'm
-  particularly interested in applications of AI in
-  <span class="fw6">health care</span>, where complementarity between human and
-  AI capabilities is crucial to helping improve people's lives.
-</p>
-<p class="lh-copy f4 dark-blue b measure-wide">
-  I will be starting as a postdoc at UCSF in January 2026, working with Profs.
-  Jean Feng and Julian Hong. 🎉
+  >.
 </p>
 <p class="lh-copy f4 measure-wide">
-  I have recently been focused on tools for model developers and clinicians, as
+  Some of my recent work includes tools for model developers and clinicians, as
   well as tools to help build beautiful data visualizations (<a
     class="link blue"
     🎉

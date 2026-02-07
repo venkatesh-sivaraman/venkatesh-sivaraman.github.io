@@ -3,7 +3,26 @@
 </h1>
 
 <div class="mb4 measure-wide">
-  <h2>Industry</h2>
+  <h2>Employment</h2>
+
+  <h4 class="mb0">
+    UC San Francisco <span class="fw2">January 2026 - present</span>
+  </h4>
+  <p class="lh-copy mv1">Postdoctoral Scholar</p>
+  <p class="lh-copy mv1 gray">
+    Supervised by Profs. Jean Feng and Julian Hong and supported by the Weill
+    Cancer Hub West, building agentic AI tools to help clinical experts leverage
+    large-scale multimodal cancer data.
+  </p>
+
+  <h4 class="mb0">
+    Wood Wide AI <span class="fw2">May 2025 - present</span>
+  </h4>
+  <p class="lh-copy mv1">Consultant</p>
+  <p class="lh-copy mv1 gray">
+    As consultant during early founding stages, designed and implemented user
+    interfaces for human-in-the-loop machine learning.
+  </p>
 
   <h4 class="mb0">
     Apple <span class="fw2">Summer 2023</span>
@@ -57,7 +76,7 @@
     Computer Science and Molecular Biology, Minor in Music
   </p>
 
-  <h2>Research</h2>
+  <h2>Additional Research</h2>
   <h4 class="mb0">
     Keating Lab, MIT Biology Department <span class="fw2">2018 - 2020</span>
   </h4>

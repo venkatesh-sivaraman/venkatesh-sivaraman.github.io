@@ -28,7 +28,7 @@
 
   function fadeAndSlide(
     node,
-    { duration = AnimationDuration, above = 1, amount = 100 }
+    { duration = AnimationDuration, above = 1, amount = 100 },
   ) {
     return {
       duration,
@@ -135,7 +135,7 @@
       on:outroend={visibleTab.onOutro}
     >
       <About on:projects={() => (newTab = 1)} />
-      <footer class="gray">Copyright 2024 Venkatesh Sivaraman.</footer>
+      <footer class="gray">Copyright 2026 Venkatesh Sivaraman.</footer>
     </div>
   {:else if $visibleTab == 1}
     <div
@@ -145,7 +145,7 @@
       on:outroend={visibleTab.onOutro}
     >
       <Projects />
-      <footer class="gray">Copyright 2024 Venkatesh Sivaraman.</footer>
+      <footer class="gray">Copyright 2026 Venkatesh Sivaraman.</footer>
     </div>
   {:else if $visibleTab == 2}
     <div
@@ -155,7 +155,7 @@
       on:outroend={visibleTab.onOutro}
     >
       <Publications />
-      <footer class="gray">Copyright 2024 Venkatesh Sivaraman.</footer>
+      <footer class="gray">Copyright 2026 Venkatesh Sivaraman.</footer>
     </div>
   {:else if $visibleTab == 3}
     <div
@@ -165,7 +165,7 @@
       on:outroend={visibleTab.onOutro}
     >
       <Experience />
-      <footer class="gray">Copyright 2024 Venkatesh Sivaraman.</footer>
+      <footer class="gray">Copyright 2026 Venkatesh Sivaraman.</footer>
     </div>
   {:else if $visibleTab == 4}
     <div
@@ -175,7 +175,7 @@
       on:outroend={visibleTab.onOutro}
     >
       <Music />
-      <footer class="gray">Copyright 2024 Venkatesh Sivaraman.</footer>
+      <footer class="gray">Copyright 2026 Venkatesh Sivaraman.</footer>
     </div>
   {/if}
 </main>

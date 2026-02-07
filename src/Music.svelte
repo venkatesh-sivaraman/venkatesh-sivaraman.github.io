@@ -12,6 +12,24 @@
 </p>
 <div class="card-container">
   <Card
+    url="https://www.youtube.com/playlist?list=PLKLtP4RGT8N33oqQOeC5sTMzTJcYx699C"
+    videoSrc="https://www.youtube.com/embed/PygP6bV5BTM?si=2H7gFow7GGPEMc30"
+  >
+    <h3 class="mb0 lh-title">
+      Ravel: <span class="fw3 ml1">Miroirs</span>
+    </h3>
+    <p class="gray mv0">October 2025</p>
+    <p class="lh-copy">
+      Venkat's last solo recital at CMU, in collaboration with Prof. Sergey
+      Schepkin, features Ravel's <em>Miroirs</em>.
+      <a
+        class="link blue"
+        href="https://www.youtube.com/playlist?list=PLKLtP4RGT8N33oqQOeC5sTMzTJcYx699C"
+        target="_blank">Click to view the playlist.</a
+      >
+    </p>
+  </Card>
+  <Card
     url="https://www.youtube.com/watch?v=1mqnrWxZ-xw"
     videoSrc="https://www.youtube.com/embed/1mqnrWxZ-xw"
   >
@@ -47,34 +65,6 @@
     <p class="lh-copy">
       Venkat performs sonatas by Scriabin, Beethoven, and Rachmaninoff in this
       virtual solo recital streamed from Carnegie Mellon's Kresge Recital Hall.
-    </p>
-  </Card>
-  <Card
-    url="https://mta.mit.edu/video/mitso-fall-concert-live-webcast"
-    imageSrc="assets/mitso.png"
-    imageAlt="A picture of Venkat at the piano from a poster for his performance with the MIT Symphony"
-  >
-    <h3 class="mb0 lh-title">
-      Ravel: <span class="fw3 ml1">Piano Concerto in G</span>
-    </h3>
-    <p class="gray mv0">October 2021</p>
-    <p class="lh-copy">
-      Venkat performs Ravel's Piano Concerto as a soloist with the MIT Symphony
-      as co-winner of the MIT Concerto Competition from 2020. Click to watch the
-      live-stream (performance starts at 20').
-    </p>
-  </Card>
-  <Card
-    url="https://www.youtube.com/watch?v=Yo6NBDNKYiM"
-    videoSrc="https://www.youtube.com/embed/Yo6NBDNKYiM"
-  >
-    <h3 class="mb0 lh-title">
-      Dvorak: <span class="fw3 ml1">Piano Trio No. 3</span>
-    </h3>
-    <p class="gray mv0">December 2019</p>
-    <p class="lh-copy">
-      Ji Seok Kim, Taylor Safrit, and Venkatesh Sivaraman perform Dvorak's Piano
-      Trio No. 3 at MIT's Killian Hall in a Chamber Music Society concert.
     </p>
   </Card>
   <Card
@@ -149,34 +139,6 @@
         class="link blue"
         href="https://www.youtube.com/watch?v=cULwYsX6Q88"
         target="_blank">third</a
-      > movements.
-    </p>
-  </Card>
-  <Card
-    url="https://www.youtube.com/watch?v=sb6SReBcXUI"
-    videoSrc="https://www.youtube.com/embed/sb6SReBcXUI"
-  >
-    <h3 class="mb0 lh-title">
-      Ravel: <span class="fw3 ml1">Piano Trio in A minor</span>
-    </h3>
-    <p class="gray mv0">December 2017</p>
-    <p class="lh-copy">
-      Venkat performs Ravel's Piano Trio with Henry Love and Taylor Safrit. See
-      also the
-      <a
-        class="link blue"
-        href="https://www.youtube.com/watch?v=7Ku-EH3iPQc"
-        target="_blank">first</a
-      >,
-      <a
-        class="link blue"
-        href="https://www.youtube.com/watch?v=KfOMI2H7vMk"
-        target="_blank">third</a
-      >, and
-      <a
-        class="link blue"
-        href="https://www.youtube.com/watch?v=FllN04uTW4k"
-        target="_blank">fourth</a
       > movements.
     </p>
   </Card>
