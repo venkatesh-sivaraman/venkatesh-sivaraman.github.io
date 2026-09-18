@@ -1,17 +1,17 @@
 <script>
-  import { cubicInOut } from 'svelte/easing';
-  import About from './About.svelte';
-  import Experience from './Experience.svelte';
-  import Projects from './Projects.svelte';
-  import Publications from './Publications.svelte';
-  import Music from './Music.svelte';
-  import statefulSwap from './swap';
-  import Fa from 'svelte-fa';
-  import { faEnvelope, faPaperclip } from '@fortawesome/free-solid-svg-icons';
+  import { cubicInOut } from "svelte/easing";
+  import About from "./About.svelte";
+  import Experience from "./Experience.svelte";
+  import Projects from "./Projects.svelte";
+  import Publications from "./Publications.svelte";
+  import Music from "./Music.svelte";
+  import statefulSwap from "./swap";
+  import Fa from "svelte-fa";
+  import { faEnvelope, faPaperclip } from "@fortawesome/free-solid-svg-icons";
   import {
     faGithub,
     faGoogleScholar,
-  } from '@fortawesome/free-brands-svg-icons';
+  } from "@fortawesome/free-brands-svg-icons";
 
   export let name;
 
@@ -118,7 +118,7 @@
         <li class="mt1">
           <a
             class="link contact-link flex items-center"
-            href="mailto:venkats@cmu.edu"
+            href="mailto:venkatesh.sivaraman@ucsf.edu"
             target="_blank"
           >
             <Fa icon={faEnvelope} /> &nbsp;&nbsp; Contact</a

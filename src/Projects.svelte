@@ -1,5 +1,5 @@
 <script>
-  import Card from './Card.svelte';
+  import Card from "./Card.svelte";
 </script>
 
 <h1 class="mt2">
@@ -11,11 +11,41 @@
 </p>
 <div class="card-container">
   <Card
+    imageSrc="assets/libretto.png"
+    imageAlt="Screenshot of Libretto being used to evaluate extractions of tumor stage and grade from oncology notes."
+  >
+    <h3 class="mb0 lh-title">
+      Libretto: <span class="fw3 ml1">Interactive LLM Chart Abstraction</span>
+    </h3>
+    <p class="lh-copy">
+      An interactive system for clinician researchers to specify and evaluate <em
+        >abstraction tasks</em
+      > on patient records, helping them produce structured data for analysis.
+    </p>
+    <p>
+      <a
+        class="f6 link dim ph3 pv2 dib white bg-black"
+        href="https://github.com/weill-cancer-hub-west-impact-ai/libretto"
+        target="_blank">GitHub</a
+      >
+      <a
+        class="f6 link dim ph3 pv2 dib white bg-black"
+        href="https://arxiv.org/abs/2609.19318"
+        target="_blank">Preprint</a
+      >
+      <a
+        class="f6 link dim ph3 pv2 dib white bg-black"
+        href="https://libretto-demo.uw.r.appspot.com/"
+        target="_blank">Demo</a
+      >
+    </p>
+  </Card>
+  <Card
     imageSrc="assets/tempo.png"
     imageAlt="Screenshot of Tempo being used to create models to predict patient readmission to a hospital."
   >
     <h3 class="mb0 lh-title">
-      Tempo: <span class="fw3 ml1">Predictive Model Specification</span>
+      Tempo/TempoQL: <span class="fw3 ml1">Predictive Model Specification</span>
     </h3>
     <p class="lh-copy">
       A tool that allows data scientists and domain experts to collaboratively

@@ -1,5 +1,5 @@
 <script>
-  import { createEventDispatcher } from 'svelte';
+  import { createEventDispatcher } from "svelte";
 
   const dispatch = createEventDispatcher();
 </script>
@@ -15,32 +15,50 @@
   and
   <a class="link blue dim" href="https://honglab.ucsf.edu" target="_blank"
     >Julian Hong</a
-  >. I work on
+  >. I am on the job market seeking academic and industry positions to begin in
+  2027.
+</p>
+<p class="lh-copy f3 measure-wide">
+  My research focuses on
   <span class="fw6"
-    >building and evaluating AI-powered tools to help clinical experts make
-    discoveries and improve decisions</span
-  >. My work uses qualitative research methods, data visualization, and other
-  techniques from human-computer interaction to
+    >building and evaluating human-centered tools for clinical reasoning and
+    research</span
+  >. I use behavioral psychology, data mining and visualization, and qualitative
+  research methods to
   <span class="fw6">design real systems with clinical impact</span>. I received
-  my PhD from the
-  <a class="link blue dim" href="https://hcii.cmu.edu" target="_blank"
-    >Human-Computer Interaction Institute</a
-  >
-  at Carnegie Mellon University, advised by
+  my PhD from the Human-Computer Interaction Institute at Carnegie Mellon
+  University, advised by
   <a class="link blue dim" href="https://perer.org" target="_blank"
     >Adam Perer</a
   >.
 </p>
 <p class="lh-copy f4 measure-wide">
-  Some of my recent work includes tools for model developers and clinicians, as
-  well as tools to help build beautiful data visualizations (<a
+  Some of my recent work includes tools for model developers and clinicians to
+  work with complex patient health records (<a
     class="link blue"
-    🎉
     href="#"
-    on:click={() => dispatch('projects')}>see more projects</a
+    on:click={() => dispatch("projects")}>see more projects</a
   >):
 </p>
 <div class="project-preview-row flex justify-start">
+  <a
+    class="link black mr2"
+    href="http://github.com/weill-cancer-hub-west-impact-ai/libretto"
+    target="_blank"
+  >
+    <div
+      class="project-preview flex flex-column pa2 mr2 bg-animate hover-bg-near-white"
+    >
+      <img
+        src="assets/libretto.png"
+        alt="Screenshot of Libretto being used to evaluate extractions of tumor stage and grade from oncology notes."
+      />
+      <p class="f5">
+        <span class="b">Libretto:</span>
+        <span class="fw3">Interactive LLM Chart Abstraction</span>
+      </p>
+    </div>
+  </a>
   <a
     class="link black mr2"
     href="http://tempoql-demo.uk.r.appspot.com/"
@@ -56,25 +74,6 @@
       <p class="f5">
         <span class="b">TempoQL:</span>
         <span class="fw3">Readable and Precise Queries on EHR Data</span>
-      </p>
-    </div>
-  </a>
-  <a
-    class="link black mr2"
-    href="https://dig.cmu.edu/counterpoint/"
-    target="_blank"
-  >
-    <div
-      class="project-preview flex flex-column bg-animate hover-bg-near-white pa2"
-    >
-      <img
-        src="assets/counterpoint_animation.gif"
-        class="counterpoint-gif"
-        alt="A GIF of Counterpoint used to animate between two scatter plot layouts containing 10,000 points."
-      />
-      <p class="f5">
-        <span class="b">Counterpoint:</span>
-        <span class="fw3">Scalable Custom Web Visualization</span>
       </p>
     </div>
   </a>
@@ -110,7 +109,7 @@
   }
 
   .counterpoint-gif {
-    background-image: url('/assets/counterpoint_animation_static.png');
+    background-image: url("/assets/counterpoint_animation_static.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

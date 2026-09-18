@@ -5,6 +5,23 @@
 <section class="lh-copy measure-wide">
   <h2>2026</h2>
   <p>
+    <strong>Sivaraman, V.</strong>, et al. "I know where to look," but does the
+    LLM? Charting the gaps between clinical expert needs and unstructured data
+    abstraction tools.
+    <em>Under review.</em>
+    <a class="link blue" href="https://arxiv.org/abs/2609.19318" target="_blank"
+      >[Preprint]</a
+    >
+  </p>
+  <p>
+    Zhou, S., Vossler, P., <strong>Sivaraman, V.</strong>, Mai, Y., Feng, J.
+    Adaptive auditing of AI systems with anytime-valid guarantees.
+    <em>Under review.</em>
+    <a class="link blue" href="https://arxiv.org/abs/2605.07002" target="_blank"
+      >[Preprint]</a
+    >
+  </p>
+  <p>
     <strong>Sivaraman, V.</strong>, Mason, E., Li, M., Tong, J., King, A.J.,
     Kahn, J.M., Perer, A. Intelligent Reasoning Cues: A framework and case study
     of the roles of AI information in complex decisions.
