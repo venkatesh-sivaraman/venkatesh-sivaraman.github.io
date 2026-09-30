@@ -16,7 +16,7 @@
   <p>
     Zhou, S., Vossler, P., <strong>Sivaraman, V.</strong>, Mai, Y., Feng, J.
     Adaptive auditing of AI systems with anytime-valid guarantees.
-    <em>Under review.</em>
+    <em>To appear at NeurIPS 2026.</em>
     <a class="link blue" href="https://arxiv.org/abs/2605.07002" target="_blank"
       >[Preprint]</a
     >
@@ -25,7 +25,7 @@
     <strong>Sivaraman, V.</strong>, Mason, E., Li, M., Tong, J., King, A.J.,
     Kahn, J.M., Perer, A. Intelligent Reasoning Cues: A framework and case study
     of the roles of AI information in complex decisions.
-    <em>To appear at ACM CHI 2026.</em>
+    <em>ACM CHI 2026.</em>
     <a class="link blue" href="https://arxiv.org/abs/2602.00259" target="_blank"
       >[Preprint]</a
     >
