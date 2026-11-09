@@ -121,7 +121,7 @@
 </p>
 <p class="lh-copy f4 measure-wide">
   I would love to chat about research and collaboration opportunities! Contact
-  me at venkatesh.sivaraman [at] ucsf [dot] edu.
+  me at venkatesh [dot] sivaraman [at] ucsf [dot] edu.
 </p>
 
 <style>
