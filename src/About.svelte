@@ -21,7 +21,7 @@
 <p class="lh-copy f3 measure-wide">
   My research focuses on
   <span class="fw6"
-    >building and evaluating human-centered tools for clinical reasoning and
+    >building and evaluating human-centered AI tools for clinical reasoning and
     research</span
   >. I use behavioral psychology, data mining and visualization, and qualitative
   research methods to
@@ -57,6 +57,23 @@
         <span class="b">Libretto:</span>
         <span class="fw3">Interactive LLM Chart Abstraction</span>
       </p>
+      <p>
+        <a
+          class="f6 link dim ph3 pv2 dib white bg-black"
+          href="https://github.com/weill-cancer-hub-west-impact-ai/libretto"
+          target="_blank">GitHub</a
+        >
+        <a
+          class="f6 link dim ph3 pv2 dib white bg-black"
+          href="https://arxiv.org/abs/2609.19318"
+          target="_blank">Preprint</a
+        >
+        <a
+          class="f6 link dim ph3 pv2 dib white bg-black"
+          href="https://libretto-demo.uw.r.appspot.com/"
+          target="_blank">Demo</a
+        >
+      </p>
     </div>
   </a>
   <a
@@ -75,6 +92,23 @@
         <span class="b">TempoQL:</span>
         <span class="fw3">Readable and Precise Queries on EHR Data</span>
       </p>
+      <p>
+        <a
+          class="f6 link dim ph3 pv2 dib white bg-black"
+          href="https://github.com/cmudig/tempo-ql"
+          target="_blank">GitHub</a
+        >
+        <a
+          class="f6 link dim ph3 pv2 dib white bg-black"
+          href="https://arxiv.org/abs/2511.09337"
+          target="_blank">Preprint</a
+        >
+        <a
+          class="f6 link dim ph3 pv2 dib white bg-black"
+          href="http://tempoql-demo.uk.r.appspot.com/"
+          target="_blank">Demo</a
+        >
+      </p>
     </div>
   </a>
 </div>
@@ -87,7 +121,7 @@
 </p>
 <p class="lh-copy f4 measure-wide">
   I would love to chat about research and collaboration opportunities! Contact
-  me at venkats [at] cmu [dot] edu.
+  me at venkatesh.sivaraman [at] ucsf [dot] edu.
 </p>
 
 <style>
